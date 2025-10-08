@@ -113,6 +113,9 @@ nav li:focus-within ul li a {
         top: 15px;
     }
 }
+audio {
+    background-color: #f3efe8;
+}
 header {
     display: flex;
     align-items: center;
