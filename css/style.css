@@ -265,5 +265,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    gap: 50px;git
+    gap: 50px;
+    height: 100px;
+    align-items: center;
 }
