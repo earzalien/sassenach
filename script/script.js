@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let modal = document.getElementById('modal');
 
     function open_mod() {
-        modal.getElementsByClassName('message')[0].innerHTML = 'Exemple';
+        modal.getElementsByClassName('message')[0].innerHTML = '<img src="img/micka.png" width="50%" alt="Micka le bel"/>Mickael le bel&nbsp;<img width="50%" src="img/simon.png" alt="Simon le beau"/>Simon le beau';
         modal.className += ' open'; // Ajoute un espace pour séparer les classes correctement
     }
 
