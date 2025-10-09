@@ -214,3 +214,46 @@ header span {
     color: black;
 }
 
+@font-face {
+    font-family: 'TrajanPro';
+    src: url('../font/TrajanPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'TrajanPro', serif;
+}
+section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+section article {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;    
+    gap: 10px;
+    width: 250px;
+    margin-top: 30px;
+    padding : 0 10 0 10;
+    background-color: transparent;
+    border: 1px solid #F3bFE8;
+    border-radius: 20px;
+
+}
+section article img {
+    height: 150px;
+    border-radius: 20px;
+}
+section article a {
+    border: 1px solid #f3efe8;
+    border-radius: 20px;
+    text-decoration: none;
+    padding-left: 20px;
+    color :#3a2c1a
+}
