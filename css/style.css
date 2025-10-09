@@ -257,3 +257,13 @@ section article a {
     padding-left: 20px;
     color :#3a2c1a
 }
+hr{
+    background-color: #ffd700;
+}
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 50px;git
+}
