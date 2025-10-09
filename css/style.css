@@ -63,7 +63,7 @@ nav li ul {
 
 nav li ul li {
     margin: -2px 0 0 -2px;
-    width: calc(100% - 70px);
+    width: 100%;
     line-height: 1.7;
     border: none;
     padding: 10px;
