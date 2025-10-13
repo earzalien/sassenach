@@ -259,6 +259,11 @@ section article a {
 }
 hr{
     background-color: #ffd700;
+    border: 1px solid #ffd700;
+}
+section#about {
+    width: 80%;
+    justify-content: center;
 }
 footer {
     background-color: white;
