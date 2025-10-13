@@ -179,13 +179,13 @@ audio {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  position:absolute; left:50%; transform:translateX(-50%);
-  bottom: 50rem; 
+  position:absolute; 
+  top: clamp(10rem, 16vh, 25rem);  
+  bottom: auto;                
   background-color:#f3efe8; 
   padding: clamp(1rem, 3vw, 2rem) clamp(1.25rem, 4vw, 2.5rem);
   gap: 0.5rem;  
-  min-width: max-content;       
+  min-width: 70ch;       
   box-sizing: border-box;
   background: rgba(243,239,232,.9);
   border-radius: 50px;
@@ -201,15 +201,19 @@ audio {
     white-space: nowrap; 
     margin: 1vw;
     font-weight: 700;
+    text-align: center;
  }
 .recettes-header-content p  { 
     font-size: clamp(1.8rem, 1.5rem + 0.5vw, 2.1rem);
     line-height: 1.6;
-    font-weight: 600;
+    font-weight: 500;
     color: #322F2E;
     width: min(90vw, 1200px);
-    margin:0 1vw 1.5vw 1vw;
+    margin: 0 0 .9em;
  }
+ .recettes-header-content strong {  
+  font-weight: 700;
+  }
 
  @media (max-width: 600px){
   .recettes-header-content{ width: 90vw; min-width: 0; }
@@ -225,6 +229,33 @@ audio {
     -webkit-text-fill-color: transparent; /* pour Safari/Firefox */
   }
 }
+.more-text {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+
+.more-text.expanded {
+  max-height: 500px; /* или auto, но с фиксированной высотой анимация плавнее */
+  opacity: 1;
+}
+
+.toggle-btn {
+  margin-top: 1rem;
+  background: #525B3A;
+  color: #F3EFE8;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1.4rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background: #AF6530;
+}
 
 
 /* ===== MAIN : grille des cartes ===== */
@@ -232,7 +263,7 @@ audio {
   padding: 0 1rem 0;
   position: relative;
   z-index: 2; 
-  margin-top: -45rem;
+  margin-top: -25rem;
   color: #322F2E;                              
   font-size: clamp(1rem, 0.95rem + 0.3vw, 1.125rem); /* ~16→18px */
   line-height: 1.6;
@@ -240,7 +271,7 @@ audio {
 
 .cards-grid {
   display: grid;
-  gap: 28px;
+  gap: 58px;
   justify-content:center;
   align-items: start; 
 }
@@ -269,17 +300,18 @@ audio {
   border-radius: 20px;
   box-shadow: 0 2px 10px rgba(0,0,0,.06);
   color:#322F2E; 
-  font-size:clamp(1rem, 0.95rem + 0.2vw, 1.125rem);
+  font-size:clamp(1rem, 0.95rem + 0.2vw, 1.5rem);
   transition: transform .25s ease, box-shadow .25s ease, border-color .25s;
   will-change: transform;
+  order:0;
 }
 .card:hover{
-  transform: translateY(-10px) scale(1.1);
-  box-shadow: 0 14px 32px rgba(0,0,0,.16);
-  border-color: rgba(50,47,46,.25);
+  transform: translateY(-10px) scale(1.2);
+  box-shadow:  0 12px 28px rgba(0,0,0,.14);
+  border-color: rgba(50,47,46,.9);
 }
 .card:active{ transform: translateY(-2px) scale(0.99); } 
-.card:focus-within{ outline: 2px solid #525B3A; outline-offset: 2px; }
+
 
 .recettes-main p,
 .recettes-main .card-body { max-width: 80ch; }
@@ -341,8 +373,84 @@ audio {
 }
 .card-foot { 
   margin-top: 2rem;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   }
+
+.card.is-active{
+  grid-column: 1 / -1; 
+  order: -1;
+  z-index:3; 
+  display: block;         
+  max-width: 1000px;
+  margin-inline: auto;
+  transform: none;                   
+  box-shadow: 0 24px 48px rgba(0,0,0,.18);
+  border-color: rgba(50,47,46,.6);
+  font-size: clamp(1.5rem, 1.2rem + 0.6vw, 1.8rem); 
+  line-height: 1.7;
+}
+
+.card.is-active .card-img{ height: 450px; }
+.card.is-active .card-title {
+  font-size: clamp(2rem, 1.6rem + 1vw, 2.6rem);
+}
+
+.card.is-active h4 {
+  font-size: clamp(1.6rem, 1.4rem + 0.5vw, 2rem);
+}
+
+.card.is-active p,
+.card.is-active li {
+  font-size: clamp(1.3rem, 1.1rem + 0.4vw, 1.6rem);
+}
+
+.card.is-active:hover{ transform:none; }
+
+.card-close {
+  display: none;                 
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background: #525B3A;
+  color: #f3efe8;
+  font-size: 40px;
+  line-height: 36px;
+  cursor: pointer;
+  opacity: 0.9;
+  z-index: 10;
+}
+.card.is-active > .card-head .card-close{ display:block; }
+.card-close:hover{ opacity: 1; background: #AF6530; }
+.page-overlay{
+  position: fixed;
+  inset: 0;                
+  background: transparent; 
+  z-index: 3;           
+}
+
+/* активная карточка должна быть поверх оверлея */
+.card.is-active{ 
+  position: relative;
+  z-index: 4; }
+
+  .copy-btn{
+  padding: .45rem .9rem;
+  border-radius: 999px;
+  border: 1px solid #525B3A;
+  background:#f3efe8;
+  color:#525B3A;
+  font-size: .95rem;
+  cursor:pointer;
+  margin: 0; 
+  align-self: last baseline;
+}
+.copy-btn.copied{ background:#AF6530; color:#f3efe8; }
 
 /* ===== Bouton-tag ===== */
 .btn.btn-tag {
@@ -355,13 +463,14 @@ audio {
   text-transform: capitalize;     
   border: none;                  
   border-radius: 999px;           
-  cursor: pointer;
-  transition: background 0.3s ease, transform 0.2s ease;
+  cursor: default; 
+  transition: background 0.3s ease;
+  
 }
 
 .btn.btn-tag:hover {
   background: #AF6530;           
-  transform: translateY(-2px);    
+  transform: none;    
 }
 
 /* ===== Séparateur entre main et note ===== */
@@ -369,14 +478,43 @@ audio {
   max-width: 1200px;
   margin: 28px auto 0;
   border: none;
-  border-top: 2px solid rgba(182,138,68,.45); /* #b68a44 adouci */
+  border-top: 2px solid #C69E60;
 }
 
-/* ===== Responsif ===== */
-@media (max-width: 640px) {
-  .recettes-main { padding: 1.25rem .75rem 0; }
-  .card { padding: 16px; }
-  .card-title { 
-    font-size:1.1rem; padding:.35rem .7rem; bottom:8px;
-   }
+
+
+
+.card-toggle {
+  display: none;
+}
+.note {
+  max-width: 900px;
+  margin: 4rem auto 6rem;     
+  padding: 2rem 2.5rem;
+  background: rgba(82, 91, 58, 0.08); 
+  border-left: 6px solid #AF6530;     
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  font-size: clamp(1rem, 0.95rem + 0.2vw, 1.125rem);
+  line-height: 1.7;
+  color: #322F2E;
+}
+
+.note h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #525B3A;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.note p {
+  margin-bottom: 1.2rem;
+  font-size: 1.6rem;
+  
+}
+
+.note p:last-child {
+  margin-bottom: 0;
 }
