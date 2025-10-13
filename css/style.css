@@ -11,11 +11,16 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #f3efe8;
     border: 2px solid #EBECF1;
-    border-radius: 30px;
     animation: slide-in 1s ease-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 nav ul {
@@ -228,6 +233,7 @@ section {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: ;
     justify-content: center;
     align-items: center;
     gap: 50px;
@@ -265,6 +271,13 @@ section#about {
     width: 80%;
     justify-content: center;
 }
+section#about h1 {
+    font-size: 2rem;
+}
+section#fansite article {
+display: flex;
+flex-direction: column;
+}
 footer {
     background-color: white;
     display: flex;
@@ -274,3 +287,15 @@ footer {
     height: 100px;
     align-items: center;
 }
+.playlist { 
+        list-style: none; 
+        padding: 0;
+     }
+.playlist li {
+         cursor: pointer; 
+         padding: 5px;
+         margin-bottom:5px;  }
+          .playlist .active {
+         font-weight: bold;
+         color:#3498db; }
+    
