@@ -80,7 +80,16 @@
             </p>
         </section>
         <hr>
-        <section>
+        <section id="fansite">
+            <h1>L'équipe du Fansite</h1>
+            <article>
+                <img src="img/micka.png" alt="Mickael" />
+                <p>Enseignant de dev web, j'adore tellement Outlander que j'ai demandé a mes élèves d'en faire un site</p>
+            </article>
+            <article>
+                <img src="img/simon.png" alt="Simon" />
+                <p>Assistant teacher, en adoration pour Mickael j'aime tout ce qu'il aime telle que cette série incroyable</p>
+            </article>
             <div id="modal">
                 <div class="mask"></div>
                 <div class="container auto">
@@ -94,7 +103,31 @@
     <footer>
         <span>&copy; 2025 Les secrets de Craigh Na Dun</span>
         <a href="mailto:fandeoutlander@gmail.com">Écrivez-nous à<br>fandeoutlander@gmail.com</a>
-        <media>Playlist a venir</media>
+          <audio id="audioPlayer" controls>
+    <source id="audioSource" src="chanson1.mp3" type="audio/mp3">
+    Votre navigateur ne supporte pas l'élément audio.
+  </audio>
+  <ul class="playlist" id="playlist">
+    <li data-src="chanson1.mp3" class="active">Chanson 1</li>
+    <li data-src="chanson2.mp3">Chanson 2</li>
+    <li data-src="chanson3.mp3">Chanson 3</li>
+    <li data-src="chanson4.mp3">Chanson 4</li>
+    <li data-src="chanson5.mp3">Chanson 5</li>
+  </ul>
+  <script>
+    const player = document.getElementById('audioPlayer');
+    const source = document.getElementById('audioSource');
+    const tracks = document.querySelectorAll('#playlist li');
+    tracks.forEach((track, i) => {
+      track.addEventListener('click', () => {
+        source.src = track.getAttribute('data-src');
+        player.load();
+        player.play();
+        document.querySelectorAll('.playlist li').forEach(li => li.classList.remove('active'));
+        track.classList.add('active');
+      });
+    });
+  </script>
     </footer>
 </body>
 
