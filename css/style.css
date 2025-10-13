@@ -234,7 +234,6 @@ section {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: ;
     justify-content: center;
     align-items: center;
     gap: 50px;
@@ -298,5 +297,6 @@ footer {
          margin-bottom:5px;  }
           .playlist .active {
          font-weight: bold;
-         color:#3498db; }
+         color:#3498db; 
+        }
     

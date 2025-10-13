@@ -19,7 +19,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: var(--main-color);
+    background-color: #f3efe8;
     border: 2px solid #EBECF1;
     animation: slide-in 1s ease-out;
     position: fixed;
@@ -29,6 +29,7 @@ nav {
     z-index: 1000;
    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
+
 nav ul {
     display: flex;
     gap: 30px;
@@ -37,6 +38,7 @@ nav ul {
     padding: 0 30px;
     position: relative;
 }
+
 nav li {
     position: relative;
     border: 2px solid transparent;
@@ -50,7 +52,7 @@ nav li:not(:last-child) {
 }
 
 nav a {
-    color: var(--secondary-color);
+    color: #3a2c1a;
     text-decoration: none;
     text-transform: uppercase;
     transition: color 0.2s;
@@ -64,7 +66,7 @@ nav li ul {
     display: block;
     margin: 12px -12px;
     padding: 0;
-    background: var(--gold-color);
+    background: #b68a44;
     border: 2px solid #b68a44;
     border-radius: 5px;
     transition: opacity 0.2s, visibility 0.2s;
@@ -80,11 +82,12 @@ nav li ul li {
 }
 
 nav li ul li a {
-    color: var(--secondary-color);
+    color: #3a2c1a;
 }
+
 nav li:hover,
 nav li:focus-within {
-    background: var(--green-color);
+    background: #4b5a3c;
     border: 2px solid #3a2c1a;
 }
 
@@ -130,4 +133,31 @@ logo {
 
 .logo img {
     height: 60px;
+}
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 50px;
+    height: 100px;
+    align-items: center;
+}
+.playlist { 
+        list-style: none; 
+        padding: 0;
+     }
+.playlist li {
+         cursor: pointer; 
+         padding: 5px;
+         margin-bottom:5px;  }
+          .playlist .active {
+         font-weight: bold;
+         color:#3498db; 
+        }
+@font-face {
+    font-family: 'TrajanPro';
+    src: url('../font/TrajanPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
