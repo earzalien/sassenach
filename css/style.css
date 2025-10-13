@@ -10,13 +10,22 @@ body {
 }
 
 nav {
+    
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #f3efe8;
     border: 2px solid #EBECF1;
     border-radius: 30px;
     animation: slide-in 1s ease-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    z-index: 1000;
+   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
+
 
 nav ul {
     display: flex;
