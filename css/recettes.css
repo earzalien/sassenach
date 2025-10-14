@@ -237,7 +237,7 @@ audio {
 }
 
 .more-text.expanded {
-  max-height: 500px; /* или auto, но с фиксированной высотой анимация плавнее */
+  max-height: 500px; 
   opacity: 1;
 }
 
@@ -263,7 +263,7 @@ audio {
   padding: 0 1rem 0;
   position: relative;
   z-index: 2; 
-  margin-top: -25rem;
+  margin-top: -19rem;
   color: #322F2E;                              
   font-size: clamp(1rem, 0.95rem + 0.3vw, 1.125rem); /* ~16→18px */
   line-height: 1.6;
@@ -458,14 +458,13 @@ audio {
   padding: 0.6rem 1.2rem;
   background: #525B3A;           
   color: #f3efe8;                 
-  font-size: 1.95rem;
+  font-size: 1.4rem;
   font-weight: 500;
   text-transform: capitalize;     
   border: none;                  
   border-radius: 999px;           
   cursor: default; 
-  transition: background 0.3s ease;
-  
+  transition: background 0.3s ease;  
 }
 
 .btn.btn-tag:hover {
@@ -517,4 +516,14 @@ audio {
 
 .note p:last-child {
   margin-bottom: 0;
+}
+
+.site-footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 50px;
+    height: 180px;
+    align-items: center;
 }
