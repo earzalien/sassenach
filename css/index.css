@@ -125,14 +125,26 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    align-items: center;
-    height: 320px;
+    align-items: end;
+    height: 500px;
     padding: 0;
     margin: 0;
     margin-top: 65px;
-    background: url('../img/header-img-index.jpg') no-repeat center center;
-    background-size: cover;
-    position: relative;
+   background-image: 
+    linear-gradient(to bottom, rgba(243, 239, 232, 0.4) 70%, var(--main-color) 100%), 
+    url('../img/header-img-index.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 100px;
+}
+
+.header-text {
+background-color: rgba(243,239,232,0.6);
+border-radius: 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+color : var(--secondary-color);
 }
 header span {
     text-align: center;
@@ -278,25 +290,5 @@ section#about h1 {
 section#fansite article {
 display: flex;
 flex-direction: column;
+background-color: #F9F8FD;
 }
-footer {
-    background-color: white;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    gap: 50px;
-    height: 100px;
-    align-items: center;
-}
-.playlist { 
-        list-style: none; 
-        padding: 0;
-     }
-.playlist li {
-         cursor: pointer; 
-         padding: 5px;
-         margin-bottom:5px;  }
-          .playlist .active {
-         font-weight: bold;
-         color:#3498db; }
-    

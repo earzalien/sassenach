@@ -9,6 +9,7 @@
 }
 html {
     scroll-behavior: smooth;
+    font-size: clamp(20px, 5vw, 22px);
 }
 
 body {
@@ -130,4 +131,14 @@ logo {
 
 .logo img {
     height: 60px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 50px;
+    height: 180px;
+    align-items: center;
 }

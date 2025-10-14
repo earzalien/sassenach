@@ -7,7 +7,8 @@
     <title>Les secrets de Craigh Na Dun</title>
     <meta name="author" content="Wilders : Kevin, Lea, Luna, Yuliana">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:400px)">
     <script src="script/script.js"></script>
 </head>
@@ -15,7 +16,7 @@
 <body>
     <nav>
         <div class="logo">
-            <img src="img/logo.png" alt="Logo Je Suis Pret" />
+            <img src="img/logo.png" alt="Logo Je Suis Pret">
             <audio src="media/outlander.mp3" controls autoplay>Votre navigateur ne supporte pas la balise audio.</audio>
         </div>
         <ul>
@@ -84,11 +85,13 @@
             <h1>L'équipe du Fansite</h1>
             <article>
                 <img src="img/micka.png" alt="Mickael" />
-                <p>Enseignant de dev web, j'adore tellement Outlander que j'ai demandé a mes élèves d'en faire un site</p>
+                <p>Enseignant de dev web, j'adore tellement Outlander que j'ai demandé a mes élèves d'en faire un site
+                </p>
             </article>
             <article>
                 <img src="img/simon.png" alt="Simon" />
-                <p>Assistant teacher, en adoration pour Mickael j'aime tout ce qu'il aime telle que cette série incroyable</p>
+                <p>Assistant teacher, en adoration pour Mickael j'aime tout ce qu'il aime telle que cette série
+                    incroyable</p>
             </article>
             <div id="modal">
                 <div class="mask"></div>
@@ -102,32 +105,9 @@
     </main>
     <footer>
         <span>&copy; 2025 Les secrets de Craigh Na Dun</span>
+        <script src="https://elfsightcdn.com/platform.js" async></script>
+        <div class="elfsight-app-6020251a-dd5d-4f04-9ecf-11108e63b054" data-elfsight-app-lazy></div>
         <a href="mailto:fandeoutlander@gmail.com">Écrivez-nous à<br>fandeoutlander@gmail.com</a>
-          <audio id="audioPlayer" controls>
-    <source id="audioSource" src="chanson1.mp3" type="audio/mp3">
-    Votre navigateur ne supporte pas l'élément audio.
-  </audio>
-  <ul class="playlist" id="playlist">
-    <li data-src="chanson1.mp3" class="active">Chanson 1</li>
-    <li data-src="chanson2.mp3">Chanson 2</li>
-    <li data-src="chanson3.mp3">Chanson 3</li>
-    <li data-src="chanson4.mp3">Chanson 4</li>
-    <li data-src="chanson5.mp3">Chanson 5</li>
-  </ul>
-  <script>
-    const player = document.getElementById('audioPlayer');
-    const source = document.getElementById('audioSource');
-    const tracks = document.querySelectorAll('#playlist li');
-    tracks.forEach((track, i) => {
-      track.addEventListener('click', () => {
-        source.src = track.getAttribute('data-src');
-        player.load();
-        player.play();
-        document.querySelectorAll('.playlist li').forEach(li => li.classList.remove('active'));
-        track.classList.add('active');
-      });
-    });
-  </script>
     </footer>
 </body>
 
