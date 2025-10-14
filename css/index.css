@@ -42,7 +42,7 @@ nav li {
     border: 2px solid transparent;
     border-radius: 5px;
     padding: 10px;
-    transition: background 0.2s, border 0.2s;
+    transition: background-color 0.2s, border 0.2s;
 }
 
 nav li:not(:last-child) {
