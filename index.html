@@ -7,7 +7,8 @@
     <title>Les secrets de Craigh Na Dun</title>
     <meta name="author" content="Wilders : Kevin, Lea, Luna, Yuliana">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:400px)">
     <script src="script/script.js"></script>
 </head>
@@ -15,9 +16,9 @@
 <body>
     <nav>
         <div class="logo">
-        <img src="img/logo.png" alt="Logo Je Suis Pret" />
-        <audio src="media/outlander.mp3" controls autoplay>Votre navigateur ne supporte pas la balise audio.</audio>
-    </div>
+            <img src="img/logo.png" alt="Logo Je Suis Pret">
+        </div>
+        <div class="audio"><audio src="media/outlander.mp3" controls>Votre navigateur ne supporte pas la balise audio.</audio></div>
         <ul>
             <li><a href="index.html">Accueil</a></li>
             <li>
@@ -31,12 +32,12 @@
             <li>
                 <a href="recettes.html">Recettes de Claire</a>
                 <ul>
-                    <li><a href="#0">blabla</a></li>
-                    <li><a href="#0">blabla2</a></li>
-                    <li><a href="#0">blabla3</a></li>
+                    <li><a href="recettes.html#1truc">blabla</a></li>
+                    <li><a href="recettes.html#1autretruc">blabla2</a></li>
+                    <li><a href="recettes.html#encore1truc">blabla3</a></li>
                 </ul>
             </li>
-            <li><a href="actualites.html">Actus</a></li>
+            <li><a href="actu.html">Actus</a></li>
         </ul>
     </nav>
     <header>
@@ -66,20 +67,48 @@
             </article>
 
         </section>
+        <hr>
         <section id="about">
             <h1>À propos d'Outlander</h1>
-
+            <p>Outlander suit l'histoire de Claire Randall, une infirmière de la Seconde Guerre mondiale qui se retrouve
+                mystérieusement transportée en 1743 dans les Highlands écossaises. Déchirée entre deux époques et deux
+                hommes, elle doit naviguer dans un monde de guerre de clans, d'intrigues politiques et de passion
+                dévorante.<br>
+                <br>
+                Blood of My Blood explore l'héritage familial et les liens qui transcendent le temps, approfondissant
+                l'univers créé par
+                Diana Gabaldon avec de nouvelles histoires captivantes.
+            </p>
         </section>
-
-        <div id="modal">
-            <div class="mask"></div>
-            <div class="container auto">
-                <div class="message">test</div>
-                <a href="#" class="close">&times;</a>
+        <hr>
+        <section id="fansite">
+            <h1>L'équipe du Fansite</h1>
+            <article>
+                <img src="img/micka.png" alt="Mickael" />
+                <p>Enseignant de dev web, j'adore tellement Outlander que j'ai demandé a mes élèves d'en faire un site
+                </p>
+            </article>
+            <article>
+                <img src="img/simon.png" alt="Simon" />
+                <p>Assistant teacher, en adoration pour Mickael j'aime tout ce qu'il aime telle que cette série
+                    incroyable</p>
+            </article>
+            <div id="modal">
+                <div class="mask"></div>
+                <div class="container auto">
+                    <div class="message">test</div>
+                    <a href="#" class="close">&times;</a>
+                </div>
             </div>
-        </div>
-        <a id="ouvrir-popup" href="#">La bromance</a>
+            <a id="ouvrir-popup" href="#">La bromance</a>
+        </section>
     </main>
+    <footer>
+        <span>&copy; 2025 Les secrets de Craigh Na Dun</span>
+        <script src="https://elfsightcdn.com/platform.js" async></script>
+        <div class="elfsight-app-6020251a-dd5d-4f04-9ecf-11108e63b054" data-elfsight-app-lazy></div>
+        <a href="mailto:fandeoutlander@gmail.com">Écrivez-nous à<br>fandeoutlander@gmail.com</a>
+    </footer>
 </body>
 
 </html>
