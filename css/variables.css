@@ -110,6 +110,9 @@ nav li:focus-within ul li a {
 audio {
     background-color: #f3efe8;
 }
+.audio {
+    margin-top: 5px;
+}
 @keyframes slide-in {
     0% {
         top: -50px;
@@ -140,21 +143,10 @@ footer {
     justify-content: space-evenly;
     text-align: center;
     gap: 50px;
-    height: 100px;
+    height: 180px;
     align-items: center;
 }
-.playlist { 
-        list-style: none; 
-        padding: 0;
-     }
-.playlist li {
-         cursor: pointer; 
-         padding: 5px;
-         margin-bottom:5px;  }
-          .playlist .active {
-         font-weight: bold;
-         color:#3498db; 
-        }
+        
 @font-face {
     font-family: 'TrajanPro';
     src: url('../font/TrajanPro-Regular.ttf') format('truetype');
