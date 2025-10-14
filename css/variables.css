@@ -131,3 +131,13 @@ logo {
 .logo img {
     height: 60px;
 }
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 50px;
+    height: 180px;
+    align-items: center;
+}
