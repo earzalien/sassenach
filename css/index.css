@@ -1,3 +1,4 @@
+
 header {
     display: flex;
     align-items: center;
@@ -14,9 +15,7 @@ header {
   background-position: center;
   padding-bottom: 100px;
 }
-.audio {
-    margin-top: 5px;
-}
+
 .header-text {
 background-color: rgba(243,239,232,0.6);
 border-radius: 50px;
@@ -59,65 +58,6 @@ header span {
     border-radius: 15px;
     box-shadow: 0 4px 32px rgba(60, 40, 18, 0.07);
 }
-
-#modal {
-    position: fixed;
-    z-index: 99999;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: none;
-}
-
-#modal.open {
-    display: block;
-}
-
-#modal .mask {
-    background: black;
-    opacity: 0.8;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
-#modal .container {
-    position: relative;
-    background: white;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    width: 300px;
-    height: auto;
-    min-height: 50px;
-}
-
-#modal .container .message {
-    padding: 5% 15% 5% 5%;
-}
-
-#modal .container a.close {
-    position: absolute;
-    right: 5%;
-    top: 5%;
-    color: #444;
-    font-size: 30px;
-}
-
-#modal .container a.close:hover {
-    color: black;
-}
-
-@font-face {
-    font-family: 'TrajanPro';
-    src: url('../font/TrajanPro-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 h1 {
     font-family: 'TrajanPro', serif;
 }
@@ -139,35 +79,90 @@ section article {
     width: 250px;
     margin-top: 30px;
     padding : 0 10 0 10;
-    background-color: transparent;
+    background-color: #F9F8FD;
     border: 1px solid #F3bFE8;
     border-radius: 20px;
 
 }
 section article img {
     height: 150px;
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
 }
 section article a {
-    border: 1px solid #f3efe8;
-    border-radius: 20px;
     text-decoration: none;
     padding-left: 20px;
+    padding-bottom: 10px;
     color :#3a2c1a
 }
+section article p {
+    padding: 10px;
+}
 hr{
-    background-color: #ffd700;
-    border: 1px solid #ffd700;
+    background-color: #b68a44;
+    border: 1px solid #b68a44;
 }
 section#about {
-    width: 80%;
+    display: inherit;
+    text-align: center;
     justify-content: center;
+    margin: auto;
+    padding-bottom: 40px;
 }
 section#about h1 {
+    margin: 30px 0 30px 0;
     font-size: 1.8rem;
 }
-section#fansite article {
+section#about p {
+    width: 60%;
+        margin: auto;
+}
+section#lefansite {
+     display: inherit;
+    text-align: center;
+    justify-content: center;
+    margin: auto; 
+    padding-bottom: 50px;  
+}
+section#lefansite h1 {
+    margin: 30px 0 30px 0;
+    font-size: 1.8rem;
+}
+div#fansite {
+display: flex;
+gap: 150px;
+justify-content: center;
+}
+
+div#fansite article {
 display: flex;
 flex-direction: column;
 background-color: #F9F8FD;
+padding-bottom: 20px;
+}
+div#fansite article img {
+justify-content: center;
+border-radius: 50px;
+}
+.lesfans {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    align-items: center;
+}
+.lesfans p {
+text-align: center;
+font-weight: bold;
+font-size: 1.2rem;
+}
+a#ouvrir-popup {
+    color: var(--secondary-color);
+}
+@font-face {
+    font-family: 'Lexend Exa';
+    src: url('../font/LexendExa-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+#bromance {
+    display: flex;
 }
