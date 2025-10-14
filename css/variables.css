@@ -9,7 +9,6 @@
 }
 html {
     scroll-behavior: smooth;
-    font-size: clamp(20px, 5vw, 22px);
 }
 
 body {

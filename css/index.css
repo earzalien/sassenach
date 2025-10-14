@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    font-size: clamp(12px, 3vw, 22px);
 }
 
 body {
@@ -285,7 +286,7 @@ section#about {
     justify-content: center;
 }
 section#about h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 section#fansite article {
 display: flex;
