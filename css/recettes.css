@@ -250,7 +250,7 @@ audio {
   font-size: 1.4rem;
   border-radius: 999px;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
 .toggle-btn:hover {
@@ -371,11 +371,17 @@ audio {
   margin-top: 1rem;            
   text-align: left;         
 }
-.card-foot { 
+.card > .card-foot { 
   margin-top: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 0;
+  height: auto;
+  background: transparent;
+  text-align: left;
+  box-shadow: none;      
+  border: none;
   }
 
 .card.is-active{
