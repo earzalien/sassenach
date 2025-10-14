@@ -11,137 +11,32 @@ html {
 }
 
 h1 {
-    font-family: 'TrajanPro', serif;
+    font-family: 'TrajanPro', 'Padauk', serif;
 }
 
-.recettes-main header {
+
+.recettes-page .recettes-main header {
   background: none !important;
   height: auto !important;
   padding: 0 !important;
   box-shadow: none !important;
 }
 
-.wrapper { 
+.recettes-page .wrapper { 
    max-width: none;
   margin: 0 auto; 
   display: grid; 
 }
 
-body {
+.recettes-page body {
     background: #f3efe8;
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: "Lexend Exa", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
     
 }
 
-nav {
-    display: flex;
-    justify-content: space-around;
-    background-color: #f3efe8;
-    border: 2px solid #EBECF1;
-    border-radius: 30px;
-    animation: slide-in 1s ease-out;
-}
 
-nav ul {
-    display: flex;
-    gap: 30px;
-    list-style: none;
-    margin: 0;
-    padding: 0 30px;
-    position: relative;
-}
 
-nav li {
-    position: relative;
-    border: 2px solid transparent;
-    border-radius: 5px;
-    padding: 10px;
-    transition: background 0.2s, border 0.2s;
-}
-
-nav li:not(:last-child) {
-    margin-right: 40px;
-}
-
-nav a {
-    color: #3a2c1a;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: color 0.2s;
-}
-
-nav li ul {
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    left: 0;
-    display: block;
-    margin: 12px -12px;
-    padding: 0;
-    background: #b68a44;
-    border: 2px solid #b68a44;
-    border-radius: 5px;
-    transition: opacity 0.2s, visibility 0.2s;
-    z-index: 100;
-}
-
-nav li ul li {
-    margin: -2px 0 0 -2px;
-    width: 100%;
-    line-height: 1.7;
-    border: none;
-    padding: 10px;
-}
-
-nav li ul li a {
-    color: #3a2c1a;
-}
-
-nav li:hover,
-nav li:focus-within {
-    background: #4b5a3c;
-    border: 2px solid #3a2c1a;
-}
-
-nav li:hover>a,
-nav li:focus-within>a {
-    color: #F9F8FD;
-}
-
-nav li:hover ul,
-nav li:focus-within ul {
-    visibility: visible;
-    opacity: 1;
-    box-shadow: 0px 3px 5px 2px #EBECF1;
-}
-
-nav li:hover ul li a,
-nav li:focus-within ul li a {
-    color: #F9F8FD;
-}
-
-@keyframes slide-in {
-    0% {
-        top: -50px;
-    }
-
-    40% {
-        top: 20px;
-    }
-
-    70% {
-        top: 10px;
-    }
-
-    100% {
-        top: 15px;
-    }
-}
-audio {
-    background-color: #f3efe8;
-}
-
-.recettes-header {
+.recettes-page .recettes-header {
     width: 100vw;
     margin-left: 50%; 
     transform: translateX(-50%);
@@ -155,10 +50,11 @@ audio {
     overflow: hidden; 
     background-color:#f3efe8; 
     margin-bottom: 0;
+    margin-top: 0;
     z-index: 1;
 }
 
-.recettes-header::before{
+.recettes-page .recettes-header::before{
   content:"";
   position:absolute; inset:0;
   background:url('../img/headerrecettes1.jpg') no-repeat 0 15% / cover;
@@ -167,7 +63,7 @@ audio {
   z-index:0;
 }
 
-.recettes-header::after{
+.recettes-page .recettes-header::after{
   content:"";
   position:absolute; left:0; right:0; bottom:0; height: 30vh;
   background: linear-gradient(to bottom, rgba(243,239,232,0) 0%, #f3efe8 100%);
@@ -175,7 +71,7 @@ audio {
   z-index: 0;
 }
 
-.recettes-header-content {
+.recettes-page .recettes-header-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -194,7 +90,7 @@ audio {
   z-index: 2;
 }
 
-.recettes-header-content h1 { 
+.recettes-page .recettes-header-content h1 { 
     font-size: clamp(40px, 4vw, 80px); 
     color: #322F2E;
     line-height: 1.2;
@@ -203,7 +99,7 @@ audio {
     font-weight: 700;
     text-align: center;
  }
-.recettes-header-content p  { 
+.recettes-page .recettes-header-content p  { 
     font-size: clamp(1.8rem, 1.5rem + 0.5vw, 2.1rem);
     line-height: 1.6;
     font-weight: 500;
@@ -211,13 +107,13 @@ audio {
     width: min(90vw, 1200px);
     margin: 0 0 .9em;
  }
- .recettes-header-content strong {  
+ .recettes-page .recettes-header-content strong {  
   font-weight: 700;
   }
 
  @media (max-width: 600px){
-  .recettes-header-content{ width: 90vw; min-width: 0; }
-  .recettes-header-content h1{ white-space: normal; }
+  .recettes-page .recettes-header-content{ width: 90vw; min-width: 0; }
+  .recettes-page .recettes-header-content h1{ white-space: normal; }
 }
 
 @supports (-webkit-background-clip: text) or (background-clip: text) {
@@ -259,39 +155,39 @@ audio {
 
 
 /* ===== MAIN : grille des cartes ===== */
-.recettes-main {
+.recettes-page .recettes-main {
   padding: 0 1rem 0;
   position: relative;
   z-index: 2; 
   margin-top: -19rem;
   color: #322F2E;                              
-  font-size: clamp(1rem, 0.95rem + 0.3vw, 1.125rem); /* ~16→18px */
+  font-size: clamp(1.6rem, 1rem + 0.3vw, 1.18rem); 
   line-height: 1.6;
 }
 
-.cards-grid {
+.recettes-page .cards-grid {
   display: grid;
-  gap: 58px;
+  gap: 48px;
   justify-content:center;
   align-items: start; 
 }
 @media (min-width:1100px){
-  .cards-grid{ grid-template-columns: repeat(3, minmax(280px, 500px)); }
+  .cards-grid{ grid-template-columns: repeat(3, minmax(350px, 550px)); }
 }
-@media (min-width:680px) and (max-width:1099px){
+@media (min-width:890px) and (max-width:1099px){
   .cards-grid{ grid-template-columns: repeat(2, minmax(280px, 360px)); }
 }
-@media (max-width:679px){
+@media (max-width:889px){
   .cards-grid{ grid-template-columns: 1fr; }
 }
 
 /* ===== Carte ===== */
-.card {
+.recettes-page .card {
   display: flex;
   flex-direction: column;
   width:100%;
-  max-width:500px;             
-  min-width:280px;             
+  max-width: 550px;             
+  min-width: 300px;             
   justify-self:center;
   gap: 18px;
   padding: 18px 20px;
@@ -313,13 +209,14 @@ audio {
 .card:active{ transform: translateY(-2px) scale(0.99); } 
 
 
-.recettes-main p,
+.recettes-page.recettes-main p,
 .recettes-main .card-body { max-width: 80ch; }
 .card-head { 
   position: relative;
   overflow: hidden;
   border-radius: 20px 20px 0 0;
   margin-bottom: 4px; 
+  margin-top: 0;
 }
 
 .card-img {
@@ -346,7 +243,7 @@ audio {
 .card-body { display: grid; gap: 10px; color: #3a2c1a; }
 .card-body h4 { 
   margin: .75rem 0 .5rem;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 600;
   color: #525B3A; 
 }
@@ -355,21 +252,22 @@ audio {
   list-style: disc outside;
   padding-left: 1.25em;
   margin: 0 0 .75rem;
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 .card-list-ol { 
   list-style: decimal outside;
   padding-left: 1.25em;
   margin: 0 0 .75rem; 
-  font-size: 1.4rem
+  font-size: 2rem
 }
 
 .card-body p {
   font-style: italic;         
   font-size: 1.4rem;          
   color: #525B3A;              
-  margin-top: 1rem;            
-  text-align: left;         
+  margin: 0 auto 1rem;            
+  text-align: left;   
+  line-height: 1.6;      
 }
 .card > .card-foot { 
   margin-top: 2rem;
@@ -389,12 +287,12 @@ audio {
   order: -1;
   z-index:3; 
   display: block;         
-  max-width: 1000px;
+  max-width: 1100px;
   margin-inline: auto;
   transform: none;                   
   box-shadow: 0 24px 48px rgba(0,0,0,.18);
   border-color: rgba(50,47,46,.6);
-  font-size: clamp(1.5rem, 1.2rem + 0.6vw, 1.8rem); 
+  font-size: clamp(2.1rem, 1.8rem + 1vw, 2.4rem); 
   line-height: 1.7;
 }
 
@@ -440,7 +338,6 @@ audio {
   z-index: 3;           
 }
 
-/* активная карточка должна быть поверх оверлея */
 .card.is-active{ 
   position: relative;
   z-index: 4; }
@@ -470,7 +367,7 @@ audio {
   border: none;                  
   border-radius: 999px;           
   cursor: default; 
-  transition: background 0.3s ease;  
+  transition: background-color 0.3s ease;  
 }
 
 .btn.btn-tag:hover {
@@ -479,7 +376,7 @@ audio {
 }
 
 /* ===== Séparateur entre main et note ===== */
-.section-sep {
+.recettes-page .section-sep {
   max-width: 1200px;
   margin: 28px auto 0;
   border: none;
@@ -489,7 +386,7 @@ audio {
 
 
 
-.card-toggle {
+.recettes-page .card-toggle {
   display: none;
 }
 .note {
@@ -524,7 +421,7 @@ audio {
   margin-bottom: 0;
 }
 
-.site-footer {
+.recettes-page .site-footer {
     background-color: white;
     display: flex;
     justify-content: space-evenly;
