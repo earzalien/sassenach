@@ -221,3 +221,9 @@ footer a {
     text-decoration: none;
     color: var(--secondary-color);
 }
+.flag {
+    font-size: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
