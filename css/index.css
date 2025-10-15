@@ -1,3 +1,9 @@
+:root{
+  --page-bg: #F3EFE8;       
+  --border: #b68a44;        
+  --shadow: 0 6px 24px rgba(60,40,18,.12);
+  --shadow-hover: 0 8px 10px rgba(60,40,18,.12);
+}
 body{
     font-family: 'Padauk';
     font-size:x-large;
@@ -50,30 +56,35 @@ header {
 h1 {
     font-family: 'TrajanPro', serif;
 }
-section,
-section#about {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  margin-bottom: 20px;
+
+section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 20px;
 }
 section article {
     display: flex;
     justify-content:center;
     flex-direction: column;    
     gap: 10px;
-    width: 280px;
+    width: 300px;
     margin-top: 30px;
     margin-bottom: 40px;
     padding : 0 10 0 10;
-    background-color: #F9F8FD;
-    border: 1px solid #F3bFE8;
+    background-color: var(--page-bg);
+    border: 1px solid var(--border);
     border-radius: 20px;
-
 }
+section article:hover{
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-2px);
+}
+
 section article img {
     height: 150px;
     border-radius: 20px 20px 0 0;
@@ -92,10 +103,11 @@ hr{
     border: 1px solid #b68a44;
 }
 section#about {
-  flex-direction: column;
-  text-align: center;
-  margin: auto;
-  padding-bottom: 40px;
+    display: inherit;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 40px;
 }
 section#about h1 {
     margin: 30px 0 30px 0;
@@ -106,11 +118,11 @@ section#about p {
         margin: auto;
 }
 section#lefansite {
-  display: inherit;
-  text-align: center;
-  justify-content: center;
-  margin: auto;
-  padding-bottom: 50px;
+     display: inherit;
+    text-align: center;
+    justify-content: center;
+    margin: auto; 
+    padding-bottom: 50px;  
 }
 section#lefansite h1 {
     margin: 30px 0 30px 0;
@@ -125,12 +137,20 @@ justify-content: center;
 div#fansite article {
 display: flex;
 flex-direction: column;
-background-color: #F9F8FD;
+background-color: var(--page-bg);
+border: 1px solid var(--border);
+box-shadow: var(--shadow);
+transition: box-shadow .2s ease, transform .2s ease;
 padding-bottom: 20px;
 }
+div#fansite article:hover{
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-2px);
+}
+
 div#fansite article img {
 justify-content: center;
-border-radius: 50px;
+border-radius: 100px;
 }
 .lesfans {
     display: flex;
