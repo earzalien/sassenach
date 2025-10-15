@@ -11,7 +11,7 @@
     },
     "saisons": {
         "fr": "Saisons",
-        "es": "Estaciones",
+        "es": "Temporada",
         "en": "Seasons"
     },
     "accueil": {
@@ -28,6 +28,51 @@
         "fr": "Actus",
         "es": "Noticias",
         "en": "News"
+    },
+    "recette-medicinales":{
+        "fr":"Les recettes médicinales",
+        "es":"Recetas medicinales",
+        "en":"Medicinal recipes"
+    },
+    "recette-description":{
+        "fr":"Explorez les remèdes traditionnels et connaissances botaniques de Claire Fraser",
+        "es":"Explora los remedios tradicionales y el conocimiento botánico de Claire Fraser",
+        "en":"Explore Claire Fraser's traditional remedies and botanical knowledge"
+    },
+    "decouvrir":{
+        "fr":"Découvrir →",
+        "es":"Descubrir →",
+        "en":"Discover →"
+    },
+    "guide":{
+        "fr":"Guides des saisons",
+        "es":"Guías de temporada",
+        "en":"Seasons Guides"
+    },
+    "guide-description":{
+        "fr":"Plongez dans chaque saison avec des analyses détaillées de chaque personnage",
+        "es":"Sumérgete en cada temporada con un análisis profundo de los personajes.",
+        "en":"Dive into each season with in-depth character analysis"
+    },  
+    "explorer":{
+        "fr":"Explorer →",
+        "es":"Explorar →",
+        "en":"Explore →"
+    }, 
+    "actu-description":{
+        "fr":"Retrouvez les articles de presse de différents médias regrouper en un seul endroit",
+        "es":"Encuentre artículos de prensa de diferentes medios reunidos en un solo lugar",
+        "en":"Find press articles from different media gathered in one place"
+    },  
+    "about": {
+        "fr": "À propos d'Outlander",
+        "es": "Acerca de Outlander",
+        "en": "About Outlander"
+    },
+    "about-content": {
+        "fr": "Outlander suit l'histoire de Claire Randall, une infirmière de la Seconde Guerre mondiale qui se retrouve mystérieusement transportée en 1743 dans les Highlands écossaises. Déchirée entre deux époques et deux hommes, elle doit naviguer dans un monde de guerre de clans, d'intrigues politiques et de passion dévorante.<br><br>Blood of My Blood explore l'héritage familial et les liens qui transcendent le temps, approfondissant l'univers créé par Diana Gabaldon avec de nouvelles histoires captivantes.",
+        "es": "Outlander sigue la historia de Claire Randall, una enfermera de la Segunda Guerra Mundial que se ve misteriosamente transportada a las Tierras Altas de Escocia en 1743. Dividida entre dos épocas y dos hombres, debe navegar por un mundo de guerras de clanes, intrigas políticas y pasión desbordante.<br><br>Sangre de mi Sangre explora el legado familiar y los vínculos que trascienden el tiempo, profundizando en el mundo creado por Diana Gabaldon con nuevas y cautivadoras historias.",
+        "en": "Outlander follows the story of Claire Randall, a World War II nurse who finds herself mysteriously transported to the Scottish Highlands in 1743. Torn between two eras and two men, she must navigate a world of clan warfare, political intrigue, and all-consuming passion.<br><br>Blood of My Blood explores family legacy and the bonds that transcend time, deepening the world created by Diana Gabaldon with captivating new stories."
     },
     "contact": {
         "fr": "Écrivez-nous à<br>fandeoutlander@gmail.com",
