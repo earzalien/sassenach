@@ -1,0 +1,37 @@
+{
+    "site-title": {
+        "fr": "Outlander - Les secrets de Craigh Na Dun",
+        "es": "Outlander - Los secretos de Craigh Na Dun",
+        "en": "Outlander - The Secrets of Craigh Na Dun"
+    },
+    "header-title-index":{
+        "fr": "Outlander<br>Les secrets de Craigh Na Dun",
+        "es": "Outlander<br>Los secretos de Craigh Na Dun",
+        "en": "Outlander<br>The secrets of Craigh Na Dun"
+    },
+    "saisons": {
+        "fr": "Saisons",
+        "es": "Estaciones",
+        "en": "Seasons"
+    },
+    "accueil": {
+        "fr": "Accueil",
+        "es": "Inicio",
+        "en": "Home"
+    },
+    "recettes-de-claire": {
+        "fr": "Recettes de Claire",
+        "es": "Recetas de Claire",
+        "en": "Claire's recipes"
+    },
+    "actus": {
+        "fr": "Actualités",
+        "es": "Noticias",
+        "en": "News"
+    },
+    "contact": {
+        "fr": "Écrivez-nous à<br>fandeoutlander@gmail.com",
+        "es": "Escríbanos a<br>fandeoutlander@gmail.com",
+        "en": "Write to us at<br>fandeoutlander@gmail.com"
+    }
+}
