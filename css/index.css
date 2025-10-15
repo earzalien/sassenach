@@ -73,7 +73,7 @@ section {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: ;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 50px;

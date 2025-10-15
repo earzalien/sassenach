@@ -17,6 +17,8 @@
     <script src="script/script.js"></script>
 </head>
 <body class="recettes-page">
+  <a class="skip-link" href="#main">Aller au contenu principal</a>
+
     <div class="wrapper"> 
     <nav>
         <div class="logo">
@@ -44,7 +46,7 @@
             <li><a href="actualites.html">Actus</a></li>
         </ul>
     </nav>
-   <header class="recettes-header">
+   <header class="recettes-header" role="banner">
                 <div class="recettes-header-content">
                  <h1 class="gradient-title"> Les Recettes Médicinales de Claire </h1>
                  <p class="lead"> Découvrez les remèdes traditionnels et connaissances botaniques utilisés 
@@ -64,7 +66,8 @@ par notre équipe, elles offrent un voyage entre histoire, botanique et art de g
 <button class="toggle-btn" id="toggle-btn">Afficher plus</button>
         </div>    
    </header>
-    <main id="content" class="recettes-main" aria-label="Recettes médicinales">
+
+   <main id="main" class="recettes-main" role="main" tabindex="-1" aria-label="Recettes médicinales">
  
   <section class="cards-grid">
     <article class="card">
