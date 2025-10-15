@@ -1,0 +1,11 @@
+
+/* Styles pour la page Actualités */
+
+header{
+    height: 400px;
+    margin-top: 50px;
+    font-size: 1.8rem;
+    background-position: center;
+    background-size: cover;
+    background-color: brown;
+}
