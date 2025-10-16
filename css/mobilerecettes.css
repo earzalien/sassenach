@@ -1,5 +1,16 @@
 
-@media (max-width:640px){
+.recettes-page header.recettes-header{
+  all: unset;
+  display: block;
+  position: relative;
+  width: 100%;
+  min-height: clamp(260px, 36vh, 420px);
+  padding-top: clamp(40px, 10vh, 80px);   
+  background: transparent;
+  isolation: isolate;
+}
+
+@media (max-width:400px){
   :root{
     --mobile-gutter: 1rem;      
     --mobile-card-max: 36rem;   
@@ -8,6 +19,23 @@
     padding: var(--mobile-gutter);
     align-items: center;        
     gap: 1.25rem;
+  }
+
+
+  .recettes-header::before,
+  .recettes-header::after{ content:none !important; background:none !important; }
+
+  .recettes-header-bg{
+    position:absolute;
+    inset:0;
+    background: url('../img/headerrecettes1.jpg') center 22% / cover no-repeat;
+    opacity:.65;         
+    z-index:-1;
+}
+.recettes-page .recettes-header {
+    min-height: auto;        
+    height: auto;           
+    padding-bottom: clamp(12px, 4vw, 24px); 
   }
 }
 
@@ -21,17 +49,13 @@ main {
 *, *::before, *::after { box-sizing: border-box; }
 img, video { max-width: 100%; height: auto; display: block; }
 
-
-@media (max-width: 640px) {
-
   .recettes-header {
     position: relative;
     min-height: clamp(280px, 55vh, 420px);
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 2.5rem;
-    padding: 1rem;
+    padding: clamp(12px, 3vw, 20px) 0;
     overflow: hidden;
   }
 
@@ -43,19 +67,25 @@ img, video { max-width: 100%; height: auto; display: block; }
     pointer-events: none;
     z-index: 0;
   }
+   .recettes-header-bg::after{
+    content:"";
+    position:absolute;
+    left:0; right:0; bottom:0;
+    height:22vh;         
+    background:linear-gradient(to bottom, rgba(243,239,232,0) 0%, #f3efe8 100%);
+    pointer-events:none;
+  }
 
   .recettes-header-content {
-    position: static;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: .5rem;
-    width: min(92vw, 32rem);
-    padding: clamp(.75rem, 3vw, 1.25rem) clamp(1rem, 4vw, 1.5rem);
-    background: rgba(243,239,232,.9);
-    border: 1px solid #525B3A;
-    border-radius: 24px;
-    box-shadow: 0 8px 24px rgba(0,0,0,.12);
+      width: min(92vw, 36rem);
+      display: grid;
+      gap: clamp(8px, 2.5vw, 14px);
+      padding: clamp(.75rem, 3vw, 1.25rem) clamp(1rem, 4vw, 1.5rem);
+      background: rgba(243, 239, 232, .9);
+      border: 1px solid #525B3A;
+      border-radius: 24px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, .12);
+      margin-inline: auto;
   }
 
   .recettes-header-content h1 {
@@ -78,13 +108,32 @@ img, video { max-width: 100%; height: auto; display: block; }
     font-weight: 500;
   }
 
+@media (hover: none), (pointer: coarse) {
+  .card,
+  .card * { transition: none !important; }
 
-
+  .card:hover,
+  .card:active { 
+    transform: none !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08) !important; 
+    border-color: rgba(50,47,46,.5) !important;
+  }
+    .card.is-active{
+    grid-column: auto;
+    order: 0;
+    max-width: none;
+    transform: none !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08) !important;
+    font-size: inherit;
+    padding: inherit;
+  }
+}
   .recipe-card,
   .note-card,
   .section {
     width: min(92vw, 36rem);
   }
+  
   
   .recettes-main {
   padding: 0 1rem 0;
@@ -92,8 +141,137 @@ img, video { max-width: 100%; height: auto; display: block; }
   z-index: 2; 
   margin-top: 1.5rem;
   color: #322F2E;                              
-  font-size: clamp(1rem, 0.95rem + 0.3vw, 1.125rem); /* ~16→18px */
+  font-size: clamp(1rem, 0.95rem + 0.3vw, 1.125rem); 
   line-height: 1.6;
+}
+
+@media (max-width:640px){
+
+  
+  .cards-grid{
+    grid-template-columns: 1fr !important;
+    gap: clamp(12px, 3.5vw, 20px);
+  }
+
+  .card{
+    width: min(92vw, 36rem);
+    margin-inline: auto;
+    padding: clamp(12px, 3.5vw, 18px);
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+    font-size: clamp(0.95rem, 0.8rem + 0.6vw, 1.05rem);
+    gap: clamp(8px, 2.5vw, 12px);
+  }
+
+  .card-head{ border-radius: 16px 16px 0 0; }
+  .card-img{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;       
+    object-fit: cover;
+  }
+
+  .card-title{
+    font-size: clamp(1rem, 0.85rem + 1vw, 1.1rem);
+    padding: .35rem .7rem;
+  }
+
+  .card-body h3{
+    font-size: clamp(1rem, 0.85rem + 0.8vw, 1.1rem);
+    margin: .5rem 0 .25rem;
+  }
+
+  .card-body p,
+  .card-list,
+  .card-list-ol{
+    font-size: clamp(0.95rem, 0.8rem + 0.6vw, 1.05rem);
+    line-height: 1.55;
+  }
+
+  .card > .card-foot{ margin-top: 1rem; }
+
+  
+  .note,
+  .note-card{
+    width: min(92vw, 36rem);
+    margin: 1rem auto 1.5rem;
+    padding: clamp(12px, 3.5vw, 18px);
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+    font-size: clamp(0.95rem, 0.82rem + 0.5vw, 1.05rem);
+    line-height: 1.6;
+  }
+  .note h3{ font-size: clamp(1.05rem, 0.9rem + 0.9vw, 1.2rem); }
+
+  
+  .recettes-article{
+    width: min(94vw, 38rem);
+    margin: 1.25rem auto 1.75rem;
+    padding: clamp(14px, 3.5vw, 20px);
+    border-radius: 18px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.08);
+  }
+  .recettes-article h2{
+    font-size: clamp(1.1rem, 0.95rem + 1vw, 1.35rem);
+    margin-bottom: .75rem;
+  }
+  .recettes-article h3{
+    font-size: clamp(1.2rem, 1rem + 1.2vw, 1.5rem);
+    margin-bottom: .75rem;
+  }
+  .recettes-article p{
+    font-size: clamp(0.98rem, 0.85rem + 0.7vw, 1.1rem);
+    line-height: 1.6;
+    margin-bottom: .9rem;
+  }
+
+  /* 5) Герой статьи */
+  .article-hero{
+    min-height: clamp(220px, 42vh, 420px);
+    border-radius: 16px;
+    padding: clamp(12px, 3.5vw, 18px);
+  }
+  .article-hero .hero-inner{
+    width: 90%;
+    padding: clamp(10px, 3vw, 14px);
+  }
+  .article-hero h2{
+    font-size: clamp(1.1rem, 0.95rem + 1vw, 1.4rem);
+  }
+  .lead-hero{
+    font-size: clamp(0.95rem, 0.82rem + 0.6vw, 1.05rem);
+    max-width: 36ch;
+  }
+  .card-list,
+.card-list-ol {
+  list-style-position: outside;  
+  font-size: clamp(0.95rem, 0.9rem + 0.4vw, 1.05rem); /* текст как в карточках */
+  line-height: 1.6;
+  color: #322F2E;
+  margin: 0 0 1rem;
+  padding-left: 1.25rem;
+}
+
+.card-list li,
+.card-list-ol li {
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+.card-list-ol {
+  list-style-type: decimal;   /* нумерация сохраняется */
+}
+
+.card-list {
+  list-style-type: disc;      /* если обычный маркер */
+}
+
+.card-list-ol li::marker,
+.card-list li::marker {
+  font-weight: 700;           /* более чёткая нумерация */
+  color: #525B3A;             /* цвет маркера под цвет темы */
+}
 }
 
   .note-card {
@@ -128,11 +306,8 @@ img, video { max-width: 100%; height: auto; display: block; }
     gap: .5rem;
     text-align: center;
   }
-}
-@media (max-width: 640px) {
-  .wrapper {
-    all: unset;      /* сбрасывает ВСЁ, что задано в desktop */
-    display: block;  /* делает обёртку обычным блочным контейнером */
-    width: 100%;     /* растягивает её на всю ширину экрана */
-  }
+ .wrapper {
+    all: unset;      
+    display: block;  
+    width: 100%; 
 }
