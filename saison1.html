@@ -4,30 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saison 1 | Les secrets de Craigh na Dun</title>
+    <title data-key="saison1-title">Saison 1 | Les secrets de Craigh na Dun</title>
      <meta name="author" content="Wilders : Kevin, Lea, Luna, Yuliana">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/saisons.css">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:800px)">
+    <link rel="stylesheet" href="css/mobile-saisons.css" media="screen and (max-width:800px)">
+    <script src="script/script.js"></script>
 </head>
 
 <body>
     <nav>
         <div class="logo">
-<<<<<<< HEAD
-            <img src="img/logo.png" alt="Logo Je Suis Pret">
-        </div>
-        <div class="audio"><audio src="media/outlander.mp3" controls>Votre navigateur ne supporte pas la balise audio.</audio></div>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-=======
             <a href="index.html"><img src="img/logo.png" alt="Logo Je Suis Pret"></a>
         </div>
         <div class="audio"><audio src="media/outlander.mp3" controls>Votre navigateur ne supporte pas la balise audio.</audio></div>
         <button class="burger" aria-label="Menu">&#9776;</button>
         <ul class="nav-links">
             <li><a href="index.html" data-key="accueil">Accueil</a></li>
->>>>>>> luna
             <li>
                 <a href="saison1.html" data-key="saisons">Saisons</a>
                 <ul>
@@ -49,27 +44,27 @@
     </nav>
     <main>
         <header>
-            <div class="header-text">
-                <h1>SAISON 1</h1>
-                <p class="header-para">En 1945, Claire Randall, infirmière de guerre tout juste revenue du front, part en Écosse avec son mari Frank pour célébrer leur mariage et lui permettre de rechercher ses ancêtres. Lors d’une promenade près d’un mystérieux cercle de pierres, Claire est soudainement projetée en 1743, en pleine Écosse des Highlands. Confrontée à un monde dangereux et instable, elle doit survivre, s’adapter… et faire des choix qui pourraient bouleverser son destin.</p>
+            <div class="header-text" >
+                <h1 data-key="saison1-header">SAISON 1</h1>
+                <p class="header-para" data-key="saison1-description">En 1945, Claire Randall, infirmière de guerre tout juste revenue du front, part en Écosse avec son mari Frank pour célébrer leur mariage et lui permettre de rechercher ses ancêtres. Lors d’une promenade près d’un mystérieux cercle de pierres, Claire est soudainement projetée en 1743, en pleine Écosse des Highlands. Confrontée à un monde dangereux et instable, elle doit survivre, s’adapter… et faire des choix qui pourraient bouleverser son destin.</p>
             </div>
         </header>
         <section>
-            <h2 class="recurrents">LES PERSONNAGES RECURRENTS</h2>
+            <h2 class="recurrents" data-key="saison1-personnages">LES PERSONNAGES RECURRENTS</h2>
             <div class="articles">
                 <article>
                 <div class="card-img-tlt">
                     <img src="Project1/Saison1/icon/Claire.jpg" alt="Claire Beauchamp saison 1">
-                    <div class="card-titles">
+                    <div class="card-titles" >
                         <h1>Claire<br> Beauchamp Randall</h1>
                         <h2 class="alias">"Sassenach"</h2>
-                        <h3 class="travel">Infirmière</h3>
+                        <h3 class="travel" data-key="saison1-claire">Infirmière</h3>
                     </div>
                 </div>    
-                    <p>En 1945, Claire est en voyage en Écosse avec son mari Frank lorsqu’un événement mystérieux la projette au 18e siècle. Propulsée dans une époque dangereuse et instable, elle doit survivre et s’adapter, tout en étant déchirée entre deux mondes et deux vies.</p>
+                    <p data-key="saison1-claire1">En 1945, Claire est en voyage en Écosse avec son mari Frank lorsqu’un événement mystérieux la projette au 18e siècle. Propulsée dans une époque dangereuse et instable, elle doit survivre et s’adapter, tout en étant déchirée entre deux mondes et deux vies.</p>
                 <aside>
-                        <h4>Moments clés :</h4>
-                        <ul>
+                        <h4 data-key="saison1-claire2">Moments clés :</h4>
+                        <ul data-key="saison1-claire3">
                             <li>Le passage à travers les pierres de Craigh na Dun</li>
                             <li>La rencontre avec le clan Mackenzie</li>
                             <li>Le mariage arrangé</li>
@@ -85,10 +80,10 @@
                         <h3 class="past">Highlander</h3>
                     </div>
                 </div>
-                    <p>Jamie Fraser, un jeune Highlander écossais, se retrouve mêlé à des conflits politiques, des rivalités familiales et des enjeux de loyauté. Courageux et marqué par un passé difficile, il voit sa vie bouleversée par une rencontre inattendue qui changera son destin.</p>
+                    <p data-key="saison1-jamie">Jamie Fraser, un jeune Highlander écossais, se retrouve mêlé à des conflits politiques, des rivalités familiales et des enjeux de loyauté. Courageux et marqué par un passé difficile, il voit sa vie bouleversée par une rencontre inattendue qui changera son destin.</p>
                 <aside>
-                        <h4>Moments clés :</h4>
-                        <ul>
+                        <h4 data-key="saison1-jamie2">Moments clés :</h4>
+                        <ul data-key="saison1-jamie3">
                             <li>Rencontre avec Claire</li>
                             <li>Conflits avec les anglais</li>
                             <li>Captivités et épreuves</li>
@@ -100,13 +95,13 @@
                     <img src="Project1/Saison1/icon/Franck.jpg" alt="Franck Randall saison 1">
                     <div class="card-titles">
                         <h1>Franck<br> Randall</h1>
-                        <h2 class="present">Historien - 1945</h2>
+                        <h2 class="present" data-key="saison1-frank">Historien - 1945</h2>
                     </div>
                 </div>
-                    <p>Frank Randall, mari de Claire, part en Écosse en 1945 pour retracer l’histoire de ses ancêtres. Lorsque Claire disparaît mystérieusement, il se lance désespérément à sa recherche, confronté à une énigme qui défie toute logique.</p>
+                    <p data-key="saison1-frank1">Frank Randall, mari de Claire, part en Écosse en 1945 pour retracer l’histoire de ses ancêtres. Lorsque Claire disparaît mystérieusement, il se lance désespérément à sa recherche, confronté à une énigme qui défie toute logique.</p>
                 <aside>
-                        <h4>Moments clés :</h4>
-                        <ul>
+                        <h4 data-key="saison1-frank2">Moments clés :</h4>
+                        <ul data-key="saison1-frank3">
                             <li>Recherche historique sur ses ancêtres</li>
                             <li>La disparition de Claire</li>
                             <li>Enquête et recherche intensives</li>
@@ -119,13 +114,13 @@
                     <div class="card-titles">
                         <h1>Jonathan<br> Randall</h1>
                         <h2 class="alias">"Black Jack Randall"</h2>
-                        <h3 class="past">Soldat britannique</h3>
+                        <h3 class="past" data-key="saison1-jonhRandall">Soldat britannique</h3>
                     </div>
                 </div>
-                    <p>Jonathan "Black Jack" Randall, officier britannique du 18e siècle et ancêtre de Frank, joue un rôle central dans les tensions entre les Anglais et les Écossais. Froid et impitoyable, il incarne une menace constante pour ceux qui croisent son chemin, mêlant pouvoir, cruauté et obsession.</p>
+                    <p data-key="saison1-jonhRandall1">Jonathan "Black Jack" Randall, officier britannique du 18e siècle et ancêtre de Frank, joue un rôle central dans les tensions entre les Anglais et les Écossais. Froid et impitoyable, il incarne une menace constante pour ceux qui croisent son chemin, mêlant pouvoir, cruauté et obsession.</p>
                 <aside>
-                        <h4>Moments clés :</h4>
-                        <ul>
+                        <h4 data-key="saison1-jonhRandall2">Moments clés :</h4>
+                        <ul data-key="saison1-jonhRandall3">
                             <li>Lien avec le passé familial de Franck</li>
                             <li>Conflit avec Jamie</li>
                             <li>Manipulations psychologiques</li>
@@ -140,10 +135,10 @@
                         <h2 class="past">Highlander</h2>
                     </div>
                 </div>
-                    <p>Murtagh Fitzgibbons Fraser, homme loyal et taciturne, veille discrètement sur Jamie. Fidèle allié, il accompagne les protagonistes à travers les dangers des Highlands, offrant protection, conseils et soutien dans l’ombre, toujours guidé par un profond sens de l’honneur.</p>
+                    <p data-key="saison1-Murtagh">Murtagh Fitzgibbons Fraser, homme loyal et taciturne, veille discrètement sur Jamie. Fidèle allié, il accompagne les protagonistes à travers les dangers des Highlands, offrant protection, conseils et soutien dans l’ombre, toujours guidé par un profond sens de l’honneur.</p>
                 <aside>
-                        <h4>Moments clés :</h4>
-                        <ul>
+                        <h4 data-key="saison1-Murtagh2">Moments clés :</h4>
+                        <ul data-key="saison1-Murtagh3">
                             <li>Lien avec Jamie</li>
                             <li>Conflits et combats</li>
                             <li>Défis personnels</li>
@@ -158,10 +153,10 @@
                         <h2 class="past">Highlander</h2>
                     </div>
                 </div>
-                    <p>Dougal MacKenzie, chef de guerre respecté du clan MacKenzie, joue un rôle clé dans les intrigues politiques et familiales des Highlands. Stratège ambitieux et homme de tradition, il navigue entre loyauté envers son clan et les tensions grandissantes face aux autorités britanniques.</p>
+                    <p data-key="saison1-dougal1">Dougal MacKenzie, chef de guerre respecté du clan MacKenzie, joue un rôle clé dans les intrigues politiques et familiales des Highlands. Stratège ambitieux et homme de tradition, il navigue entre loyauté envers son clan et les tensions grandissantes face aux autorités britanniques.</p>
                 <aside>
-                        <h4>Moments clés :</h4>
-                        <ul>
+                        <h4 data-key="saison1-dougal2">Moments clés :</h4>
+                        <ul data-key="saison1-dougal3">
                             <li>Conflits avec les britanniques</li>
                             <li>Tensions familiales</li>
                             <li>Stratégies politiques et alliances</li>
@@ -173,13 +168,13 @@
                     <img src="Project1/Saison1/icon/Geilis.jpg" alt="Geilis Duncan saison 1">
                     <div class="card-titles">
                         <h1>Geilis<br> Duncan</h1>
-                        <h2 class="travel">Herboriste</h2>
+                        <h2 class="travel" data-key="saison1-geilis">Herboriste</h2>
                     </div>
                 </div>
-                    <p>Geillis Duncan est une femme énigmatique et ambitieuse qui intrigue par son comportement mystérieux et ses connaissances inhabituelles. Son parcours croise celui de Claire, révélant peu à peu des secrets et des tensions au cœur de la communauté écossaise du XVIIIe siècle.</p>
+                    <p data-key="saison1-geilis1">Geillis Duncan est une femme énigmatique et ambitieuse qui intrigue par son comportement mystérieux et ses connaissances inhabituelles. Son parcours croise celui de Claire, révélant peu à peu des secrets et des tensions au cœur de la communauté écossaise du XVIIIe siècle.</p>
                 <aside>
-                        <h4>Moments clés :</h4>
-                        <ul>
+                        <h4 data-key="momentsClefs">Moments clés :</h4>
+                        <ul data-key="saison1-geilis3">
                             <li>Lien avec la sorcellerie</li>
                             <li>Relation avec Dougal</li>
                             <li>Révélations sur son passé</li>
@@ -194,10 +189,10 @@
                         <h2 class="past">Laird</h2>
                     </div>
                 </div>
-                    <p>Colum MacKenzie, chef du clan MacKenzie et frère de Dougal, est un leader fragile mais déterminé. Malgré sa santé déclinante, il exerce une influence importante sur son clan et fait face aux défis politiques et personnels qui menacent son autorité.</p>
+                    <p data-key="saison1-colum">Colum MacKenzie, chef du clan MacKenzie et frère de Dougal, est un leader fragile mais déterminé. Malgré sa santé déclinante, il exerce une influence importante sur son clan et fait face aux défis politiques et personnels qui menacent son autorité.</p>
                 <aside>
-                        <h4>Moments clés :</h4>
-                        <ul>
+                        <h4 data-key="momentsClefs">Moments clés :</h4>
+                        <ul data-key="saison1-colum2">
                             <li>Rencontre avec Claire</li>
                             <li>Gestion des tensions avec les anglais</li>
                             <li>Conflit avec Dougal</li>
