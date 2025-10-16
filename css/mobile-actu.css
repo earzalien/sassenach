@@ -1,0 +1,25 @@
+
+/* Styles pour la page Actualités */
+
+header{
+    text-align: center;
+    align-items: center;
+    background-position: center;
+}
+header h1{
+   
+    font-size:  1.8em;
+    position: static;
+    margin-top: 20%;
+     
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2%;
+    
+    justify-items: center;
+    padding-bottom: 70%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
