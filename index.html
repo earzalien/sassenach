@@ -1,76 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les secrets de Craigh Na Dun</title>
+    <title data-key="site-title">Les secrets de Craigh Na Dun</title>
     <meta name="author" content="Wilders : Kevin, Lea, Luna, Yuliana">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:400px)">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:800px)">
+    <link rel="stylesheet" href="css/mobileindex.css" media="screen and (max-width:800px)">
     <script src="script/script.js"></script>
+    
+   
 </head>
 
 <body>
     <nav>
         <div class="logo">
-            <img src="img/logo.png" alt="Logo Je Suis Pret">
+            <a href="index.html"><img src="img/logo.png" alt="Logo Je Suis Pret"></a>
         </div>
         <div class="audio"><audio src="media/outlander.mp3" controls>Votre navigateur ne supporte pas la balise audio.</audio></div>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
+        <button class="burger" aria-label="Menu">&#9776;</button>
+        <ul class="nav-links">
+            <li><a href="index.html" data-key="accueil">Accueil</a></li>
             <li>
-                <a href="#0">Saisons</a>
-                <ul>
+                <a href="saison1.html" data-key="saisons">Saisons</a>
+                <!--<ul>
                     <li><a href="saison1.html">Saison 1</a></li>
                     <li><a href="saison2.html">Saison 2</a></li>
                     <li><a href="saison3.html">Saison 3</a></li>
-                </ul>
+                </ul>-->
             </li>
             <li>
-                <a href="recettes.html">Recettes de Claire</a>
-                <ul>
-                    <li><a href="recettes.html#1truc">blabla</a></li>
-                    <li><a href="recettes.html#1autretruc">blabla2</a></li>
-                    <li><a href="recettes.html#encore1truc">blabla3</a></li>
-                </ul>
+                <a href="recettes.html" data-key="recettes-de-claire">Recettes de Claire</a>
             </li>
-            <li><a href="actu.html">Actus</a></li>
+            <li><a href="actualites.html" data-key="actus">Actus</a></li>
         </ul>
+        <div id="language-selector">
+            <button class="flag" data-lang="fr"><img src="img/fr.png" height="40px" alt="🇫🇷 Drapeau France" /></button>
+            <button class="flag" data-lang="es"><img src="img/es.png" height="40px" alt="🇪🇸 Bandera de España" /></button>
+            <button class="flag" data-lang="en"><img src="img/uk.png" height="40px" alt="🇬🇧 English flag" /></button>
+				</div>
     </nav>
     <header>
         <div class="header-content">
-            <h1 class="header-title">Outlander<br>Les secrets de Craigh Na Dun</h1>
+            <h1 class="header-title" data-key="header-title-index">Outlander<br>Les secrets de Craigh Na Dun</h1>
         </div>
     </header>
     <main>
         <section id="navigation">
             <article>
                 <img src="img/livreclaire.png" alt="livre de recettes de Claire">
-                <h2>Les recettes médicinales</h2>
-                <p>Explorez les remèdes traditionnels et connaissances botaniques de Claire Fraser</p>
-                <a href="#">Découvrir →</a>
+                <h2 data-key="recette-medicinales">Les recettes médicinales</h2>
+                <p data-key="recette-description">Explorez les remèdes traditionnels et connaissances botaniques de Claire Fraser</p>
+                <a href="recettes.html" data-key="decouvrir">Découvrir →</a>
             </article>
             <article>
-                <img src="img/guide-des-saisons.jpg" alt="">
-                <h2>Guides des saisons</h2>
-                <p>Plongez dans chaque saison avec des analyses détaillées de chaque personnage</p>
-                <a href="#">Explorer →</a>
+                <img src="img/guide-des-saisons.jpg" alt="Guide des saisons">
+                <h2 data-key="guide">Guides des saisons</h2>
+                <p data-key="guide-description">Plongez dans chaque saison avec des analyses détaillées de chaque personnage</p>
+                <a href="saison1.html" data-key="explorer">Explorer →</a>
             </article>
             <article>
-                <img src="img/bannerActus.jpg" alt="">
-                <h2>Actus</h2>
-                <p>Retrouvez les articles de presse de différents médias regrouper en un seul endroit</p>
-                <a href="#">Parcourir →</a>
+            <img src="img/bannerActus.jpg" alt="Actus">
+                <h2 data-key="actus">Actus</h2>
+                <p data-key="actu-description">Retrouvez les articles de presse de différents médias regrouper en un seul endroit</p>
+                <a href="actu.html" data-key="parcourir">Parcourir →</a>
             </article>
 
         </section>
         <hr>
         <section id="about">
-            <h1>À propos d'Outlander</h1>
-            <p>Outlander suit l'histoire de Claire Randall, une infirmière de la Seconde Guerre mondiale qui se retrouve
+            <h1 data-key="about">À propos d'Outlander</h1>
+            <p data-key="about-content">Outlander suit l'histoire de Claire Randall, une infirmière de la Seconde Guerre mondiale qui se retrouve
                 mystérieusement transportée en 1743 dans les Highlands écossaises. Déchirée entre deux époques et deux
                 hommes, elle doit naviguer dans un monde de guerre de clans, d'intrigues politiques et de passion
                 dévorante.<br>
@@ -81,33 +85,71 @@
             </p>
         </section>
         <hr>
-        <section id="fansite">
-            <h1>L'équipe du Fansite</h1>
-            <article>
-                <img src="img/micka.png" alt="Mickael" />
-                <p>Enseignant de dev web, j'adore tellement Outlander que j'ai demandé a mes élèves d'en faire un site
+        <section id="lefansite">
+            <h1 data-key="team">L'équipe du Fansite</h1>
+            <div id="fansite"><article><div class="lesfans">
+                <img src="img/micka.png" alt="Mickael" /><p>Mickael</p></div>
+                <p data-key="Mickael">Enseignant de dev web, j'adore tellement Outlander que j'ai demandé a mes élèves d'en faire un site
                 </p>
             </article>
             <article>
-                <img src="img/simon.png" alt="Simon" />
-                <p>Assistant teacher, en adoration pour Mickael j'aime tout ce qu'il aime telle que cette série
+                <div class="lesfans"><img src="img/simon3.png" alt="Simon" /><p>Simon</p></div>
+                <p data-key="Simon">Assistant teacher, en adoration pour Mickael j'aime tout ce qu'il aime telle que cette série
                     incroyable</p>
-            </article>
-            <div id="modal">
-                <div class="mask"></div>
-                <div class="container auto">
-                    <div class="message">test</div>
-                    <a href="#" class="close">&times;</a>
-                </div>
-            </div>
-            <a id="ouvrir-popup" href="#">La bromance</a>
+            </article></div>
+<!-- Trigger/Open The Modal -->
+<button id="myBtn" data-key="bromance">La bromance</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div id="bromance">
+        <img src="img/micka2.png" alt="Micka le bel"/>
+        <p data-key="Mickael2">Mickael le bel<br><br><br>Mais où est donc sa main ?<br><br>Que fait-il en regardant Simon ?</p>
+        <img src="img/ssimon.png" alt="Simon le beau"/>
+        <p data-key="Simon2">Simon le beau<br><br><br>Avec son regard pensif envers Mickael et derrière sa moustache légendaire se cache...</p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
         </section>
     </main>
     <footer>
-        <span>&copy; 2025 Les secrets de Craigh Na Dun</span>
-        <script src="https://elfsightcdn.com/platform.js" async></script>
-        <div class="elfsight-app-6020251a-dd5d-4f04-9ecf-11108e63b054" data-elfsight-app-lazy></div>
-        <a href="mailto:fandeoutlander@gmail.com">Écrivez-nous à<br>fandeoutlander@gmail.com</a>
+        <span data-key="footer-copyright">&copy; 2025 Les secrets de Craigh Na Dun</span>
+        <!-- <script src="https://elfsightcdn.com/platform.js" async></script>
+<div class="elfsight-app-a403f3f5-c486-4871-88dd-28dd5fdb93ca" data-elfsight-app-lazy></div>  -->
+        <a href="mailto:fandeoutlander@gmail.com" data-key="contact">Écrivez-nous à<br>fandeoutlander@gmail.com</a>
     </footer>
 </body>
 
