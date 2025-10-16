@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les Recettes Médicinales de Claire</title>
+    <title data-key="recette-title">Les Recettes Médicinales de Claire</title>
     <meta name="author" content="Wilders : Kevin, Lea, Luna, Yuliana">
     <link rel="stylesheet" href="css/reset.css">
      <link rel="stylesheet" href="css/variables.css">
@@ -21,7 +21,7 @@
         </div>
         <div class="audio"><audio src="media/outlander.mp3" controls>Votre navigateur ne supporte pas la balise audio.</audio></div>
         <ul>
-            <li><a href="index.html">Accueil</a></li>
+            <li><a href="index.html" data-key="accueil">Accueil</a></li>
             <li>
                 <a href="#0">Saisons</a>
                 <ul>
@@ -43,22 +43,22 @@
     </nav>
    <header class="recettes-header">
                 <div class="recettes-header-content">
-                 <h1 class="gradient-title"> Les Recettes Médicinales de Claire </h1>
-                 <p class="lead"> Découvrez les remèdes traditionnels et connaissances botaniques utilisés 
+                 <h1 class="gradient-title" data-key="recette-title"> Les Recettes Médicinales de Claire </h1>
+                 <p class="lead" data-key="recette-description2"> Découvrez les remèdes traditionnels et connaissances botaniques utilisés 
                   dans les Highlands du 18ᵉ siècle. </p>
                 
-                 <p> Saviez-vous qu’en Écosse, l’herboristerie suivait des règles très précises? <br>
+                 <p data-key="recette-description3"> Saviez-vous qu’en Écosse, l’herboristerie suivait des règles très précises? <br>
 
 Par exemple, on <strong>récoltait les racines au printemps</strong>, avant la montée de la sève. 
 Les fleurs, elles, se cueillaient <strong>tôt le matin, après la rosée</strong>, quand elles étaient 
 les plus puissantes. </p>
 <div class="more-text" id="more-text">
-<p>
+<p data-key="recette-description4">
 Les recettes présentées sur cette page ont traversé les siècles. Soigneusement rassemblées 
 par notre équipe, elles offrent un voyage entre histoire, botanique et art de guérir.
 </p> 
 </div>
-<button class="toggle-btn" id="toggle-btn">Afficher plus</button>
+<button class="toggle-btn" id="toggle-btn" data-key="afficherplus">Afficher plus</button>
         </div>    
    </header>
     <main id="content" class="recettes-main" aria-label="Recettes médicinales">
@@ -67,168 +67,167 @@ par notre équipe, elles offrent un voyage entre histoire, botanique et art de g
     <article class="card">
         <header class="card-head">  
         <img src="img/card-camomille.jpg" alt="Camomille" class="card-img">
-        <h3 class="card-title">Infusion de Camomille</h3>
+        <h3 class="card-title"data-key="infusiondecamomille">Infusion de Camomille</h3>
         <button class="card-close" type="button" aria-label="Fermer">×</button>
       </header>
       <div class="card-body">
-        <h4>Ingrédients:</h4>
+        <h4 data-key="infusiondecamomille2">Ingrédients:</h4>
         <ul class="card-list">
-          <li>2 cuillères à soupe de fleurs de camomille séchées</li>
-           <li> 250 ml d'eau bouillante </li>
-           <li>Miel (optionnel)</li>
+          <li data-key="infusiondecamomille3">2 cuillères à soupe de fleurs de camomille séchées</li>
+           <li data-key="infusiondecamomille4"> 250 ml d'eau bouillante </li>
+           <li data-key="infusiondecamomille5">Miel (optionnel)</li>
         </ul>
-          <button class="card-toggle" type="button" aria-expanded="false">Afficher plus</button>
-        <h4>Préparation:</h4>
+          <button class="card-toggle" type="button" aria-expanded="false" data-key="afficherplus">Afficher plus</button>
+        <h4 data-key="infusiondecamomille6">Préparation:</h4>
         <ol class="card-list card-list-ol">
-          <li>Verser l'eau bouillante sur les fleurs de camomille</li>
-          <li>Laisser infuser pendant 5 à 10 minutes</li>
-          <li>Filtrer et ajouter du miel si désiré</li>
-          <li>Boire tiède</li>
+          <li data-key="infusiondecamomille7">Verser l'eau bouillante sur les fleurs de camomille</li>
+          <li data-key="infusiondecamomille8">Laisser infuser pendant 5 à 10 minutes</li>
+          <li data-key="infusiondecamomille9">Filtrer et ajouter du miel si désiré</li>
+          <li data-key="infusiondecamomille10">Boire tiède</li>
         </ol>
-        <p>1 à 2 tasses par jour, de préférence le soir avant le coucher</p>
+        <p data-key="infusiondecamomille11">1 à 2 tasses par jour, de préférence le soir avant le coucher</p>
       </div>
       <footer class="card-foot">
-        <button class="btn btn-tag">Apaisant</button>
+        <button class="btn btn-tag" data-key="apaisant">Apaisant</button>
       </footer>
     </article>
 
     <article class="card">
       <header class="card-head">
         <img src="img/card-lavande.jpg" alt="lavande" class="card-img">
-        <h3 class="card-title">Huile de Lavande</h3>
+        <h3 class="card-title" data-key="huile-de-lavande">Huile de Lavande</h3>
        <button class="card-close" type="button" aria-label="Fermer">×</button>
       </header>
       <div class="card-body">
-        
-         <h4>Ingrédients:</h4>
+
+         <h4 data-key="huile-de-lavande2">Ingrédients:</h4>
         <ul class="card-list">
-          <li>100 g de fleurs de lavande séchées</li>
-           <li> 250 ml d'huile d'olive ou d'amande douce </li>
-           <li>Bocal en verre</li>         
+          <li data-key="huile-de-lavande3">100 g de fleurs de lavande séchées</li>
+           <li data-key="huile-de-lavande4"> 250 ml d'huile d'olive ou d'amande douce </li>
+           <li data-key="huile-de-lavande5">Bocal en verre</li>         
         </ul> 
           <button class="card-toggle" type="button" aria-expanded="false">Afficher plus</button>
-        <h4>Préparation:</h4>
+        <h4 data-key="huile-de-lavande6">Préparation:</h4>
         <ol class="card-list card-list-ol">
-          <li>Placer les fleurs de lavande dans le bocal</li>
-          <li>Couvrir complètement avec l'huile</li>
-          <li>Fermer et laisser macérer au soleil pendant 2 semaines</li>
-          <li>Agiter doucement chaque jour</li>
-          <li>Filtrer et conserver dans un flacon ambré</li>
+          <li data-key="huile-de-lavande7">Placer les fleurs de lavande dans le bocal</li>
+          <li data-key="huile-de-lavande8">Couvrir complètement avec l'huile</li>
+          <li data-key="huile-de-lavande9">Fermer et laisser macérer au soleil pendant 2 semaines</li>
+          <li data-key="huile-de-lavande10">Agiter doucement chaque jour</li>
+          <li data-key="huile-de-lavande11">Filtrer et conserver dans un flacon ambré</li>
         </ol> 
-        <p>Quelques gouttes en massage sur les tempes ou poignets, 2 à 3 fois par jour</p>
+        <p data-key="huile-de-lavande12">Quelques gouttes en massage sur les tempes ou poignets, 2 à 3 fois par jour</p>
       </div>
-      <footer class="card-foot"><button class="btn btn-tag">Relaxant</button></footer>
+      <footer class="card-foot"><button class="btn btn-tag" data-key="huile-de-lavande12">Relaxant</button></footer>
     </article>
 
     <article class="card">
       <header class="card-head">
         <img src="img/card-valeriane.jpg" alt="Valériane" class="card-img">
-        <h3 class="card-title">Teinture de Valériane</h3>
+        <h3 class="card-title" data-key="teinture-de-valeriane">Teinture de Valériane</h3>
         <button class="card-close" type="button" aria-label="Fermer">×</button>
       </header>
       <div class="card-body">
-        
-         <h4>Ingrédients:</h4>
-        <ul class="card-list">
+           <h4 data-key="teinture-de-valeriane1">Ingrédients:</h4>
+        <ul class="card-list" data-key="teinture-de-valeriane2">
           <li>50 g de racine de valériane séchée</li>
            <li> 250 ml d'alcool à 40-50% </li>
            <li>Bocal en verre hermétique</li>         
         </ul> 
-          <button class="card-toggle" type="button" aria-expanded="false">Afficher plus</button>
-        <h4>Préparation:</h4>
-        <ol class="card-list card-list-ol">
+          <button class="card-toggle" type="button" aria-expanded="false" data-key="afficherplus">Afficher plus</button>
+        <h4 data-key="teinture-de-valeriane3">Préparation:</h4>
+        <ol class="card-list card-list-ol" data-key="teinture-de-valeriane4">
           <li>Placer la racine de valériane dans le bocal</li>
           <li>Couvrir entièrement avec l'alcool</li>
           <li>Fermer hermétiquement et laisser macérer 4 semaines dans un endroit sombre</li>
           <li>Agiter quotidiennement</li>
           <li>Filtrer et conserver dans un flacon ambré</li>
         </ol> 
-        <p>15 à 30 gouttes dans un peu d'eau, 30 minutes avant le coucher </p>
+        <p data-key="teinture-de-valeriane5">15 à 30 gouttes dans un peu d'eau, 30 minutes avant le coucher </p>
 
       </div>
-      <footer class="card-foot"><button class="btn btn-tag">Sédatif</button></footer>
+      <footer class="card-foot"><button class="btn btn-tag" data-key="teinture-de-valeriane6">Sédatif</button></footer>
     </article>
 
     <article class="card">
       <header class="card-head">
         <img src="img/card-saule.jpg" alt="écorce de Saule" class="card-img">
-        <h3 class="card-title">Décoction d’écorce de Saule</h3>
+        <h3 class="card-title" data-key="decoction-ecorce-saule">Décoction d’écorce de Saule</h3>
         <button class="card-close" type="button" aria-label="Fermer">×</button>
       </header>
       <div class="card-body">
         
-         <h4>Ingrédients:</h4>
-        <ul class="card-list">
+         <h4 data-key="decoction-ecorce-saule1">Ingrédients:</h4>
+        <ul class="card-list" data-key="decoction-ecorce-saule2">
            <li>1 cuillère à soupe d'écorce de saule séchée</li>
            <li> 300 ml d'eau froide</li>                
         </ul> 
-          <button class="card-toggle" type="button" aria-expanded="false">Afficher plus</button>
-        <h4>Préparation:</h4>
-        <ol class="card-list card-list-ol">
+          <button class="card-toggle" type="button" aria-expanded="false" data-key="afficherplus">Afficher plus</button>
+        <h4 data-key="decoction-ecorce-saule3">Préparation:</h4>
+        <ol class="card-list card-list-ol" data-key="decoction-ecorce-saule4">
           <li>Placer l'écorce dans l'eau froide</li>
           <li>Porter à ébullition</li>
           <li>Réduire le feu et laisser mijoter 15 minutes</li>
           <li>Filtrer et laisser refroidir légèrement</li>
         </ol> 
-        <p>1 tasse, 2 à 3 fois par jour, après les repas</p>
+        <p data-key="decoction-ecorce-saule5">1 tasse, 2 à 3 fois par jour, après les repas</p>
       </div>
-      <footer class="card-foot"><button class="btn btn-tag">Antalgique</button>
+      <footer class="card-foot"><button class="btn btn-tag" data-key="decoction-ecorce-saule6">Antalgique</button>
       </footer>
     </article>
 
     <article class="card">
       <header class="card-head">
         <img src="img/card-consoude.jpg" alt="Consoude" class="card-img">
-        <h3 class="card-title">Cataplasme de Consoude</h3>
+        <h3 class="card-title" data-key="cataplasme-consoude">Cataplasme de Consoude</h3>
         <button class="card-close" type="button" aria-label="Fermer">×</button>
       </header>
       <div class="card-body">
-           <h4>Ingrédients:</h4>
-        <ul class="card-list">
+           <h4 data-key="cataplasme-consoude1">Ingrédients:</h4>
+        <ul class="card-list" data-key="cataplasme-consoude2">
            <li>Feuilles fraîches de consoude</li>
            <li>Eau chaude</li>     
            <li>Tissu de lin ou coton</li>           
         </ul> 
-          <button class="card-toggle" type="button" aria-expanded="false">Afficher plus</button>
-        <h4>Préparation:</h4>
-        <ol class="card-list card-list-ol">
+          <button class="card-toggle" type="button" aria-expanded="false" data-key="afficherplus">Afficher plus</button>
+        <h4 data-key="cataplasme-consoude3">Préparation:</h4>
+        <ol class="card-list card-list-ol" data-key="cataplasme-consoude4">
           <li>Hacher finement les feuilles de consoude</li>
           <li>Mélanger avec un peu d'eau chaude pour former une pâte</li>
           <li>Étaler la pâte sur le tissu</li>
           <li>Appliquer directement sur la zone douloureuse</li>
           <li>Maintenir en place avec un bandage pendant 2 heures</li>
         </ol> 
-        <p>Appliquer 2 fois par jour sur la zone affectée, maximum 10 jours consécutifs</p>
+        <p data-key="cataplasme-consoude5">Appliquer 2 fois par jour sur la zone affectée, maximum 10 jours consécutifs</p>
 
       </div>
-      <footer class="card-foot"><button class="btn btn-tag">Cicatrisant</button></footer>
+      <footer class="card-foot"><button class="btn btn-tag" data-key="cataplasme-consoude6">Cicatrisant</button></footer>
     </article>
 
     <article class="card">
       <header class="card-head">
         <img src="img/card-achilee.jpg" alt="Achillée millefeuille" class="card-img">
-        <h3 class="card-title">Baume à l’Achillée</h3>
+        <h3 class="card-title" data-key="baume-achillee">Baume à l’Achillée</h3>
         <button class="card-close" type="button" aria-label="Fermer">×</button>
       </header>
       <div class="card-body">
-        <h4>Ingrédients:</h4>
-        <ul class="card-list">
+        <h4 data-key="baume-achillee1">Ingrédients:</h4>
+        <ul class="card-list" data-key="baume-achillee2">
            <li>30 g de feuilles d'achillée séchées</li>
            <li>200 ml d'huile d'olive</li>     
            <li>30 g de cire d'abeille</li>           
         </ul> 
-          <button class="card-toggle" type="button" aria-expanded="false">Afficher plus</button>
-        <h4>Préparation:</h4>
-        <ol class="card-list card-list-ol">
+          <button class="card-toggle" type="button" aria-expanded="false" data-key="afficherplus">Afficher plus</button>
+        <h4 data-key="baume-achillee3">Préparation:</h4>
+        <ol class="card-list card-list-ol" data-key="baume-achillee4">
           <li>Faire macérer l'achillée dans l'huile au bain-marie pendant 2 heures à feu doux</li>
           <li>Filtrer l'huile infusée</li>
           <li>Faire fondre la cire d'abeille dans l'huile filtrée</li>
           <li>Verser dans de petits pots et laisser refroidir</li>
         </ol> 
-        <p>Appliquer une fine couche sur la plaie nettoyée, 2 à 3 fois par jour</p>
+        <p data-key="baume-achillee5">Appliquer une fine couche sur la plaie nettoyée, 2 à 3 fois par jour</p>
 
       </div>
-      <footer class="card-foot"><button class="btn btn-tag">Antiseptique</button></footer>
+      <footer class="card-foot"><button class="btn btn-tag" data-key="baume-achillee6">Antiseptique</button></footer>
     </article>
   </section>
   
@@ -236,7 +235,7 @@ par notre équipe, elles offrent un voyage entre histoire, botanique et art de g
   
   <section>
     <div class="note">
-      <h3>Note Importante</h3>
+      <h3 data-key="recette-note-importante">Note Importante</h3>
       <p>
         Ces recettes sont présentées à titre historique et éducatif, 
         inspirées des pratiques médicales du 18ème siècle décrites dans la série Outlander.
@@ -244,7 +243,7 @@ par notre équipe, elles offrent un voyage entre histoire, botanique et art de g
 Elles ne doivent en aucun cas remplacer un avis médical professionnel moderne. 
 Consultez toujours un médecin ou un professionnel de santé qualifié avant d'utiliser des remèdes 
 à base de plantes.
-   <br>
+   <br data-key="recette-note-importante2">
 Certaines plantes peuvent interagir avec des médicaments ou provoquer des 
 réactions allergiques. Ne jamais s'auto-médicamenter sans supervision médicale.
       </p>
@@ -409,10 +408,10 @@ document.querySelectorAll('.card').forEach(c => c.classList.add('is-collapsed'))
 </div>
 </body>
 <footer class="site-footer">
-        <span>&copy; 2025 Les secrets de Craigh Na Dun</span>
+        <span data-key="footer-copyright">&copy; 2025 Les secrets de Craigh Na Dun</span>
         <script src="https://elfsightcdn.com/platform.js" async></script>
         <div class="elfsight-app-6020251a-dd5d-4f04-9ecf-11108e63b054" data-elfsight-app-lazy></div>
-        <a href="mailto:fandeoutlander@gmail.com">Écrivez-nous à<br>fandeoutlander@gmail.com</a>
+        <a href="mailto:fandeoutlander@gmail.com" data-key="contact">Écrivez-nous à<br>fandeoutlander@gmail.com</a>
     </footer>
 </html>
 
