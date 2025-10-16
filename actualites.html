@@ -4,86 +4,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les secrets de Craigh Na Dun</title>
+    <title data-key="site-title-actus">Actualités |Les secrets de Craigh Na Dun</title>
     <meta name="author" content="Wilders : Kevin, Lea, Luna, Yuliana">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:400px)">
     <link rel="stylesheet" href="css/variables.css">
     <link rel= "stylesheet" href="css/actualites.css">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:800px)">
+    <link rel="stylesheet" href="css/mobile-actu.css" media="screen and (max-width:800px)">
+    <script src="script/script.js"></script>
+
 </head>
 
 <body>
-    <nav>
+   <nav>
         <div class="logo">
-            <img src="img/logo.png" alt="Logo Je Suis Pret">
+            <a href="index.html"><img src="img/logo.png" alt="Logo Je Suis Pret"></a>
         </div>
         <div class="audio"><audio src="media/outlander.mp3" controls>Votre navigateur ne supporte pas la balise audio.</audio></div>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
+        <button class="burger" aria-label="Menu">&#9776;</button>
+        <ul class="nav-links">
+            <li><a href="index.html" data-key="accueil">Accueil</a></li>
             <li>
-                <a href="#0">Saisons</a>
-                <ul>
+                <a href="saison1.html" data-key="saisons">Saisons</a>
+                <!--<ul>
                     <li><a href="saison1.html">Saison 1</a></li>
                     <li><a href="saison2.html">Saison 2</a></li>
                     <li><a href="saison3.html">Saison 3</a></li>
-                </ul>
+                </ul>-->
             </li>
             <li>
-                <a href="#0">Recettes de Claire</a>
-                <ul>
-                    <li><a href="#0">blabla</a></li>
-                    <li><a href="#0">blabla2</a></li>
-                    <li><a href="#0">blabla3</a></li>
-                </ul>
+                <a href="recettes.html" data-key="recettes-de-claire">Recettes de Claire</a>
             </li>
-            <li><a href="actualites.html">Actus</a></li>
+            <li><a href="actualites.html" data-key="actus">Actus</a></li>
         </ul>
+        <div id="language-selector">
+            <button class="flag" data-lang="fr"><img src="img/fr.png" height="40px" alt="🇫🇷 Drapeau France" /></button>
+            <button class="flag" data-lang="es"><img src="img/es.png" height="40px" alt="🇪🇸 Bandera de España" /></button>
+            <button class="flag" data-lang="en"><img src="img/uk.png" height="40px" alt="🇬🇧 English flag" /></button>
+                </div>
     </nav>
     <header>
         
-            <h1 class=>Actualités sur Outlander</h1>
+            <h1 data-key="h1headeractu">Actualités sur Outlander</h1>
         
     </header>
     <main>
-        <h1>Toutes les dernières actualités sur la série</h1>
+        <h1 data-key="h1mainactu">Toutes les dernières actualités sur la série</h1>
         <section class="Actualités">
             <article class="actu">
                 <a href="https://ew.com/outlander-blood-of-my-blood-early-season-2-renewal-11758666?utm_source=chatgpt.com" target="_blank"> 
                     <img src="./img/bomb.jpg" alt="blood of my blood" width="300px"></a>
-                <p>Outlander: Blood of My Blood obtient un renouvellement anticipé de la saison 2 avant la première de la série</p>
+                <p data-key="actu-aricle1">Outlander: Blood of My Blood obtient un renouvellement anticipé de la saison 2 avant la première de la série</p>
             </article>
             <article> 
                 <a href="https://www.premiere.fr/Series/News-Series/Fin-de-tournage-Sam-Heughan-et-Caitriona-Balfe-font-leurs-adieux-a-Outlander" target="_blank">
                     <img src="./img/findetournage.png" alt="Fin de tournage" width="300px"></a>
-                <p>Fin de tournage : Sam Heughan et Caitriona Balfe font leurs adieux à Outlander</p>
+                <p data-key="actu-aricle2">Fin de tournage : Sam Heughan et Caitriona Balfe font leurs adieux à Outlander</p>
             </article>
             <article>
                 <a href="https://www.goodhousekeeping.com/entertainment/celebrity-news/a68132949/outlander-cast-sam-heughan-galloway-distillery-instagram/?utm_source=chatgpt.com" target="_blank">
                     <img src="./img/samheughan.jpg" alt="Sam Heughan" width="300px"></a>
-                <p>Les fans d'Outlander sont « ravis » après la révélation de Sam Heughan sur Instagram.</p>
+                <p data-key="actu-aricle3">Les fans d'Outlander sont « ravis » après la révélation de Sam Heughan sur Instagram.</p>
             </article>
             <article>
                 <a href="https://www.businessinsider.com/outlander-book-10-diana-gabaldon-plot-jamie-ghost-release-details-2023-8?utm_source=chatgpt.com" target="_blank">
                     <img src="./img/dianagabaldon.jpg" alt="Diana Gabaldon" width="300px"></a>
-                <p>tout ce que nous savons sur le 10e et dernier livre de la série « Outlander » de Diana Gabaldon</p>
+                <p data-key="actu-aricle4">tout ce que nous savons sur le 10e et dernier livre de la série « Outlander » de Diana Gabaldon</p>
             </article>
             <article>
                 <a href="https://ew.com/outlander-first-look-final-season-comic-con-2025-11778802?utm_source=chatgpt.com" target="_blank">
                     <img src="./img/premiereimages.jpg" alt="Première images" width="300px"></a>
-                <p>Outlander dévoile les premières images de la dernière saison et annonce une première diffusion début 2026</p>    
+                <p data-key="actu-aricle5">Outlander dévoile les premières images de la dernière saison et annonce une première diffusion début 2026</p>    
             </article>
             <article> 
                 <a href="https://www.rostercon.com/en/magazine/news/outlander-the-cast-back-in-paris-in-2026-to-meet-their-fans-417965?utm_source=chatgpt.com" target="_blank">
                     <img src="./img/landcon.jpg" alt="LandCon" width="300px"></a>
-                <p>Outlander : le casting de retour à Paris en 2026 pour rencontrer ses fans</p>    
+                <p data-key="actu-aricle6">Outlander : le casting de retour à Paris en 2026 pour rencontrer ses fans</p>
             </article>
         </section>
     </main>
     <footer>
-        <span>&copy; 2025 Les secrets de Craigh Na Dun</span>
+        <span data-key="footer-copyright">&copy; 2025 Les secrets de Craigh Na Dun</span>
+        <!-- 
         <script src="https://elfsightcdn.com/platform.js" async></script>
-        <div class="elfsight-app-6020251a-dd5d-4f04-9ecf-11108e63b054" data-elfsight-app-lazy></div>
-        <a href="mailto:fandeoutlander@gmail.com">Écrivez-nous à<br>fandeoutlander@gmail.com</a>
+        <div class="elfsight-app-6020251a-dd5d-4f04-9ecf-11108e63b054" data-elfsight-app-lazy></div>-->
+        <a href="mailto:fandeoutlander@gmail.com" data-key="contact">Écrivez-nous à<br>fandeoutlander@gmail.com</a>
     </footer>
 </body>
 

@@ -4,6 +4,11 @@
         "es": "Outlander - Los secretos de Craigh Na Dun",
         "en": "Outlander - The Secrets of Craigh Na Dun"
     },
+    "site-title-actus": {
+        "fr": "Actualités | Les secrets de Craigh Na Dun",
+        "es": "Noticias | Los secretos de Craigh Na Dun",
+        "en": "News | The Secrets of Craigh Na Dun"
+    },
     "header-title-index":{
         "fr": "Outlander<br>Les secrets de Craigh Na Dun",
         "es": "Outlander<br>Los secretos de Craigh Na Dun",
@@ -11,7 +16,7 @@
     },
     "saisons": {
         "fr": "Saisons",
-        "es": "Estaciones",
+        "es": "Temporada",
         "en": "Seasons"
     },
     "accueil": {
@@ -29,9 +34,135 @@
         "es": "Noticias",
         "en": "News"
     },
+    "recette-medicinales":{
+        "fr":"Les recettes médicinales",
+        "es":"Recetas medicinales",
+        "en":"Medicinal recipes"
+    },
+    "recette-description":{
+        "fr":"Explorez les remèdes traditionnels et connaissances botaniques de Claire Fraser",
+        "es":"Explora los remedios tradicionales y el conocimiento botánico de Claire Fraser",
+        "en":"Explore Claire Fraser's traditional remedies and botanical knowledge"
+    },
+    "decouvrir":{
+        "fr":"Découvrir →",
+        "es":"Descubrir →",
+        "en":"Discover →"
+    },
+    "guide":{
+        "fr":"Guides des saisons",
+        "es":"Guías de temporada",
+        "en":"Seasons Guides"
+    },
+    "guide-description":{
+        "fr":"Plongez dans chaque saison avec des analyses détaillées de chaque personnage",
+        "es":"Sumérgete en cada temporada con un análisis profundo de los personajes.",
+        "en":"Dive into each season with in-depth character analysis"
+    },  
+    "explorer":{
+        "fr":"Explorer →",
+        "es":"Explorar →",
+        "en":"Explore →"
+    }, 
+    "Parcourir":{
+        "fr":"Parcourir →",
+        "es":"Recorrer →",
+        "en":"Browse →"
+    },
+    "actu-description":{
+        "fr":"Retrouvez les articles de presse de différents médias regrouper en un seul endroit",
+        "es":"Encuentre artículos de prensa de diferentes medios reunidos en un solo lugar",
+        "en":"Find press articles from different media gathered in one place"
+    },  
+    "about": {
+        "fr": "À propos d'Outlander",
+        "es": "Acerca de Outlander",
+        "en": "About Outlander"
+    },
+    "about-content": {
+        "fr": "Outlander suit l'histoire de Claire Randall, une infirmière de la Seconde Guerre mondiale qui se retrouve mystérieusement transportée en 1743 dans les Highlands écossaises. Déchirée entre deux époques et deux hommes, elle doit naviguer dans un monde de guerre de clans, d'intrigues politiques et de passion dévorante.<br><br>Blood of My Blood explore l'héritage familial et les liens qui transcendent le temps, approfondissant l'univers créé par Diana Gabaldon avec de nouvelles histoires captivantes.",
+        "es": "Outlander sigue la historia de Claire Randall, una enfermera de la Segunda Guerra Mundial que se ve misteriosamente transportada a las Tierras Altas de Escocia en 1743. Dividida entre dos épocas y dos hombres, debe navegar por un mundo de guerras de clanes, intrigas políticas y pasión desbordante.<br><br>Sangre de mi Sangre explora el legado familiar y los vínculos que trascienden el tiempo, profundizando en el mundo creado por Diana Gabaldon con nuevas y cautivadoras historias.",
+        "en": "Outlander follows the story of Claire Randall, a World War II nurse who finds herself mysteriously transported to the Scottish Highlands in 1743. Torn between two eras and two men, she must navigate a world of clan warfare, political intrigue, and all-consuming passion.<br><br>Blood of My Blood explores family legacy and the bonds that transcend time, deepening the world created by Diana Gabaldon with captivating new stories."
+    },
     "contact": {
         "fr": "Écrivez-nous à<br>fandeoutlander@gmail.com",
         "es": "Escríbanos a<br>fandeoutlander@gmail.com",
         "en": "Write to us at<br>fandeoutlander@gmail.com"
+    },
+    "team": {
+        "fr": "L'équipe du Fansite",
+        "es": "El equipo de Fansite",
+        "en": "The Fansite Team"
+    },
+    "h1headeractu":{
+        "fr":"Actualités sur Outlander",
+        "es":"Noticias sobre Outlander",
+        "en":"News about Outlander"
+    },
+    "h1mainactu":{
+        "fr":"Toutes les dernières actualités sur la série",
+        "es":"Todas las últimas noticias sobre la serie",
+        "en":"All the latest news about the series"
+    },
+    "actu-aricle1":{
+        "fr":"Outlander: Blood of My Blood obtient un renouvellement anticipé de la saison 2 avant la première de la série",
+        "es":"Outlander: Blood of My Blood obtiene una renovación anticipada para la temporada 2 antes del estreno de la serie",
+        "en":"Outlander: Blood of My Blood gets an early renewal for season 2 ahead of series premiere"
+    },
+    "actu-aricle2":{
+        "fr":"Fin de tournage : Sam Heughan et Caitriona Balfe font leurs adieux à Outlander",
+        "es":"Fin de rodaje: Sam Heughan y Caitriona Balfe se despiden de Outlander",
+        "en":"End of filming: Sam Heughan and Caitriona Balfe say goodbye to Outlander"
+    },
+    "actu-aricle3":{
+        "fr":"Les fans d'Outlander sont « ravis » après la révélation de Sam Heughan sur Instagram.",
+        "es":"Los fans de Outlander están 'encantados' tras la revelación de Sam Heughan en Instagram.",
+        "en":"Outlander fans are 'delighted' after Sam Heughan's Instagram reveal."
+    },
+    "actu-aricle4":{
+        "fr":"tout ce que nous savons sur le 10e et dernier livre de la série « Outlander » de Diana Gabaldon",
+        "es":"todo lo que sabemos sobre el décimo y último libro de la serie 'Outlander' de Diana Gabaldon",
+        "en":"everything we know about the 10th and final book in Diana Gabaldon's 'Outlander' series"
+    },
+    "actu-aricle5":{
+        "fr":"Outlander dévoile les premières images de la dernière saison et annonce une première diffusion début 2026",
+        "es":"Outlander revela las primeras imágenes de la última temporada y anuncia un estreno a principios de 2026",
+        "en":"Outlander unveils first images of final season and announces early 2026 premiere"
+    },
+    "actu-aricle6":{
+        "fr":"Outlander : le casting de retour à Paris en 2026 pour rencontrer ses fans",
+        "es":"Outlander: el elenco regresa a París en 2026 para conocer a sus fans",
+        "en":"Outlander: the cast returns to Paris in 2026 to meet their fans"
+    },
+    "footer-copyright":{
+        "fr":"&copy; 2025 Les secrets de Craigh Na Dun",
+        "es":"&copy; 2025 Los secretos de Craigh Na Dun",
+        "en":"&copy; 2025 The Secrets of Craigh Na Dun"
+    },
+    "Mickael":{
+        "fr":"Enseignant de dev web, j'adore tellement Outlander que j'ai demandé a mes élèves d'en faire un site",
+        "es":"Profesor de desarrollo web, me gusta tanto Outlander que le pedí a mis alumnos que hicieran un sitio web",
+        "en":"Web development teacher, I love Outlander so much that I asked my students to make a website about it"
+    },
+    "Simon":{
+        "fr":"Assistant teacher, en adoration pour Mickael j'aime tout ce qu'il aime telle que cette série incroyable",
+        "es":"Asistente de profesor, adorando a Mickael me encanta todo lo que le gusta, como esta increíble serie",
+        "en":"Assistant teacher, in awe of Mickael I love everything he loves like this amazing series"
+    },
+    "bromance":{
+        "fr":"La bromance",
+        "es":"La bromance",
+        "en":"The bromance"
+    },
+    "Mickael2":{
+        "fr":"Mickael le bel<br><br><br>Mais où est donc sa main ?<br><br>Que fait-il en regardant Simon ?",
+        "es":"Mickael el bello<br><br><br>¿Pero dónde está su mano?<br><br>¿Qué está haciendo mientras mira a Simon?",
+        "en":"Mickael the handsome<br><br><br>But where is his hand?<br><br>What is he doing while looking at Simon?"
+    },
+    "Simon2":{
+        "fr":"Simon le beau<br><br><br>Avec son regard pensif envers Mickael et derrière sa moustache légendaire se cache...",
+        "es":"Simon el guapo<br><br><br>Con su mirada pensativa hacia Mickael y detrás de su legendario bigote se esconde...",
+        "en":"Simon the magnificent<br><br><br>With his thoughtful gaze towards Mickael and behind his legendary mustache hides..."
     }
+
 }
