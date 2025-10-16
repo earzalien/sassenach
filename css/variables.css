@@ -19,13 +19,8 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-<<<<<<< HEAD
     background-color: var(--main-color);
     border: 0.5px solid rgba(50, 47, 46, 0.2);
-=======
-    background-color: #f3efe8;
-    border: 2px solid #EBECF1;
->>>>>>> luna
     animation: slide-in 1s ease-out;
     position: fixed;
     top: 0;
@@ -151,8 +146,6 @@ footer {
     height: 180px;
     align-items: center;
 }
-<<<<<<< HEAD
-=======
         
 @font-face {
     font-family: 'TrajanPro';
@@ -160,20 +153,12 @@ footer {
     font-weight: normal;
     font-style: normal;
 }
->>>>>>> luna
 @font-face {
     font-family: 'Padauk';
     src: url('../font/Padauk-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-<<<<<<< HEAD
-@font-face {
-    font-family: 'TrajanPro';
-    src: url('../font/TrajanPro-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-=======
 
 footer a {
     text-decoration: none;
@@ -197,5 +182,4 @@ footer a {
     display: flex;
     list-style: none;
     gap: 20px;
->>>>>>> luna
 }

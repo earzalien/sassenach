@@ -463,7 +463,158 @@
         "fr":"Certaines plantes peuvent interagir avec des médicaments ou provoquer des réactions allergiques. Ne jamais s'auto-médicamenter sans supervision médicale.",
         "es":"Algunas plantas pueden interactuar con medicamentos o provocar reacciones alérgicas. Nunca se automedique sin supervisión médica.",
         "en":"Some plants may interact with medications or cause allergic reactions. Never self-medicate without medical supervision."
-    }
-}
+    },
+    "saison1-title":{
+        "fr":"Saison 1 | Les secrets de Craigh na Dun",
+        "es":"Temporada 1 | Los secretos de Craigh na Dun",
+        "en":"Season 1 | The Secrets of Craigh na Dun"
+    },
+    "saison1-header":{
+        "fr":"SAISON 1",
+        "es":"TEMPORADA 1",
+        "en":"SEASON 1"
+    },
+    "saison1-description":{
+        "fr":"En 1945, Claire Randall, infirmière de guerre tout juste revenue du front, part en Écosse avec son mari Frank pour célébrer leur mariage et lui permettre de rechercher ses ancêtres. Lors d’une promenade près d’un mystérieux cercle de pierres, Claire est soudainement projetée en 1743, en pleine Écosse des Highlands. Confrontée à un monde dangereux et instable, elle doit survivre, s’adapter… et faire des choix qui pourraient bouleverser son destin.",
+        "es":"En 1945, Claire Randall, una enfermera de guerra recién regresada del frente, viaja a Escocia con su esposo Frank para celebrar su boda y permitirle buscar a sus antepasados. Durante un paseo cerca de un misterioso círculo de piedras, Claire es repentinamente transportada a 1743, en plena Escocia de las Tierras Altas. Confrontada a un mundo peligroso e inestable, debe sobrevivir, adaptarse... y tomar decisiones que podrían cambiar su destino.",
+        "en":"In 1945, Claire Randall, a war nurse just returned from the front, travels to Scotland with her husband Frank to celebrate their wedding and allow him to search for his ancestors. During a walk near a mysterious stone circle, Claire is suddenly transported to 1743, in the heart of the Scottish Highlands. Confronted with a dangerous and unstable world, she must survive, adapt... and make choices that could change her destiny."
+    },
+    "saison1-personnages":{
+        "fr":"LES PERSONNAGES RECURRENTS",
+        "es":"LOS PERSONAJES RECURRENTES",
+        "en":"RECURRING CHARACTERS"
+    },
+    "saison1-claire":{ 
+        "fr":"infirmière",
+        "es":"enfermera",
+        "en":"nurse"
+    },
+    "saison1-claire1":{
+        "fr": "En 1945, Claire est en voyage en Écosse avec son mari Frank lorsqu’un événement mystérieux la projette au 18e siècle. Propulsée dans une époque dangereuse et instable, elle doit survivre et s’adapter, tout en étant déchirée entre deux mondes et deux vies.",
+        "es": "En 1945, Claire está de viaje en Escocia con su esposo Frank cuando un evento misterioso la transporta al siglo XVIII. Impulsada a una época peligrosa e inestable, debe sobrevivir y adaptarse, mientras está dividida entre dos mundos y dos vidas.",
+        "en": "In 1945, Claire is traveling in Scotland with her husband Frank when a mysterious event transports her to the 18th century. Thrust into a dangerous and unstable era, she must survive and adapt, while being torn between two worlds and two lives."
+    },
+    "saison1-claire2":{
+        "fr":"Moments clés",
+        "es":"Momentos clave",
+        "en":"Key moments"
+    },
+    "saison1-claire3":{
+        "fr":"• Rencontre avec Jamie Fraser et début de leur relation complexe.<br>• Adaptation aux coutumes et dangers du 18e siècle.<br>• Lutte pour retrouver son chemin vers le 20e siècle.",
+        "es":"• Encuentro con Jamie Fraser y comienzo de su relación compleja.<br>• Adaptación a las costumbres y peligros del siglo XVIII.<br>• Lucha por encontrar su camino de regreso al siglo XX.",
+        "en":"• Meeting Jamie Fraser and beginning their complex relationship.<br>• Adapting to the customs and dangers of the 18th century.<br>• Struggling to find her way back to the 20th century."
+    },
+    "saison1-jamie":{
+        "fr":"Jamie Fraser, un jeune Highlander écossais, se retrouve mêlé à des conflits politiques, des rivalités familiales et des enjeux de loyauté. Courageux et marqué par un passé difficile, il voit sa vie bouleversée par une rencontre inattendue qui changera son destin.",
+        "es":"Jamie Fraser, un joven highlander escocés, se ve envuelto en conflictos políticos, rivalidades familiares y cuestiones de lealtad. Valiente y marcado por un pasado difícil, su vida se ve alterada por un encuentro inesperado que cambiará su destino.",
+        "en":"Jamie Fraser, a young Scottish Highlander, finds himself entangled in political conflicts, family rivalries, and issues of loyalty. Brave and marked by a difficult past, his life is disrupted by an unexpected encounter that will change his destiny."
+    },
+    "saison1-jamie2":{
+        "fr":"Moments clés",
+        "es":"Momentos clave",
+        "en":"Key moments"
+    },
+    "saison1-jamie3":{
+        "fr":"• Rencontre avec Claire<br>• Conflits avec les anglais<br>• Captivités et épreuves",
+        "es":"• Encuentro con Claire<br>• Conflictos con los ingleses<br>• Captividades y pruebas",
+        "en":"• Meeting Claire<br>• Conflicts with the English<br>• Captivities and trials"
+    },
+    "saison1-frank":{
+        "fr":"Historien",
+        "es":"Historiador",
+        "en":"Historian"
+    },
+    "saison1-frank1":{
+        "fr":"Frank Randall, mari de Claire, est un historien passionné par la généalogie. Lorsqu'il accompagne Claire en Écosse, il espère retrouver les traces de ses ancêtres. Cependant, il est confronté à des mystères et des dangers inattendus qui mettent à l'épreuve son amour et sa loyauté.",
+        "es":"Frank Randall, esposo de Claire, es un historiador apasionado por la genealogía. Cuando acompaña a Claire a Escocia, espera encontrar las huellas de sus antepasados. Sin embargo, se enfrenta a misterios y peligros inesperados que ponen a prueba su amor y lealtad.",
+        "en":"Frank Randall, Claire's husband, is a historian passionate about genealogy. When he accompanies Claire to Scotland, he hopes to trace his ancestors. However, he faces unexpected mysteries and dangers that test his love and loyalty."
+    },
+    "saison1-frank2":{
+        "fr":"Moments clés",
+        "es":"Momentos clave",
+        "en":"Key moments"
+    },
+    "saison1-frank3":{
+        "fr":"• Recherche des ancêtres<br>• Découverte du cercle de pierres<br>• Lutte pour retrouver Claire",
+        "es":"• Búsqueda de los antepasados<br>• Descubrimiento del círculo de piedras<br>• Lucha por encontrar a Claire",
+        "en":"• Searching for ancestors<br>• Discovery of the stone circle<br>• Struggling to find Claire"
+    },
+    "saison1-jonhRandall":{
+        "fr":"Soldat britannique",
+        "es":"Soldado británico",
+        "en":"British soldier"
+    },
+    "saison1-jonhRandall1":{
+        "fr":"Jonathan \"Black Jack\" Randall, officier britannique du 18e siècle et ancêtre de Frank, joue un rôle central dans les tensions entre les Anglais et les Écossais. Froid et impitoyable, il incarne une menace constante pour ceux qui croisent son chemin, mêlant pouvoir, cruauté et obsession.",
+        "es":"Jonathan \"Black Jack\" Randall, oficial británico del siglo XVIII y antepasado de Frank, juega un papel central en las tensiones entre ingleses y escoceses. Frío e implacable, encarna una amenaza constante para quienes cruzan su camino, mezclando poder, crueldad y obsesión.",
+        "en":"Jonathan \"Black Jack\" Randall, an 18th-century British officer and Frank's ancestor, plays a central role in the tensions between the English and the Scots. Cold and ruthless, he embodies a constant threat to those who cross his path, blending power, cruelty, and obsession."
+    },
+    "saison1-jonhRandall2":{
+        "fr":"Moments clés",
+        "es":"Momentos clave",
+        "en":"Key moments"
+    },
+    "saison1-jonhRandall3":{
+        "fr":"• Lien avec le passé familial de Franck<br>• Conflit avec Jamie<br>• Manipulations psychologiques",
+        "es":"• Vínculo con el pasado familiar de Frank<br>• Conflicto con Jamie<br>• Manipulaciones psicológicas",
+        "en":"• Link to Frank's family history<br>• Conflict with Jamie<br>• Psychological manipulations"
+    },
+    "saison1-Murtagh":{
+        "fr":"Murtagh Fitzgibbons Fraser, homme loyal et taciturne, veille discrètement sur Jamie. Fidèle allié, il accompagne les protagonistes à travers les dangers des Highlands, offrant protection, conseils et soutien dans l’ombre, toujours guidé par un profond sens de l’honneur.",
+        "es":"Murtagh Fitzgibbons Fraser, un hombre leal y taciturno, vigila discretamente a Jamie. Fiel aliado, acompaña a los protagonistas a través de los peligros de las Tierras Altas, ofreciendo protección, consejos y apoyo en la sombra, siempre guiado por un profundo sentido del honor.",
+        "en":"Murtagh Fitzgibbons Fraser, a loyal and taciturn man, discreetly watches over Jamie. A faithful ally, he accompanies the protagonists through the dangers of the Highlands, offering protection, advice, and support in the shadows, always guided by a deep sense of honor."
+    },
+    "saison1-Murtagh2":{
+        "fr":"Moments clés",
+        "es":"Momentos clave",
+        "en":"Key moments"
+    },  
+    "saison1-Murtagh3":{
+        "fr":"• Lien avec Jamie<br>• Conflits et combats<br>• Défis personnels",
+        "es":"• Vínculo con Jamie<br>• Conflictos y combates<br>• Desafíos personales",
+        "en":"• Link with Jamie<br>• Conflicts and battles<br>• Personal challenges"
+    },
+    "saison1-dougal1":{
+        "fr":"Dougal MacKenzie, chef de guerre respecté du clan MacKenzie, joue un rôle clé dans les intrigues politiques et familiales des Highlands. Stratège ambitieux et homme de tradition, il navigue entre loyauté envers son clan et les tensions grandissantes face aux autorités britanniques.",
+        "es":"Dougal MacKenzie, jefe de guerra respetado del clan MacKenzie, juega un papel clave en las intrigas políticas y familiares de las Tierras Altas. Estratega ambicioso y hombre de tradición, navega entre la lealtad a su clan y las crecientes tensiones frente a las autoridades británicas.",
+        "en":"Dougal MacKenzie, a respected war chief of the MacKenzie clan, plays a key role in the political and family intrigues of the Highlands. An ambitious strategist and man of tradition, he navigates between loyalty to his clan and the growing tensions with British authorities."
 
-
+    },
+    "saison1-dougal2":{
+        "fr":"Moments clés",
+        "es":"Momentos clave",
+        "en":"Key moments"
+    },
+    "saison1-dougal3":{
+        "fr":"• Conflits avec les britanniques<br>• Tensions familiales<br>• Stratégies politiques et alliances",
+        "es":"• Conflictos con los británicos<br>• Tensiones familiares<br>• Estrategias políticas y alianzas",
+        "en":"• Conflicts with the British<br>• Family tensions<br>• Political strategies and alliances"
+    },
+    "saison1-geilis":{
+        "fr": "Herboriste",
+        "es": "Herborista",
+        "en": "Herbalist"
+    },
+    "saison1-geilis1":{
+        "fr":"Geillis Duncan est une femme énigmatique et ambitieuse qui intrigue par son comportement mystérieux et ses connaissances inhabituelles. Son parcours croise celui de Claire, révélant peu à peu des secrets et des tensions au cœur de la communauté écossaise du XVIIIe siècle.",
+        "es":"Geillis Duncan es una mujer enigmática y ambiciosa que intriga por su comportamiento misterioso y sus conocimientos inusuales. Su camino se cruza con el de Claire, revelando poco a poco secretos y tensiones en el corazón de la comunidad escocesa del siglo XVIII.",
+        "en":"Geillis Duncan is an enigmatic and ambitious woman who intrigues with her mysterious behavior and unusual knowledge. Her path crosses with Claire's, gradually revealing secrets and tensions at the heart of the 18th-century Scottish community."
+    },
+    "momentsClefs":{
+        "fr":"Moments clés",
+        "es":"Momentos clave",
+        "en":"Key moments"
+    },
+    "saison1-geilis3":{
+        "fr":"• Lien avec la sorcellerie<br>• Relation avec Dougal<br>• Révélations sur son passé",
+        "es":"• Vínculo con la brujería<br>• Relación con Dougal<br>• Revelaciones sobre su pasado",
+        "en":"• Link with witchcraft<br>• Relationship with Dougal<br>• Revelations about her past"
+    },
+    "saison1-colum":{
+        "fr":"Colum MacKenzie, chef du clan MacKenzie et frère de Dougal, est un leader fragile mais déterminé. Malgré sa santé déclinante, il exerce une influence importante sur son clan et fait face aux défis politiques et personnels qui menacent son autorité.",
+        "es":"Colum MacKenzie, jefe del clan MacKenzie y hermano de Dougal, es un líder frágil pero decidido. A pesar de su salud en declive, ejerce una influencia importante sobre su clan y enfrenta los desafíos políticos y personales que amenazan su autoridad.",
+        "en":"Colum MacKenzie, chief of the MacKenzie clan and brother of Dougal, is a fragile but determined leader. Despite his declining health, he wields significant influence over his clan and faces political and personal challenges that threaten his authority."
+    },
+    "saison1-colum2":{
+        "fr":""
+    },
