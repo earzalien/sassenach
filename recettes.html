@@ -7,13 +7,18 @@
     <meta name="author" content="Wilders : Kevin, Lea, Luna, Yuliana">
     <link rel="stylesheet" href="css/reset.css">
      <link rel="stylesheet" href="css/variables.css">
+     <link rel="stylesheet" href="css/index.css">
      <link rel="stylesheet" href="css/recettes.css">
     <link rel="stylesheet" href="css/mobilerecettes.css" media="screen and (max-width:640px)">
-      <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:400px)">    
-      <link rel="stylesheet" href="css/mobileINDEX.css" media="screen and (max-width:400px)">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:400px)">   
+    
+
+      
     <script src="script/script.js"></script>
 </head>
-<body>
+<body class="recettes-page">
+  <a class="skip-link" href="#main">Aller au contenu principal</a>
+
     <div class="wrapper"> 
     <nav>
         <div class="logo">
@@ -33,9 +38,9 @@
             <li>
                 <a href="recettes.html">Recettes de Claire</a>
                 <ul>
-                    <li><a href="#0">blabla</a></li>
-                    <li><a href="#0">blabla2</a></li>
-                    <li><a href="#01">blabla3</a></li>
+                    <li><a href="recettes.html#1truc">blabla</a></li>
+                    <li><a href="recettes.html#1autretruc">blabla2</a></li>
+                    <li><a href="recettes.html#encore1truc">blabla3</a></li>
                 </ul>
             </li>
             <li><a href="actualites.html">Actus</a></li>
@@ -60,23 +65,29 @@ par notre équipe, elles offrent un voyage entre histoire, botanique et art de g
 </div>
 <button class="toggle-btn" id="toggle-btn" data-key="afficherplus">Afficher plus</button>
         </div>    
+
    </header>
-    <main id="content" class="recettes-main" aria-label="Recettes médicinales">
- 
-  <section class="cards-grid">
+
+   <main id="main" class="recettes-main" role="main" tabindex="-1" aria-label="Recettes médicinales">
+
+    <section class="cards-grid">
     <article class="card">
-        <header class="card-head">  
+        <div class="card-head">  
         <img src="img/card-camomille.jpg" alt="Camomille" class="card-img">
         <h3 class="card-title"data-key="infusiondecamomille">Infusion de Camomille</h3>
+
         <button class="card-close" type="button" aria-label="Fermer">×</button>
-      </header>
+        </div>
       <div class="card-body">
+
         <h4 data-key="infusiondecamomille2">Ingrédients:</h4>
+
         <ul class="card-list">
           <li data-key="infusiondecamomille3">2 cuillères à soupe de fleurs de camomille séchées</li>
            <li data-key="infusiondecamomille4"> 250 ml d'eau bouillante </li>
            <li data-key="infusiondecamomille5">Miel (optionnel)</li>
         </ul>
+
           <button class="card-toggle" type="button" aria-expanded="false" data-key="afficherplus">Afficher plus</button>
         <h4 data-key="infusiondecamomille6">Préparation:</h4>
         <ol class="card-list card-list-ol">
@@ -93,11 +104,11 @@ par notre équipe, elles offrent un voyage entre histoire, botanique et art de g
     </article>
 
     <article class="card">
-      <header class="card-head">
+      <div class="card-head">
         <img src="img/card-lavande.jpg" alt="lavande" class="card-img">
         <h3 class="card-title" data-key="huile-de-lavande">Huile de Lavande</h3>
        <button class="card-close" type="button" aria-label="Fermer">×</button>
-      </header>
+      </div>
       <div class="card-body">
 
          <h4 data-key="huile-de-lavande2">Ingrédients:</h4>
@@ -121,11 +132,11 @@ par notre équipe, elles offrent un voyage entre histoire, botanique et art de g
     </article>
 
     <article class="card">
-      <header class="card-head">
+      <div class="card-head">
         <img src="img/card-valeriane.jpg" alt="Valériane" class="card-img">
         <h3 class="card-title" data-key="teinture-de-valeriane">Teinture de Valériane</h3>
         <button class="card-close" type="button" aria-label="Fermer">×</button>
-      </header>
+      </div>
       <div class="card-body">
            <h4 data-key="teinture-de-valeriane1">Ingrédients:</h4>
         <ul class="card-list" data-key="teinture-de-valeriane2">
@@ -149,11 +160,11 @@ par notre équipe, elles offrent un voyage entre histoire, botanique et art de g
     </article>
 
     <article class="card">
-      <header class="card-head">
+      <div class="card-head">
         <img src="img/card-saule.jpg" alt="écorce de Saule" class="card-img">
         <h3 class="card-title" data-key="decoction-ecorce-saule">Décoction d’écorce de Saule</h3>
         <button class="card-close" type="button" aria-label="Fermer">×</button>
-      </header>
+      </div>
       <div class="card-body">
         
          <h4 data-key="decoction-ecorce-saule1">Ingrédients:</h4>
@@ -176,11 +187,11 @@ par notre équipe, elles offrent un voyage entre histoire, botanique et art de g
     </article>
 
     <article class="card">
-      <header class="card-head">
+      <div class="card-head">
         <img src="img/card-consoude.jpg" alt="Consoude" class="card-img">
         <h3 class="card-title" data-key="cataplasme-consoude">Cataplasme de Consoude</h3>
         <button class="card-close" type="button" aria-label="Fermer">×</button>
-      </header>
+      </div>
       <div class="card-body">
            <h4 data-key="cataplasme-consoude1">Ingrédients:</h4>
         <ul class="card-list" data-key="cataplasme-consoude2">
@@ -204,11 +215,11 @@ par notre équipe, elles offrent un voyage entre histoire, botanique et art de g
     </article>
 
     <article class="card">
-      <header class="card-head">
+      <div class="card-head">
         <img src="img/card-achilee.jpg" alt="Achillée millefeuille" class="card-img">
         <h3 class="card-title" data-key="baume-achillee">Baume à l’Achillée</h3>
         <button class="card-close" type="button" aria-label="Fermer">×</button>
-      </header>
+      </div>
       <div class="card-body">
         <h4 data-key="baume-achillee1">Ingrédients:</h4>
         <ul class="card-list" data-key="baume-achillee2">
@@ -231,6 +242,141 @@ par notre équipe, elles offrent un voyage entre histoire, botanique et art de g
     </article>
   </section>
   
+  <section class="recettes-article" id="plantes-medicinales" aria-labelledby="plantes-titre">
+        
+      <div class="article-hero">
+            <div class="hero-inner"> 
+              <h2 id="plantes-titre">15 plantes médicinales d’Outlander: <br> entre secrets anciens et savoirs vivants</h2>
+
+              <p>
+              Plongez dans l’univers d’<em>Outlander</em> et <em>Le Chardon et le Tartan</em> à travers 15 plantes médicinales emblématiques 
+              qui soignaient les maux bien avant l’arrivée des antibiotiques. 
+              Un voyage entre histoire, botanique et traditions écossaises.
+            </p>
+              </div>
+        </div>
+       <div id="article-btn-slot-top">
+        <button class="toggle-btn" id="toggle-article">Afficher plus</button>
+        </div>
+
+  <div class="article-content" id="article-content"> 
+        <p>
+      Fait intéressant : dans la toute première scène de la série, Claire explique que son intérêt pour les plantes est né après la guerre. 
+      C’est même cette curiosité botanique qui l’a conduite à revenir vers les pierres de Craigh na Dun — afin d’identifier une plante inconnue — 
+      et c’est ainsi qu’elle a basculé dans le passé. Son savoir médical s’est alors transformé en un atout vital dans cette époque révolue : 
+      le cercle s’est refermé.
+    </p>
+    <h3>Voici une sélection des plantes les plus souvent citées dans l’univers d’Outlander :</h3>
+
+    <table class="plantes-table">
+      <thead>
+        <tr>
+          <th>Plante (français + latin)</th>
+          <th>Usage dans la série / le roman</th>
+          <th>Informations botaniques et de cueillette</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Camomille (<em>Matricaria chamomilla</em>)</td>
+          <td>Infusion calmante, lotion contre douleur ou insomnie</td>
+          <td>Fleurs coupées en plein épanouissement, séchées à l’ombre et à l’aération. Conserver au sec pour garder l’arôme.</td>
+        </tr>
+
+        <tr>
+          <td>Menthe (<em>Mentha spp.</em>)</td>
+          <td>Aide digestive, préparation pour le sommeil</td>
+          <td>Feuilles jeunes avant floraison, récoltées par temps sec. Éviter en cas de reflux sévère si elle aggrave les brûlures.</td>
+        </tr>
+
+        <tr>
+          <td>Lavande (<em>Lavandula angustifolia</em>)</td>
+          <td>Pommade, parfum apaisant</td>
+          <td>Épis floraux en pleine floraison, séchage en bouquets à l’ombre. Très stable en sachets ou onguents.</td>
+        </tr>
+
+        <tr>
+          <td>Saule (<em>Salix alba</em>)</td>
+          <td>Antidouleur naturel</td>
+          <td>Écorce interne prélevée au printemps ; sécher finement. Éviter si allergie aux salicylés ou sous anticoagulants.</td>
+        </tr>
+
+        <tr>
+          <td>Achillée millefeuille (<em>Achillea millefolium</em>)</td>
+          <td>Hémostatique, cicatrisation</td>
+          <td>Sommités fleuries coupées au début de floraison ; sécher à plat. Possible photosensibilisation cutanée chez sujets sensibles.</td>
+        </tr>
+
+        <tr>
+          <td>Valériane (<em>Valeriana officinalis</em>)</td>
+          <td>Sommeil, anxiété</td>
+          <td>Racines récoltées à l’automne ou en hiver ; bien laver et sécher lentement. Éviter si somnifères ou alcool (effet additif).</td>
+        </tr>
+
+        <tr>
+          <td>Millepertuis (<em>Hypericum perforatum</em>)</td>
+          <td>Plaies, humeur</td>
+          <td>Fleurs au zénith de floraison ; macération huileuse classique. Interactions nombreuses (antidépresseurs, anticoagulants, pilule) et photosensibilisation.</td>
+        </tr>
+
+        <tr>
+          <td>Ortie (<em>Urtica dioica</em>)</td>
+          <td>Reminéralisante, tonique</td>
+          <td>Jeunes pousses au printemps ; porter des gants, séchage rapide. Graines en fin d’été comme tonique doux.</td>
+        </tr>
+
+        <tr>
+          <td>Plantain (<em>Plantago major</em>)</td>
+          <td>Piqûres, irritations</td>
+          <td>Feuilles propres, fraîches pour cataplasmes ; séchage en fine couche. Très robuste, récolte étalée.</td>
+        </tr>
+
+        <tr>
+          <td>Sureau (<em>Sambucus nigra</em>)</td>
+          <td>Fièvres, infections respiratoires</td>
+          <td>Fleurs juste ouvertes (tisanes) et baies bien mûres (sirop) ; éliminer les parties vertes. Ne pas consommer les baies crues en grande quantité.</td>
+        </tr>
+
+        <tr>
+          <td>Consoude (<em>Symphytum officinale</em>)</td>
+          <td>Cicatrisation, contusions</td>
+          <td>Feuilles pour cataplasmes, racines en externe ; sécher à l’ombre. Usage interne déconseillé (alcaloïdes pyrrolizidiniques).</td>
+        </tr>
+
+        <tr>
+          <td>Bistorte (<em>Bistorta officinalis</em>)</td>
+          <td>Astringente</td>
+          <td>Rhizomes à l’automne, bien laver, fendre et sécher lentement. Goût tannique, usage court.</td>
+        </tr>
+
+        <tr>
+          <td>Bouleau (<em>Betula pendula</em>)</td>
+          <td>Douleurs articulaires, drainage</td>
+          <td>Feuilles jeunes au printemps ; écorce interne prélevée avec parcimonie. Éviter si allergie au pollen de bouleau.</td>
+        </tr>
+
+        <tr>
+          <td>Bourrache (<em>Borago officinalis</em>)</td>
+          <td>Adoucissante</td>
+          <td>Fleurs bleues délicates cueillies par temps sec ; feuilles velues jeunes. Éviter usage interne prolongé non purifié (PA).</td>
+        </tr>
+        <tr>
+          <td>Bardane (<em>Arctium lappa</em>)</td>
+          <td>Fébrifuge, cataplasmes</td>
+          <td>Racine de 1ʳᵉ année à l’automne ; sécher en lamelles. Déconseillé en cas de déshydratation importante.</td>
+        </tr>
+        
+      </tbody>
+    </table>
+
+    
+    <div id="article-btn-slot-bottom"></div>
+  </div>
+</section>
+
+
+  
+  
   <hr class="section-sep" aria-hidden="true" />
   
   <section>
@@ -250,7 +396,49 @@ réactions allergiques. Ne jamais s'auto-médicamenter sans supervision médica
 
     </div>
   </section>
+  
   <script>
+    document.addEventListener('DOMContentLoaded', () => {
+  const section    = document.getElementById('plantes-medicinales');
+  const btn        = document.getElementById('toggle-article');
+  const content    = document.getElementById('article-content');
+  const slotTop    = document.getElementById('article-btn-slot-top');
+  const slotBottom = document.getElementById('article-btn-slot-bottom');
+
+  let open = false;
+
+  function openArticle() {
+    content.classList.add('is-visible');
+    slotBottom.appendChild(btn);
+    btn.textContent = 'Afficher moins';
+    btn.setAttribute('aria-expanded', 'true');
+    document.addEventListener('click', closeOnOutside, true);
+    document.addEventListener('keydown', onEsc, true);
+    open = true;
+  }
+
+  function closeArticle() {
+    content.classList.remove('is-visible');
+    slotTop.appendChild(btn);
+    btn.textContent = 'Afficher plus';
+    btn.setAttribute('aria-expanded', 'false');
+    document.removeEventListener('click', closeOnOutside, true);
+    document.removeEventListener('keydown', onEsc, true);
+    section.scrollIntoView({behavior:'smooth', block:'start'});
+    open = false;
+  }
+
+  function closeOnOutside(e) {
+    if (!section.contains(e.target)) closeArticle();   // только клик вне статьи
+  }
+  function onEsc(e) {
+    if (e.key === 'Escape') closeArticle();
+  }
+
+  btn.addEventListener('click', () => (open ? closeArticle() : openArticle()));
+});
+ 
+
     if (window.matchMedia('(min-width: 641px)').matches) {
 (() => {
   const grid = document.querySelector('.cards-grid');
@@ -308,109 +496,68 @@ réactions allergiques. Ne jamais s'auto-médicamenter sans supervision médica
   });
 })();
 }
-document.addEventListener("DOMContentLoaded", () => {
-  const btn = document.getElementById("toggle-btn");
-  const moreText = document.getElementById("more-text");
 
-  btn.addEventListener("click", () => {
-    moreText.classList.toggle("expanded");
-    if (moreText.classList.contains("expanded")) {
-      btn.textContent = "Afficher moins";
-    } else {
-      btn.textContent = "Afficher plus";
+
+// === Fin du bloc toggle-btn === 
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.card').forEach(card => {
+    let foot = card.querySelector('.card-foot');
+    if (!foot) {
+      foot = document.createElement('footer');
+      foot.className = 'card-foot';
+      card.appendChild(foot);
+    }
+
+    if (!foot.querySelector('.copy-btn')) {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'copy-btn';
+      btn.textContent = 'Copier';
+      btn.setAttribute('aria-label','Copier la recette');
+      foot.appendChild(btn);
+
+      btn.addEventListener('click', async (ev) => {
+        ev.stopPropagation();
+
+        const title = card.querySelector('.card-title')?.innerText?.trim() ?? '';
+        const bodyEl = card.querySelector('.card-body');
+        const tag  = card.querySelector('.btn.btn-tag')?.innerText?.trim() ?? '';
+
+        const plain = `${title}\n\n${bodyEl?.innerText?.trim() ?? ''}${tag ? `\n\nÉtiquette: ${tag}` : ''}`.trim();
+        const html  = `<article><h3>${title}</h3>${bodyEl?.innerHTML ?? ''}${tag ? `<p><strong>Étiquette:</strong> ${tag}</p>` : ''}</article>`;
+
+        try {
+          if (navigator.clipboard && window.ClipboardItem) {
+            await navigator.clipboard.write([new ClipboardItem({
+              'text/plain': new Blob([plain], {type:'text/plain'}),
+              'text/html' : new Blob([html ], {type:'text/html' })
+            })]);
+          } else {
+            await navigator.clipboard.writeText(plain);
+          }
+          btn.classList.add('copied');
+          btn.textContent = 'Copié !';
+          setTimeout(() => { btn.classList.remove('copied'); btn.textContent = 'Copier'; }, 1200);
+        } catch (e) {
+          console.error(e);
+          alert('Impossible de copier :(');
+        }
+      });
     }
   });
 });
 
-document.addEventListener('DOMContentLoaded', () => {
-  // добавить кнопку "Copier" во все карточки автоматически
-  document.querySelectorAll('.card').forEach(card => {
-    const foot = card.querySelector('.card-foot') || card.appendChild(document.createElement('footer'));
-    foot.classList.add('card-foot');
-    const btn = document.createElement('button');
-    btn.type = 'button';
-    btn.className = 'copy-btn';
-    btn.textContent = 'Copier';
-    foot.appendChild(btn);
-
-    btn.addEventListener('click', async () => {
-      const title = card.querySelector('.card-title')?.innerText?.trim() ?? '';
-      const body = card.querySelector('.card-body')?.innerText?.trim() ?? '';
-      const tag  = card.querySelector('.btn.btn-tag')?.innerText?.trim() ?? '';
-
-      // plain text
-      const plain = `${title}\n\n${body}\n\n${tag ? `Étiquette: ${tag}` : ''}`.trim();
-
-      // html (аккуратнее вставляется в почту/Docs)
-      const html = `
-        <article>
-          <h3>${title}</h3>
-          ${card.querySelector('.card-body')?.innerHTML ?? ''}
-          ${tag ? `<p><strong>Étiquette:</strong> ${tag}</p>` : ''}
-        </article>
-      `;
-
-      try {
-        if (navigator.clipboard && window.ClipboardItem) {
-          const item = new ClipboardItem({
-            'text/plain': new Blob([plain], {type:'text/plain'}),
-            'text/html' : new Blob([html ], {type:'text/html' })
-          });
-          await navigator.clipboard.write([item]);
-        } else if (navigator.clipboard?.writeText) {
-          await navigator.clipboard.writeText(plain);
-        } else {
-          // старый фоллбек
-          const ta = document.createElement('textarea');
-          ta.value = plain; document.body.appendChild(ta);
-          ta.select(); document.execCommand('copy'); ta.remove();
-        }
-        btn.classList.add('copied'); btn.textContent = 'Copié !';
-        setTimeout(()=>{ btn.classList.remove('copied'); btn.textContent='Copier'; },1200);
-      } catch(e){
-        console.error(e);
-        alert('Impossible de copier :(');
-      }
-    });
-  });
-});
-
-document.querySelector('.cards-grid').addEventListener('click', (e) => {
-  const toggle = e.target.closest('.card-toggle');
-  if (!toggle) return;
-
-  const card = e.target.closest('.card');
-
-  // если уже активна — сворачиваем
-  const isActive = card.classList.contains('is-active');
-  document.querySelectorAll('.card').forEach(c=>{
-    c.classList.remove('is-active'); 
-    c.classList.add('is-collapsed');
-    const t = c.querySelector('.card-toggle');
-    if (t) t.textContent = 'Afficher plus', t.setAttribute('aria-expanded','false');
-  });
-
-  if (!isActive){
-    card.classList.remove('is-collapsed');
-    card.classList.add('is-active');
-    toggle.textContent = 'Afficher moins';
-    toggle.setAttribute('aria-expanded','true');
-    // Скроллим к карточке, чтобы шапка не перекрыла
-    card.scrollIntoView({behavior:'smooth', block:'start'});
-  }
-});
 document.querySelectorAll('.card').forEach(c => c.classList.add('is-collapsed'));
-
 </script>
-<script src="https://elfsightcdn.com/platform.js" async></script>
+
 
 </main>
 </div>
 </body>
 <footer class="site-footer">
         <span data-key="footer-copyright">&copy; 2025 Les secrets de Craigh Na Dun</span>
-        <script src="https://elfsightcdn.com/platform.js" async></script>
-        <div class="elfsight-app-6020251a-dd5d-4f04-9ecf-11108e63b054" data-elfsight-app-lazy></div>
+        <!--<script src="https://elfsightcdn.com/platform.js" async></script>
+        <div class="elfsight-app-6020251a-dd5d-4f04-9ecf-11108e63b054" data-elfsight-app-lazy></div>-->
         <a href="mailto:fandeoutlander@gmail.com" data-key="contact">Écrivez-nous à<br>fandeoutlander@gmail.com</a>
     </footer>
 </html>

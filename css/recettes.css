@@ -1,147 +1,45 @@
 html {
     scroll-behavior: smooth;
+    font-size: 100%;
 }
 /* colors: blanc: #F3EFE8 marron: #322F2E ocre rouge: #AF6530 vert: #525B3A doré: #C69E60 */
 
 @font-face {
-    font-family: 'TrajanPro';
-    src: url('../font/TrajanPro-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Padauk';
+  src: url('../font/Padauk-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
-h1 {
-    font-family: 'TrajanPro', serif;
+
+body {
+  font-family: 'Lexend Exa', sans-serif;
+  font-size: 1.6rem;
 }
 
-.recettes-main header {
+
+.recettes-page .recettes-main header {
   background: none !important;
   height: auto !important;
   padding: 0 !important;
   box-shadow: none !important;
 }
 
-.wrapper { 
+.recettes-page .wrapper { 
    max-width: none;
   margin: 0 auto; 
   display: grid; 
 }
 
-body {
+.recettes-page body {
     background: #f3efe8;
-    font-family: 'Lexend Exa', sans-serif;
-    
+    font-family: "Lexend Exa", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    font-size: 1.6rem;
 }
 
-nav {
-    display: flex;
-    justify-content: space-around;
-    background-color: #f3efe8;
-    border: 2px solid #EBECF1;
-    border-radius: 30px;
-    animation: slide-in 1s ease-out;
-}
 
-nav ul {
-    display: flex;
-    gap: 30px;
-    list-style: none;
-    margin: 0;
-    padding: 0 30px;
-    position: relative;
-}
-
-nav li {
-    position: relative;
-    border: 2px solid transparent;
-    border-radius: 5px;
-    padding: 10px;
-    transition: background 0.2s, border 0.2s;
-}
-
-nav li:not(:last-child) {
-    margin-right: 40px;
-}
-
-nav a {
-    color: #3a2c1a;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: color 0.2s;
-}
-
-nav li ul {
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    left: 0;
-    display: block;
-    margin: 12px -12px;
-    padding: 0;
-    background: #b68a44;
-    border: 2px solid #b68a44;
-    border-radius: 5px;
-    transition: opacity 0.2s, visibility 0.2s;
-    z-index: 100;
-}
-
-nav li ul li {
-    margin: -2px 0 0 -2px;
-    width: 100%;
-    line-height: 1.7;
-    border: none;
-    padding: 10px;
-}
-
-nav li ul li a {
-    color: #3a2c1a;
-}
-
-nav li:hover,
-nav li:focus-within {
-    background: #4b5a3c;
-    border: 2px solid #3a2c1a;
-}
-
-nav li:hover>a,
-nav li:focus-within>a {
-    color: #F9F8FD;
-}
-
-nav li:hover ul,
-nav li:focus-within ul {
-    visibility: visible;
-    opacity: 1;
-    box-shadow: 0px 3px 5px 2px #EBECF1;
-}
-
-nav li:hover ul li a,
-nav li:focus-within ul li a {
-    color: #F9F8FD;
-}
-
-@keyframes slide-in {
-    0% {
-        top: -50px;
-    }
-
-    40% {
-        top: 20px;
-    }
-
-    70% {
-        top: 10px;
-    }
-
-    100% {
-        top: 15px;
-    }
-}
-audio {
-    background-color: #f3efe8;
-}
-
-.recettes-header {
+.recettes-page .recettes-header {
     width: 100vw;
     margin-left: 50%; 
     transform: translateX(-50%);
@@ -155,10 +53,11 @@ audio {
     overflow: hidden; 
     background-color:#f3efe8; 
     margin-bottom: 0;
+    margin-top: 0;
     z-index: 1;
 }
 
-.recettes-header::before{
+.recettes-page .recettes-header::before{
   content:"";
   position:absolute; inset:0;
   background:url('../img/headerrecettes1.jpg') no-repeat 0 15% / cover;
@@ -167,7 +66,7 @@ audio {
   z-index:0;
 }
 
-.recettes-header::after{
+.recettes-page .recettes-header::after{
   content:"";
   position:absolute; left:0; right:0; bottom:0; height: 30vh;
   background: linear-gradient(to bottom, rgba(243,239,232,0) 0%, #f3efe8 100%);
@@ -175,7 +74,7 @@ audio {
   z-index: 0;
 }
 
-.recettes-header-content {
+.recettes-page .recettes-header-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -194,7 +93,7 @@ audio {
   z-index: 2;
 }
 
-.recettes-header-content h1 { 
+.recettes-page .recettes-header-content h1 { 
     font-size: clamp(40px, 4vw, 80px); 
     color: #322F2E;
     line-height: 1.2;
@@ -203,7 +102,7 @@ audio {
     font-weight: 700;
     text-align: center;
  }
-.recettes-header-content p  { 
+.recettes-page .recettes-header-content p  { 
     font-size: clamp(1.8rem, 1.5rem + 0.5vw, 2.1rem);
     line-height: 1.6;
     font-weight: 500;
@@ -211,13 +110,13 @@ audio {
     width: min(90vw, 1200px);
     margin: 0 0 .9em;
  }
- .recettes-header-content strong {  
+ .recettes-page .recettes-header-content strong {  
   font-weight: 700;
   }
 
  @media (max-width: 600px){
-  .recettes-header-content{ width: 90vw; min-width: 0; }
-  .recettes-header-content h1{ white-space: normal; }
+  .recettes-page .recettes-header-content{ width: 90vw; min-width: 0; }
+  .recettes-page .recettes-header-content h1{ white-space: normal; }
 }
 
 @supports (-webkit-background-clip: text) or (background-clip: text) {
@@ -250,48 +149,243 @@ audio {
   font-size: 1.4rem;
   border-radius: 999px;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
 .toggle-btn:hover {
   background: #AF6530;
 }
 
+/* article */ 
 
-/* ===== MAIN : grille des cartes ===== */
-.recettes-main {
+.article-content {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.article-content.is-visible {
+  display: block;
+  opacity: 1;
+}
+
+
+.recettes-article {
+  display: block; 
+  width: 98%;          
+  max-width: 1300px;  
+  height: auto;
+  margin: 5rem auto 5rem auto;
+  padding: 2rem;
+  background: rgba(243,239,232,.9);  
+  border: 1px solid #525B3A;
+  border-radius: 32px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.12);
+  position: relative;
+  z-index: 11;
+}
+
+.recettes-article h2 {
+  font-family: 'Source Sans 3', serif;
+  font-size: clamp(2rem, 1.6rem + 1vw, 2.1rem);
+  color: #322F2E;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.recettes-article h3 {
+  font-size: clamp(2rem, 1.6rem + 1vw, 3rem);
+  color: #525B3A;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.recettes-article p {
+  font-size: 2rem;
+  line-height: 1.6;
+  color: #322F2E;
+  margin-bottom: 1.5rem;
+  }
+
+.recettes-article .toggle-btn {
+  margin: 1.5rem auto;
+  display: block;
+  background: #525B3A;
+  color: #F3EFE8;
+  border: none;
+  padding: 0.8rem 1.8rem;
+  font-size: 1.4rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.recettes-article .toggle-btn:hover {
+  background: #AF6530;
+}
+#article-btn-slot-bottom .toggle-btn{ margin: 1.5rem auto 0; }
+.article-overlay{
+  position: fixed; inset: 0; background: transparent; 
+  z-index: 10;
+}
+
+.article-hero{
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  min-height: clamp(300px, 50vh, 800px);
+  margin-bottom: 1.2rem;
+  width: 100%; 
+  background-image: url("../img/articleheader.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(2rem, 4vw, 4rem);
+}
+
+.hero-inner {
+  margin-top: 6rem; 
+  
+}
+
+.article-hero .hero-inner{
+ position: absolute;
+  bottom: 0; 
+  width: 80%;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  background: rgba(82, 91, 58, 0.85); 
+  color: #F3EFE8; 
+  font-family: 'Lexend Exa', sans-serif;
+  z-index: 1;
+
+}
+
+
+.article-hero h2{
+  margin: 0 0 .8rem;
+  font-size: clamp(2rem, 1.5rem + 1vw, 2.8rem);
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+  color: #F3EFE8;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .35);
+}
+.article-hero .hero-inner,
+.article-hero .hero-inner h2,
+.article-hero .hero-inner p {
+  color: #F3EFE8; 
+  text-shadow: 0 1px 2px rgba(0,0,0,0.4); 
+}
+
+.article-hero .lead-hero{
+  color: #F3EFE8;
+  opacity: .95;
+  line-height: 1.5;
+  font-size: clamp(1.4rem, 1.1rem + .4vw, 1.7rem);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .35);
+  max-width: 70ch;
+  margin: 0 auto;
+}
+
+.plantes-table{
+  width:100%;
+  border-collapse: separate;
+  border-spacing:0;
+  background:#F3EFE8;
+  color:#322F2E;
+  font-size: clamp(1rem, 1.4vw, 1.5rem);
+  line-height:1.6;
+  border:1px solid rgba(82,91,58,.35);
+  border-radius:16px;
+  overflow:hidden;            /* скругления работают */
+  box-shadow:0 4px 16px rgba(0,0,0,.08);
+}
+
+/* Ячейки */
+.plantes-table th,
+.plantes-table td{
+  padding:clamp(.8rem,1.2vw,1.2rem);
+  text-align:left;
+  vertical-align:top;
+  border-bottom:1px solid rgba(82,91,58,.18);
+}
+
+.plantes-table thead th{
+  background:rgba(82,91,58,.12);
+  font-weight:700;
+  font-size: clamp(1.05rem, 1.5vw, 1.3rem);
+}
+
+.plantes-table tbody tr:nth-child(even){
+  background:rgba(243,239,232,.6);
+}
+.plantes-table tbody tr:hover{
+  background:rgba(163,6,182,.08);
+  transition:background-color .2s ease-in-out;
+}
+
+/* Подпись (если используешь <caption>) */
+.plantes-table caption{
+  font-weight:700;
+  font-size:clamp(1.1rem,1.5vw,1.6rem);
+  text-align:center;
+  margin-bottom:1rem;
+  color:#4B5A3C;
+}
+
+@media (max-width:720px){
+  .plantes-table{
+    font-size:clamp(.95rem,3.5vw,1rem);
+  }
+  .plantes-table th, .plantes-table td{
+    padding:.75rem .9rem;
+  }
+}
+
+@media (max-width: 600px){
+  .article-hero{ padding: 2rem 1.4rem; min-height: 260px; }
+  .article-hero .hero-inner{ max-width: 48ch; }
+}
+
+
+.recettes-page .recettes-main {
   padding: 0 1rem 0;
   position: relative;
   z-index: 2; 
-  margin-top: -19rem;
+  margin-top: -35rem;
   color: #322F2E;                              
-  font-size: clamp(1rem, 0.95rem + 0.3vw, 1.125rem); /* ~16→18px */
-  line-height: 1.6;
+  font-size: clamp(1.6rem, 1rem + 0.4vw, 1.3rem); 
+  line-height: 1.7;
 }
 
-.cards-grid {
+.recettes-page .cards-grid {
   display: grid;
-  gap: 58px;
+  gap: 48px;
   justify-content:center;
   align-items: start; 
 }
 @media (min-width:1100px){
-  .cards-grid{ grid-template-columns: repeat(3, minmax(280px, 500px)); }
+  .cards-grid{ grid-template-columns: repeat(3, minmax(350px, 550px)); }
 }
-@media (min-width:680px) and (max-width:1099px){
+@media (min-width:890px) and (max-width:1099px){
   .cards-grid{ grid-template-columns: repeat(2, minmax(280px, 360px)); }
 }
-@media (max-width:679px){
+@media (max-width:889px){
   .cards-grid{ grid-template-columns: 1fr; }
 }
 
 /* ===== Carte ===== */
-.card {
+.recettes-page .card {
   display: flex;
   flex-direction: column;
   width:100%;
-  max-width:500px;             
-  min-width:280px;             
+  max-width: 550px;             
+  min-width: 300px;             
   justify-self:center;
   gap: 18px;
   padding: 18px 20px;
@@ -306,20 +400,21 @@ audio {
   order:0;
 }
 .card:hover{
-  transform: translateY(-10px) scale(1.2);
+  transform: translateY(-5px) scale(1.12, 1.1);
   box-shadow:  0 12px 28px rgba(0,0,0,.14);
   border-color: rgba(50,47,46,.9);
 }
 .card:active{ transform: translateY(-2px) scale(0.99); } 
 
 
-.recettes-main p,
+.recettes-page.recettes-main p,
 .recettes-main .card-body { max-width: 80ch; }
 .card-head { 
   position: relative;
   overflow: hidden;
   border-radius: 20px 20px 0 0;
   margin-bottom: 4px; 
+  margin-top: 0;
 }
 
 .card-img {
@@ -344,10 +439,11 @@ audio {
 }
 
 .card-body { display: grid; gap: 10px; color: #3a2c1a; }
-.card-body h4 { 
+.card-body h3 { 
   margin: .75rem 0 .5rem;
-  font-size: 1.8rem;
-  font-weight: 600;
+  font-size: clamp(1.6rem, 1.4rem + 0.5vw, 2rem);
+  font-weight: 700;
+  text-align: center;
   color: #525B3A; 
 }
 
@@ -355,27 +451,33 @@ audio {
   list-style: disc outside;
   padding-left: 1.25em;
   margin: 0 0 .75rem;
-  font-size: 1.4rem;
+  
 }
 .card-list-ol { 
   list-style: decimal outside;
   padding-left: 1.25em;
   margin: 0 0 .75rem; 
-  font-size: 1.4rem
 }
 
 .card-body p {
   font-style: italic;         
   font-size: 1.4rem;          
   color: #525B3A;              
-  margin-top: 1rem;            
-  text-align: left;         
+  margin: 0 auto 1rem;            
+  text-align: left;   
+  line-height: 1.6;      
 }
-.card-foot { 
+.card > .card-foot { 
   margin-top: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 0;
+  height: auto;
+  background: transparent;
+  text-align: left;
+  box-shadow: none;      
+  border: none;
   }
 
 .card.is-active{
@@ -383,13 +485,15 @@ audio {
   order: -1;
   z-index:3; 
   display: block;         
-  max-width: 1000px;
+  max-width: 1200px;
   margin-inline: auto;
+  margin: 0;
   transform: none;                   
   box-shadow: 0 24px 48px rgba(0,0,0,.18);
   border-color: rgba(50,47,46,.6);
-  font-size: clamp(1.5rem, 1.2rem + 0.6vw, 1.8rem); 
+  font-size: 2rem; 
   line-height: 1.7;
+  padding: 1.8rem;
 }
 
 .card.is-active .card-img{ height: 450px; }
@@ -397,14 +501,16 @@ audio {
   font-size: clamp(2rem, 1.6rem + 1vw, 2.6rem);
 }
 
-.card.is-active h4 {
-  font-size: clamp(1.6rem, 1.4rem + 0.5vw, 2rem);
+.card.is-active h3 {
+  font-size: clamp(2.2rem, 2rem + 0.6vw, 2.3rem);
+}
+.card.is-active .card-body {
+  font-size: 2.2rem; 
+  line-height: 1.8;                                
+  color: #3a2c1a;                                  
 }
 
-.card.is-active p,
-.card.is-active li {
-  font-size: clamp(1.3rem, 1.1rem + 0.4vw, 1.6rem);
-}
+
 
 .card.is-active:hover{ transform:none; }
 
@@ -434,7 +540,6 @@ audio {
   z-index: 3;           
 }
 
-/* активная карточка должна быть поверх оверлея */
 .card.is-active{ 
   position: relative;
   z-index: 4; }
@@ -452,6 +557,7 @@ audio {
 }
 .copy-btn.copied{ background:#AF6530; color:#f3efe8; }
 
+
 /* ===== Bouton-tag ===== */
 .btn.btn-tag {
   display: inline-block;
@@ -464,7 +570,7 @@ audio {
   border: none;                  
   border-radius: 999px;           
   cursor: default; 
-  transition: background 0.3s ease;  
+  transition: background-color 0.3s ease;  
 }
 
 .btn.btn-tag:hover {
@@ -473,19 +579,13 @@ audio {
 }
 
 /* ===== Séparateur entre main et note ===== */
-.section-sep {
+.recettes-page .section-sep {
   max-width: 1200px;
   margin: 28px auto 0;
   border: none;
   border-top: 2px solid #C69E60;
 }
 
-
-
-
-.card-toggle {
-  display: none;
-}
 .note {
   max-width: 900px;
   margin: 4rem auto 6rem;     
@@ -518,7 +618,7 @@ audio {
   margin-bottom: 0;
 }
 
-.site-footer {
+.recettes-page .site-footer {
     background-color: white;
     display: flex;
     justify-content: space-evenly;
@@ -526,4 +626,28 @@ audio {
     gap: 50px;
     height: 180px;
     align-items: center;
+}
+/* ===== Footer de ===== */
+footer a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+.flag {
+    font-size: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.burger {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #3a2c1a;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
 }
