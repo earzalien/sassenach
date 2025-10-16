@@ -1,12 +1,17 @@
-:root{
+:root {
     --main-color: #f3efe8;
-    --secondary-color : #3a2c1a;
-    --gold-color : #b68a44;
-    --green-color : #4b5a3c;
-    --tartan-color : #af6530;
-    --title-font : 'TrajanPro';
-    --text-font : 'Padauk', sans-serif;
+    --secondary-color: #3a2c1a;
+    --gold-color: #b68a44;
+    --green-color: #4b5a3c;
+    --tartan-color: #af6530;
+    --title-font: 'TrajanPro';
+    --text-font: 'Padauk', sans-serif;
+    --page-bg: #F3EFE8;
+    --border: #b68a44;
+    --shadow: 0 6px 24px rgba(60, 40, 18, .12);
+    --shadow-hover: 0 8px 10px rgba(60, 40, 18, .12);
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -16,18 +21,21 @@ body {
     margin: 0;
     padding: 0;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
     background-color: var(--main-color);
     border: 0.5px solid rgba(50, 47, 46, 0.2);
+    background-color: #f3efe8;
+    border: 2px solid #EBECF1;
     animation: slide-in 1s ease-out;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
-   box-shadow: 0 2px 4px rgba(0,0,0,0.05); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 nav ul {
@@ -44,7 +52,7 @@ nav li {
     border: 2px solid transparent;
     border-radius: 5px;
     padding: 10px;
-    transition: background 0.2s, border 0.2s;
+    transition: background-color 0.2s, border 0.2s;
 }
 
 nav li:not(:last-child) {
@@ -100,19 +108,22 @@ nav li:hover ul,
 nav li:focus-within ul {
     visibility: visible;
     opacity: 1;
-    box-shadow: 0px 3px 5px 2px #EBECF1; 
+    box-shadow: 0px 3px 5px 2px #EBECF1;
 }
 
 nav li:hover ul li a,
 nav li:focus-within ul li a {
     color: #F9F8FD;
 }
+
 audio {
     background-color: #f3efe8;
 }
+
 .audio {
     margin-top: 5px;
 }
+
 @keyframes slide-in {
     0% {
         top: -50px;
@@ -130,13 +141,15 @@ audio {
         top: 15px;
     }
 }
-logo {
+
+.logo {
     margin-right: 30px;
 }
 
 .logo img {
     height: 60px;
 }
+
 footer {
     background-color: white;
     display: flex;
@@ -146,7 +159,6 @@ footer {
     height: 180px;
     align-items: center;
 }
-        
 @font-face {
     font-family: 'TrajanPro';
     src: url('../font/TrajanPro-Regular.ttf') format('truetype');
@@ -164,12 +176,14 @@ footer a {
     text-decoration: none;
     color: var(--secondary-color);
 }
+
 .flag {
     font-size: 30px;
     border: none;
     background: none;
     cursor: pointer;
 }
+
 .burger {
     display: none;
     font-size: 2rem;
@@ -178,6 +192,7 @@ footer a {
     cursor: pointer;
     color: #3a2c1a;
 }
+
 .nav-links {
     display: flex;
     list-style: none;
