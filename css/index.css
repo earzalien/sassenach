@@ -251,3 +251,16 @@ footer a {
     background: none;
     cursor: pointer;
 }
+.burger {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #3a2c1a;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}

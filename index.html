@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:400px)">
-    <link rel="stylesheet" href="css/mobileindex.css" media="screen and (max-width:400px)">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:800px)">
+    <link rel="stylesheet" href="css/mobileindex.css" media="screen and (max-width:800px)">
     <script src="script/script.js"></script>
     
    
@@ -22,7 +22,8 @@
             <a href="index.html"><img src="img/logo.png" alt="Logo Je Suis Pret"></a>
         </div>
         <div class="audio"><audio src="media/outlander.mp3" controls>Votre navigateur ne supporte pas la balise audio.</audio></div>
-        <ul>
+        <button class="burger" aria-label="Menu">&#9776;</button>
+        <ul class="nav-links">
             <li><a href="index.html" data-key="accueil">Accueil</a></li>
             <li>
                 <a href="saison1.html" data-key="saisons">Saisons</a>
@@ -85,7 +86,7 @@
         </section>
         <hr>
         <section id="lefansite">
-            <h1>L'équipe du Fansite</h1>
+            <h1 data-key="team">L'équipe du Fansite</h1>
             <div id="fansite"><article><div class="lesfans">
                 <img src="img/micka.png" alt="Mickael" /><p>Mickael</p></div>
                 <p>Enseignant de dev web, j'adore tellement Outlander que j'ai demandé a mes élèves d'en faire un site
