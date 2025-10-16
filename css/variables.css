@@ -159,14 +159,12 @@ footer {
     height: 180px;
     align-items: center;
 }
-
 @font-face {
     font-family: 'TrajanPro';
     src: url('../font/TrajanPro-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'Padauk';
     src: url('../font/Padauk-Regular.ttf') format('truetype');
