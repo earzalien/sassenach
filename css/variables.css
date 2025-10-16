@@ -5,7 +5,7 @@
     --green-color : #4b5a3c;
     --tartan-color : #af6530;
     --title-font : 'TrajanPro';
-    --text-font : 'Lexend Exa', sans-serif;
+    --text-font : 'Padauk', sans-serif;
 }
 html {
     scroll-behavior: smooth;
@@ -137,10 +137,6 @@ logo {
 .logo img {
     height: 60px;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> main
 footer {
     background-color: white;
     display: flex;
@@ -150,7 +146,6 @@ footer {
     height: 180px;
     align-items: center;
 }
-<<<<<<< HEAD
         
 @font-face {
     font-family: 'TrajanPro';
@@ -158,5 +153,33 @@ footer {
     font-weight: normal;
     font-style: normal;
 }
-=======
->>>>>>> main
+@font-face {
+    font-family: 'Padauk';
+    src: url('../font/Padauk-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+.flag {
+    font-size: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.burger {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #3a2c1a;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}

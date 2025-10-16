@@ -168,7 +168,6 @@ section#about h1 {
 section#fansite article {
 display: flex;
 flex-direction: column;
-<<<<<<< HEAD:css/style.css
 }
 footer {
     background-color: white;
@@ -192,7 +191,3 @@ footer {
          color:#3498db; 
         }
     
-=======
-background-color: #F9F8FD;
-}
->>>>>>> main:css/index.css
