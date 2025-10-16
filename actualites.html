@@ -9,35 +9,37 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/variables.css">
     <link rel= "stylesheet" href="css/actualites.css">
-    <link rel="stylesheet" href="css/mobile-actu.css" media="screen and (max-width:400px)">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:400px)">
+    <link rel="stylesheet" href="css/mobile-actu.css" media="screen and (max-width:600px)">
 </head>
 
 <body>
-    <nav>
+   <nav>
         <div class="logo">
-            <img src="img/logo.png" alt="Logo Je Suis Pret">
+            <a href="index.html"><img src="img/logo.png" alt="Logo Je Suis Pret"></a>
         </div>
         <div class="audio"><audio src="media/outlander.mp3" controls>Votre navigateur ne supporte pas la balise audio.</audio></div>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
+        <button class="burger" aria-label="Menu">&#9776;</button>
+        <ul class="nav-links">
+            <li><a href="index.html" data-key="accueil">Accueil</a></li>
             <li>
-                <a href="#0">Saisons</a>
-                <ul>
+                <a href="saison1.html" data-key="saisons">Saisons</a>
+                <!--<ul>
                     <li><a href="saison1.html">Saison 1</a></li>
                     <li><a href="saison2.html">Saison 2</a></li>
                     <li><a href="saison3.html">Saison 3</a></li>
-                </ul>
+                </ul>-->
             </li>
             <li>
-                <a href="#0">Recettes de Claire</a>
-                <ul>
-                    <li><a href="#0">blabla</a></li>
-                    <li><a href="#0">blabla2</a></li>
-                    <li><a href="#0">blabla3</a></li>
-                </ul>
+                <a href="recettes.html" data-key="recettes-de-claire">Recettes de Claire</a>
             </li>
-            <li><a href="actualites.html">Actus</a></li>
+            <li><a href="actualites.html" data-key="actus">Actus</a></li>
         </ul>
+        <div id="language-selector">
+            <button class="flag" data-lang="fr"><img src="img/fr.png" height="40px" alt="🇫🇷 Drapeau France" /></button>
+            <button class="flag" data-lang="es"><img src="img/es.png" height="40px" alt="🇪🇸 Bandera de España" /></button>
+            <button class="flag" data-lang="en"><img src="img/uk.png" height="40px" alt="🇬🇧 English flag" /></button>
+                </div>
     </nav>
     <header>
         
