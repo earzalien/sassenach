@@ -10,6 +10,7 @@
     gap: 1.25rem;
   }
 }
+
 main {
   display: flex;
   flex-direction: column;
@@ -20,7 +21,7 @@ main {
 *, *::before, *::after { box-sizing: border-box; }
 img, video { max-width: 100%; height: auto; display: block; }
 
-/* мобильный диапазон */
+
 @media (max-width: 640px) {
 
   .recettes-header {
