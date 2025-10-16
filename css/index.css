@@ -67,6 +67,9 @@ section {
     gap: 50px;
     margin-bottom: 20px;
 }
+section#navigation h2 {
+    padding-left: 10px;
+}
 section article {
     display: flex;
     justify-content:center;
@@ -87,6 +90,7 @@ section article:hover{
 
 section article img {
     height: 150px;
+    align-items: flex-start;
     border-radius: 20px 20px 0 0;
 }
 section article a {
@@ -246,4 +250,17 @@ footer a {
     border: none;
     background: none;
     cursor: pointer;
+}
+.burger {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #3a2c1a;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
 }
