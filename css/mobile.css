@@ -89,3 +89,8 @@ header {
     margin-bottom: 30px;
     margin-top: 140px;
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+}

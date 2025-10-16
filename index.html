@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:400px)">
-    <link rel="stylesheet" href="css/mobileindex.css" media="screen and (max-width:400px)">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:800px)">
+    <link rel="stylesheet" href="css/mobileindex.css" media="screen and (max-width:800px)">
     <script src="script/script.js"></script>
     
    
@@ -22,7 +22,8 @@
             <a href="index.html"><img src="img/logo.png" alt="Logo Je Suis Pret"></a>
         </div>
         <div class="audio"><audio src="media/outlander.mp3" controls>Votre navigateur ne supporte pas la balise audio.</audio></div>
-        <ul>
+        <button class="burger" aria-label="Menu">&#9776;</button>
+        <ul class="nav-links">
             <li><a href="index.html" data-key="accueil">Accueil</a></li>
             <li>
                 <a href="saison1.html" data-key="saisons">Saisons</a>
@@ -53,27 +54,27 @@
             <article>
                 <img src="img/livreclaire.png" alt="livre de recettes de Claire">
                 <h2 data-key="recette-medicinales">Les recettes médicinales</h2>
-                <p>Explorez les remèdes traditionnels et connaissances botaniques de Claire Fraser</p>
-                <a href="recettes.html">Découvrir →</a>
+                <p data-key="recette-description">Explorez les remèdes traditionnels et connaissances botaniques de Claire Fraser</p>
+                <a href="recettes.html" data-key="decouvrir">Découvrir →</a>
             </article>
             <article>
-                <img src="img/guide-des-saisons.jpg" alt="">
-                <h2>Guides des saisons</h2>
-                <p>Plongez dans chaque saison avec des analyses détaillées de chaque personnage</p>
-                <a href="saison1.html">Explorer →</a>
+                <img src="img/guide-des-saisons.jpg" alt="Guide des saisons">
+                <h2 data-key="guide">Guides des saisons</h2>
+                <p data-key="guide-description">Plongez dans chaque saison avec des analyses détaillées de chaque personnage</p>
+                <a href="saison1.html" data-key="explorer">Explorer →</a>
             </article>
             <article>
-                <img src="img/bannerActus.jpg" alt="">
-                <h2>Actus</h2>
-                <p>Retrouvez les articles de presse de différents médias regrouper en un seul endroit</p>
+            <img src="img/bannerActus.jpg" alt="Actus">
+                <h2 data-key="actus">Actus</h2>
+                <p data-key="actu-description">Retrouvez les articles de presse de différents médias regrouper en un seul endroit</p>
                 <a href="actu.html">Parcourir →</a>
             </article>
 
         </section>
         <hr>
         <section id="about">
-            <h1>À propos d'Outlander</h1>
-            <p>Outlander suit l'histoire de Claire Randall, une infirmière de la Seconde Guerre mondiale qui se retrouve
+            <h1 data-key="about">À propos d'Outlander</h1>
+            <p data-key="about-content">Outlander suit l'histoire de Claire Randall, une infirmière de la Seconde Guerre mondiale qui se retrouve
                 mystérieusement transportée en 1743 dans les Highlands écossaises. Déchirée entre deux époques et deux
                 hommes, elle doit naviguer dans un monde de guerre de clans, d'intrigues politiques et de passion
                 dévorante.<br>
@@ -85,7 +86,7 @@
         </section>
         <hr>
         <section id="lefansite">
-            <h1>L'équipe du Fansite</h1>
+            <h1 data-key="team">L'équipe du Fansite</h1>
             <div id="fansite"><article><div class="lesfans">
                 <img src="img/micka.png" alt="Mickael" /><p>Mickael</p></div>
                 <p>Enseignant de dev web, j'adore tellement Outlander que j'ai demandé a mes élèves d'en faire un site
@@ -146,8 +147,8 @@ window.onclick = function(event) {
     </main>
     <footer>
         <span>&copy; 2025 Les secrets de Craigh Na Dun</span>
-        <script src="https://elfsightcdn.com/platform.js" async></script>
-        <div class="elfsight-app-6020251a-dd5d-4f04-9ecf-11108e63b054" data-elfsight-app-lazy></div>
+        <!-- <script src="https://elfsightcdn.com/platform.js" async></script>
+<div class="elfsight-app-a403f3f5-c486-4871-88dd-28dd5fdb93ca" data-elfsight-app-lazy></div>  -->
         <a href="mailto:fandeoutlander@gmail.com" data-key="contact">Écrivez-nous à<br>fandeoutlander@gmail.com</a>
     </footer>
 </body>
