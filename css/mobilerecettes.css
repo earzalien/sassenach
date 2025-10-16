@@ -1,4 +1,16 @@
 
+@media (max-width:640px){
+  :root{
+    --mobile-gutter: 1rem;      
+    --mobile-card-max: 36rem;   
+  }
+   main{
+    padding: var(--mobile-gutter);
+    align-items: center;        
+    gap: 1.25rem;
+  }
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -9,21 +21,118 @@ main {
 *, *::before, *::after { box-sizing: border-box; }
 img, video { max-width: 100%; height: auto; display: block; }
 
+
 @media (max-width: 640px) {
+
   .recettes-header {
     position: relative;
     min-height: clamp(280px, 55vh, 420px);
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 2.5rem;
     padding: 1rem;
     overflow: hidden;
   }
-}
 
-@media (max-width: 640px) {
   .recettes-header::before{
     content: "";
-    
+    position: absolute; inset: 0;
+    background: url('../img/headerrecettes1.jpg') no-repeat center 20% / cover;
+    opacity: .5;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .recettes-header-content {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    width: min(92vw, 32rem);
+    padding: clamp(.75rem, 3vw, 1.25rem) clamp(1rem, 4vw, 1.5rem);
+    background: rgba(243,239,232,.9);
+    border: 1px solid #525B3A;
+    border-radius: 24px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.12);
+  }
+
+  .recettes-header-content h1 {
+    font-size: clamp(20px, 8vw, 28px);
+    line-height: 1.2;
+    margin: .25rem 0 .5rem;
+    white-space: normal;
+    text-align: center;
+    color: #322F2E;
+    font-weight: 700;
+  }
+
+  .recettes-header-content p {
+    font-size: clamp(14px, 4vw, 16px);
+    line-height: 1.6;
+    margin: 0 0 .6rem;
+    width: 100%;
+    text-align: center;
+    color: #322F2E;
+    font-weight: 500;
+  }
+
+
+
+  .recipe-card,
+  .note-card,
+  .section {
+    width: min(92vw, 36rem);
+  }
+  
+  .recettes-main {
+  padding: 0 1rem 0;
+  position: relative;
+  z-index: 2; 
+  margin-top: 1.5rem;
+  color: #322F2E;                              
+  font-size: clamp(1rem, 0.95rem + 0.3vw, 1.125rem); /* ~16→18px */
+  line-height: 1.6;
+}
+
+  .note-card {
+    padding: 1rem 1.25rem;
+    border: 1px solid #525B3A;
+    border-radius: 16px;
+    background: #fffdf8;
+    box-shadow: 0 4px 14px rgba(0,0,0,.08);
+  }
+  .note-card h2 { 
+    font-size: clamp(16px, 5vw, 20px);
+    margin: 0 0 .5rem;
+  }
+  .note-card p { 
+    font-size: clamp(14px, 4vw, 16px);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .recettes-header-content,
+  .recipe-card,
+  .note-card {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
+
+  footer {
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    text-align: center;
+  }
+}
+@media (max-width: 640px) {
+  .wrapper {
+    all: unset;      /* сбрасывает ВСЁ, что задано в desktop */
+    display: block;  /* делает обёртку обычным блочным контейнером */
+    width: 100%;     /* растягивает её на всю ширину экрана */
   }
 }
