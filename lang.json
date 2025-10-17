@@ -24,6 +24,21 @@
         "es": "Inicio",
         "en": "Home"
     },
+    "saison1": {
+        "fr": "Saison 1",
+        "es": "Temporada 1",
+        "en": "Season 1"
+    },
+    "saison2": {
+        "fr": "Saison 2",
+        "es": "Temporada 2",
+        "en": "Season 2"
+    },
+    "saison3": {
+        "fr": "Saison 3",
+        "es": "Temporada 3",
+        "en": "Season 3"
+    },
     "recettes-de-claire": {
         "fr": "Recettes de Claire",
         "es": "Recetas de Claire",
@@ -164,306 +179,7 @@
         "es":"Simon el guapo<br><br><br>Con su mirada pensativa hacia Mickael y detrás de su legendario bigote se esconde...",
         "en":"Simon the magnificent<br><br><br>With his thoughtful gaze towards Mickael and behind his legendary mustache hides..."
     },
-    "recette-title":{
-        "fr":"Les Recettes Médicinales de Claire",
-        "es":"Las Recetas Medicinales de Claire",
-        "en":"Claire's Medicinal Recipes"
-    },
-    "recette-description2":{
-        "fr":"Découvrez les remèdes traditionnels et connaissances botaniques utilisés dans les Highlands du 18ᵉ siècle.",
-        "es":"Descubre los remedios tradicionales y el conocimiento botánico utilizado en las Tierras Altas del siglo XVIII.",
-        "en":"Discover the traditional remedies and botanical knowledge used in the 18th century Highlands."
-    },
-    "recette-description3":{
-        "fr":"Saviez-vous qu’en Écosse, l’herboristerie suivait des règles très précises? <br> Par exemple, on <strong>récoltait les racines au printemps</strong>, avant la montée de la sève. Les fleurs, elles, se cueillaient <strong>tôt le matin, après la rosée</strong>, quand elles étaient les plus fraîches.",
-        "es":"¿Sabías que en Escocia la herboristería seguía reglas muy específicas? <br> Por ejemplo, las raíces se <strong>cosechaban en primavera</strong>, antes de que subiera la savia. Las flores, por su parte, se recogían <strong>temprano por la mañana, después del rocío</strong>, cuando estaban más frescas.",
-        "en":"Did you know that in Scotland, herbalism followed very specific rules? <br> For example, roots were <strong>harvested in the spring</strong>, before the sap rose. Flowers, on the other hand, were picked <strong>early in the morning, after the dew</strong>, when they were freshest."
-    },
-    "recette-description4":{
-        "fr":"Les recettes présentées sur cette page ont traversé les siècles. Soigneusement rassemblées par notre équipe, elles offrent un voyage entre histoire, botanique et art de guérir.",
-        "es":"Las recetas presentadas en esta página han atravesado los siglos. Cuidadosamente recopiladas por nuestro equipo, ofrecen un viaje entre historia, botánica y el arte de curar.",
-        "en":"The recipes presented on this page have stood the test of time. Carefully gathered by our team, they offer a journey through history, botany, and the art of healing."
-    },
-    "afficherplus":{
-        "fr":"Afficher plus",
-        "es":"Mostrar más",
-        "en":"Show more"
-    },
-    "infusiondecamomille":{
-        "fr":"Infusion de Camomille",
-        "es":"Infusión de Manzanilla",
-        "en":"Chamomile Infusion"
-    },
-    "infusiondecamomille2":{
-        "fr":"Ingrédients:",
-        "es":"Ingredientes:",
-        "en":"Ingredients:"
-    },
-    "infusiondecamomille3":{
-        "fr":"2 cuillères à soupe de fleurs de camomille séchées",
-        "es":"2 cucharadas de flores de manzanilla secas",
-        "en":"2 tablespoons of dried chamomile flowers"
-    },
-    "infusiondecamomille4":{
-        "fr":"250 ml d'eau bouillante",
-        "es":"250 ml de agua hirviendo",
-        "en":"250 ml of boiling water"
-    },
-    "infusiondecamomille5":{
-        "fr":"Miel (optionnel)",
-        "es":"Miel (opcional)",
-        "en":"Honey (optional)"
-    },
-    "infusiondecamomille6":{
-        "fr":"Instructions:",
-        "es":"Instrucciones:",
-        "en":"Instructions:"
-    },
-    "infusiondecamomille7":{
-        "fr":"1. Faites bouillir l'eau et versez-la sur les fleurs de camomille dans une tasse.",
-        "es":"1. Hierva el agua y viértala sobre las flores de manzanilla en una taza.",
-        "en":"1. Boil the water and pour it over the chamomile flowers in a cup."
-    },
-    "infusiondecamomille8":{
-        "fr":"2. Couvrez et laissez infuser pendant 5 à 10 minutes.",
-        "es":"2. Cubra y deje reposar durante 5 a 10 minutos.",
-        "en":"2. Cover and let steep for 5 to 10 minutes."
-    },
-    "infusiondecamomille9":{
-        "fr":"3. Filtrez les fleurs et ajoutez du miel si désiré.",
-        "es":"3. Cuele las flores y agregue miel si lo desea.",
-        "en":"3. Strain the flowers and add honey if desired."
-    },
-    "infusiondecamomille10":{
-        "fr":"4. Dégustez chaud.",
-        "es":"4. Disfrútelo caliente.",
-        "en":"4. Enjoy warm."
-    },
-    "infusiondecamomille11":{
-        "fr":"Posologie recommandée: 1 à 2 tasses par jour, de préférence le soir avant le coucher",
-        "es":"Dosis recomendada: 1 a 2 tazas al día, preferiblemente por la noche antes de acostarse",
-        "en":"Recommended dosage: 1 to 2 cups per day, preferably in the evening before bedtime"
-    },
-    "apaisant":{
-        "fr":"Apaisant",
-        "es":"Calmante",
-        "en":"Soothing"
-    },
-    "huile-de-lavande":{
-        "fr":"Huile de Lavande",
-        "es":"Aceite de Lavanda",
-        "en":"Lavender Oil"
-    },
-    "huile-de-lavande2":{
-        "fr":"Ingrédients:",
-        "es":"Ingredientes:",
-        "en":"Ingredients:"
-    },
-    "huile-de-lavande3":{
-        "fr":"100 g de fleurs de lavande séchées",
-        "es":"100 g de flores de lavanda secas",
-        "en":"100 g of dried lavender flowers"
-    },
-    "huile-de-lavande4":{
-        "fr":"250 ml d'huile d'olive ou d'amande douce",
-        "es":"250 ml de aceite de oliva o de almendra dulce",
-        "en":"250 ml of olive oil or sweet almond oil"
-    },
-    "huile-de-lavande5":{
-        "fr":"Bocal en verre",
-        "es":"Tarro de vidrio",
-        "en":"Glass jar"
-    },
-    "huile-de-lavande6":{
-        "fr":"Préparation:",
-        "es":"Preparación:",
-        "en":"Preparation:"
-    },
-    "huile-de-lavande7":{
-        "fr":"1. Placer les fleurs de lavande dans le bocal.",
-        "es":"1. Coloque las flores de lavanda en el frasco.",
-        "en":"1. Place the lavender flowers in the jar."
-    },
-    "huile-de-lavande8":{
-        "fr":"2. Couvrir complètement avec l'huile.",
-        "es":"2. Cubra completamente con el aceite.",
-        "en":"2. Cover completely with the oil."
-    },
-    "huile-de-lavande9":{
-        "fr":"3. Fermer et laisser macérer au soleil pendant 2 semaines.",
-        "es":"3. Cierre y deje macerar al sol durante 2 semanas.",
-        "en":"3. Close and let macerate in the sun for 2 weeks."
-    },
-    "huile-de-lavande10":{
-        "fr":"4. Agiter doucement chaque jour.",
-        "es":"4. Agite suavemente cada día.",
-        "en":"4. Shake gently each day."
-    },
-    "huile-de-lavande11":{
-        "fr":"5. Filtrer et conserver dans un flacon ambré.",
-        "es":"5. Cuele y guarde en un frasco ámbar.",
-        "en":"5. Strain and store in an amber bottle."
-    },
-    "huile-de-lavande12":{
-        "fr":"Quelques gouttes en massage sur les tempes ou poignets, 2 à 3 fois par jour",
-        "es":"Unas gotas en masaje en las sienes o muñecas, 2 a 3 veces al día",
-        "en":"A few drops massaged on the temples or wrists, 2 to 3 times a day"
-    },
-    "Relaxant":{
-        "fr":"Relaxant",
-        "es":"Relajante",
-        "en":"Relaxing"
-    },
-    "teinture-de-valeriane":{
-        "fr":"Teinture de Valériane",
-        "es":"Tintura de Valeriana",
-        "en":"Valerian Tincture"
-    },
-    "teinture-de-valeriane1":{
-        "fr":"Ingrédients:",
-        "es":"Ingredientes:",
-        "en":"Ingredients:"
-    },
-    "teinture-de-valeriane2":{
-        "fr":"50 g de racine de valériane séchée 250 ml d'alcool à 40-50% </li><li>Bocal en verre hermétique</li>",
-        "es":"50 g de raíz de valeriana seca 250 ml de alcohol a 40-50% </li><li>Tarro de vidrio hermético</li>",
-        "en":"50 g of dried valerian root 250 ml of alcohol at 40-50% </li><li>Hermetic glass jar</li>"
-    },
-    "teinture-de-valeriane3":{
-        "fr":"Préparation:",
-        "es":"Preparación:",
-        "en":"Preparation:"
-    },
-    "teinture-de-valeriane4":{
-        "fr":"1. Placer la racine de valériane dans le bocal. 2. Couvrir entièrement avec l'alcool. 3. Fermer hermétiquement et laisser macérer 4 semaines dans un endroit sombre. 4. Filtrer et conserver dans un flacon en verre teinté.",
-        "es":"1. Coloque la raíz de valeriana en el frasco. 2. Cubra completamente con alcohol. 3. Cierre herméticamente y deje macerar durante 4 semanas en un lugar oscuro. 4. Cuele y guarde en un frasco de vidrio teñido.",
-        "en":"1. Place the valerian root in the jar. 2. Cover completely with alcohol. 3. Close hermetically and let macerate for 4 weeks in a dark place. 4. Strain and store in a tinted glass bottle."
-    },
-    "teinture-de-valeriane5":{
-        "fr":"15 à 30 gouttes dans un peu d'eau, 30 minutes avant le coucher",
-        "es":"15 a 30 gotas en un poco de agua, 30 minutos antes de acostarse",
-        "en":"15 to 30 drops in a little water, 30 minutes before bedtime"
-    },
-    "teinture-de-valeriane6":{
-        "fr":"Sédatif",
-        "es":"Sedante",
-        "en":"Sedative"
-    },
-    "decoction-ecorce-saule":{
-        "fr":"Décoction d’écorce de Saule",
-        "es":"Decocción de corteza de Sauce",
-        "en":"Willow Bark Decoction"
-    },
-    "decoction-ecorce-saule1":{
-        "fr":"Ingrédients:",
-        "es":"Ingredientes:",
-        "en":"Ingredients:"
-    },
-    "decoction-ecorce-saule2":{
-        "fr":"1 cuillère à soupe d'écorce de saule séchée 300 ml d'eau froide",
-        "es":"1 cucharada de corteza de sauce seca 300 ml de agua fría",
-        "en":"1 tablespoon of dried willow bark 300 ml of cold water"
-    },
-    "decoction-ecorce-saule3":{
-        "fr":"Préparation:",
-        "es":"Preparación:",
-        "en":"Preparation:"
-    },
-    "decoction-ecorce-saule4":{
-        "fr":"1. Placer l'écorce dans l'eau froide. 2. Porter à ébullition. 3. Réduire le feu et laisser mijoter 15 minutes. 4. Filtrer et boire chaud.",
-        "es":"1. Coloque la corteza en agua fría. 2. Llevar a ebullición. 3. Reduzca el fuego y deje hervir a fuego lento durante 15 minutos. 4. Cuele y beba caliente.",
-        "en":"1. Place the bark in cold water. 2. Bring to a boil. 3. Reduce heat and simmer for 15 minutes. 4. Strain and drink warm."
-    },
-    "decoction-ecorce-saule5":{
-        "fr":"1 tasse, 2 à 3 fois par jour, après les repas",
-        "es":"1 taza, 2 a 3 veces al día, después de las comidas",
-        "en":"1 cup, 2 to 3 times a day, after meals"
-    },
-    "decoction-ecorce-saule6":{
-        "fr":"Antalgique",
-        "es":"Analgésico",
-        "en":"Pain reliever"
-    },
-    "cataplasme-consoude":{
-        "fr":"Cataplasme de Consoude",
-        "es":"Cataplasma de Consuelda",
-        "en":"Comfrey Poultice"
-    },
-    "cataplasme-consoude1":{
-        "fr":"Ingrédients:",
-        "es":"Ingredientes:",
-        "en":"Ingredients:"
-    },
-    "cataplasme-consoude2":{
-        "fr":"Feuilles fraîches de consoude Eau chaude Tissu de lin ou coton",
-        "es":"Hojas frescas de consuelda Agua caliente Tela de lino o algodón",
-        "en":"Fresh comfrey leaves Hot water Linen or cotton fabric"
-    },
-    "cataplasme-consoude3":{
-        "fr":"Préparation:",
-        "es":"Preparación:",
-        "en":"Preparation:"
-    },
-    "cataplasme-consoude4":{
-        "fr":"1. Hacher finement les feuilles de consoude. 2. Mélanger avec un peu d'eau chaude pour former une pâte. 3. Étaler la pâte sur le tissu. 4. Appliquer sur la zone affectée et couvrir avec un bandage. 5. maintenir en place avec un bandage pendant 2 heures.",
-        "es":"1. Picar finamente las hojas de consuelda. 2. Mezcle con un poco de agua caliente para formar una pasta. 3. Extienda la pasta sobre la tela. 4. Aplique sobre la zona afectada y cubra con un vendaje. 5. Mantener en su lugar con un vendaje durante 2 horas.",
-        "en":"1. Finely chop the comfrey leaves. 2. Mix with a little hot water to form a paste. 3. Spread the paste on the fabric. 4. Apply to the affected area and cover with a bandage. 5. Keep in place with a bandage for 2 hours."
-    },
-    "cataplasme-consoude5":{
-        "fr":"Appliquer 2 fois par jour sur la zone affectée, maximum 10 jours consécutifs",
-        "es":"Aplicar 2 veces al día en la zona afectada, máximo 10 días consecutivos",
-        "en":"Apply 2 times a day to the affected area, maximum 10 consecutive days"
-    },
-    "cataplasme-consoude6":{
-        "fr":"Cicatrisant",
-        "es":"Cicatrizante",
-        "en":"Healing"
-    },
-    "baume-achillee":{
-        "fr":"Baume à l’Achillée",
-        "es":"Bálsamo de Milenrama",
-        "en":"Yarrow Balm"
-    },
-    "baume-achillee1":{
-        "fr":"Ingrédients:",
-        "es":"Ingredientes:",
-        "en":"Ingredients:"
-    },
-    "baume-achillee2":{
-        "fr":"30 g de feuilles d'achillée séchées 200 ml d'huile d'olive 30 g de cire d'abeille",
-        "es":"30 g de hojas de milenrama secas 200 ml de aceite de oliva 30 g de cera de abejas",
-        "en":"30 g of dried yarrow leaves 200 ml of olive oil 30 g of beeswax"
-    },
-    "baume-achillee3":{
-        "fr":"Préparation:",
-        "es":"Preparación:",
-        "en":"Preparation:"
-    },
-    "baume-achillee4":{
-        "fr":"1. Faire chauffer l'huile avec les feuilles d'achillée au bain-marie pendant 2 heures à feu doux. 2. Filtrer l'huile infusée. 3. Remettre l'huile dans le bain-marie et ajouter la cire d'abeille. 4. Remuer jusqu'à ce que la cire soit fondue. 5. Verser dans des pots stérilisés et laisser refroidir.",
-        "es":"1. Caliente el aceite con las hojas de milenrama al baño maría durante 2 horas a fuego lento. 2. Cuele el aceite infusionado. 3. Vuelva a poner el aceite en el baño maría y añada la cera de abejas. 4. Remueva hasta que la cera se derrita. 5. Vierta en frascos esterilizados y deje enfriar.",
-        "en":"1. Heat the oil with the yarrow leaves in a double boiler for 2 hours on low heat. 2. Strain the infused oil. 3. Put the oil back in the double boiler and add the beeswax. 4. Stir until the wax is melted. 5. Pour into sterilized jars and let cool."
-    },
-    "baume-achillee5":{
-        "fr":"Appliquer une fine couche sur la peau propre, 2 à 3 fois par jour",
-        "es":"Aplique una capa fina sobre la piel limpia, 2 a 3 veces al día",
-        "en":"Apply a thin layer on clean skin, 2 to 3 times a day"
-    },
-    "baume-achillee6":{
-        "fr":"Antiseptique",
-        "es":"Antiséptico",
-        "en":"Antiseptic"
-    },
-    "recette-note-importante":{
-        "fr":"Note Importante: Ces recettes sont présentées à titre historique et éducatif, inspirées des pratiques médicales du 18ème siècle décrites dans la série Outlander. Elles ne doivent en aucun cas remplacer un avis médical professionnel moderne. Consultez toujours un médecin ou un professionnel de santé qualifié avant d'utiliser des remèdes à base de plantes.",
-        "es":"Nota Importante: Estas recetas se presentan con fines históricos y educativos, inspiradas en las prácticas médicas del siglo XVIII descritas en la serie Outlander. No deben reemplazar en ningún caso el consejo médico profesional moderno. Siempre consulte a un médico o profesional de la salud calificado antes de usar remedios a base de hierbas.",
-        "en":"Important Note: These recipes are presented for historical and educational purposes, inspired by 18th-century medical practices described in the Outlander series. They should not in any way replace modern professional medical advice. Always consult a qualified doctor or healthcare professional before using herbal remedies."
-    },
-    "recette-note-importante2":{
-        "fr":"Certaines plantes peuvent interagir avec des médicaments ou provoquer des réactions allergiques. Ne jamais s'auto-médicamenter sans supervision médicale.",
-        "es":"Algunas plantas pueden interactuar con medicamentos o provocar reacciones alérgicas. Nunca se automedique sin supervisión médica.",
-        "en":"Some plants may interact with medications or cause allergic reactions. Never self-medicate without medical supervision."
-    },
+    
     "saison1-title":{
         "fr":"Saison 1 | Les secrets de Craigh na Dun",
         "es":"Temporada 1 | Los secretos de Craigh na Dun",
@@ -484,10 +200,10 @@
         "es":"LOS PERSONAJES RECURRENTES",
         "en":"RECURRING CHARACTERS"
     },
-    "saison1-claire":{ 
-        "fr":"infirmière",
-        "es":"enfermera",
-        "en":"nurse"
+    "saison-claire":{ 
+        "fr":"Infirmière",
+        "es":"Enfermera",
+        "en":"Nurse"
     },
     "saison1-claire1":{
         "fr": "En 1945, Claire est en voyage en Écosse avec son mari Frank lorsqu’un événement mystérieux la projette au 18e siècle. Propulsée dans une époque dangereuse et instable, elle doit survivre et s’adapter, tout en étant déchirée entre deux mondes et deux vies.",
@@ -519,7 +235,7 @@
         "es":"• Encuentro con Claire<br>• Conflictos con los ingleses<br>• Captividades y pruebas",
         "en":"• Meeting Claire<br>• Conflicts with the English<br>• Captivities and trials"
     },
-    "saison1-frank":{
+    "saison-frank":{
         "fr":"Historien",
         "es":"Historiador",
         "en":"Historian"
@@ -539,7 +255,7 @@
         "es":"• Búsqueda de los antepasados<br>• Descubrimiento del círculo de piedras<br>• Lucha por encontrar a Claire",
         "en":"• Searching for ancestors<br>• Discovery of the stone circle<br>• Struggling to find Claire"
     },
-    "saison1-jonhRandall":{
+    "saison-jonhRandall":{
         "fr":"Soldat britannique",
         "es":"Soldado británico",
         "en":"British soldier"
@@ -590,7 +306,7 @@
         "es":"• Conflictos con los británicos<br>• Tensiones familiares<br>• Estrategias políticas y alianzas",
         "en":"• Conflicts with the British<br>• Family tensions<br>• Political strategies and alliances"
     },
-    "saison1-geilis":{
+    "saison-geilis":{
         "fr": "Herboriste",
         "es": "Herborista",
         "en": "Herbalist"
@@ -616,6 +332,438 @@
         "en":"Colum MacKenzie, chief of the MacKenzie clan and brother of Dougal, is a fragile but determined leader. Despite his declining health, he wields significant influence over his clan and faces political and personal challenges that threaten his authority."
     },
     "saison1-colum2":{
-        "fr":""
+        "fr":"• Rencontre avec Claire<br>• Gestion des tensions avec les anglais<br>• Conflit avec Dougal",
+        "es":"• Encuentro con Claire<br>• Manejo de tensiones con los ingleses<br>• Conflicto con Dougal",
+        "en":"• Meeting with Claire<br>• Managing tensions with the English<br>• Conflict with Dougal"
+    },
+    "saison1-angus":{
+        "fr":"Angus MacKenzie, jeune Highlander loyal et courageux, accompagne Jamie et le clan tout en participant à la surveillance étroite de Claire. Fidèle et vigilant, il joue un rôle clé dans la protection du groupe et dans la gestion des tensions qui entourent cette étrangère venue d’un autre temps.",
+        "es":"Angus MacKenzie, joven highlander leal y valiente, acompaña a Jamie y al clan mientras participa en la estrecha vigilancia de Claire. Fiel y vigilante, desempeña un papel clave en la protección del grupo y en la gestión de las tensiones que rodean a esta extranjera de otro tiempo.",
+        "en":"Angus MacKenzie, a young loyal and courageous Highlander, accompanies Jamie and the clan while participating in the close surveillance of Claire. Faithful and vigilant, he plays a key role in protecting the group and managing the tensions surrounding this stranger from another time."  
+    },
+    "saison1-angus2":{
+        "fr":"• Loyauté envers Dougal<br>• Amitié avec Rupert<br>• Moments de courage",
+        "es":"• Lealtad hacia Dougal<br>• Amistad con Rupert<br>• Momentos de coraje",
+        "en":"• Loyalty to Dougal<br>• Friendship with Rupert<br>• Moments of courage"
+    },
+    "saison1-rupert":{
+        "fr":"Rupert MacKenzie, oncle de Jamie et membre influent du clan, est un homme fort et loyal. Il joue un rôle important dans les conflits des Highlands et participe à la surveillance attentive de Claire, veillant à la sécurité du groupe tout en restant méfiant envers elle.",
+        "es":"Rupert MacKenzie, tío de Jamie y miembro influyente del clan, es un hombre fuerte y leal. Desempeña un papel importante en los conflictos de las Tierras Altas y participa en la vigilancia atenta de Claire, velando por la seguridad del grupo mientras se mantiene desconfiado hacia ella.",
+        "en":"Rupert MacKenzie, Jamie's uncle and an influential member of the clan, is a strong and loyal man. He plays an important role in the conflicts of the Highlands and participates in the careful surveillance of Claire, ensuring the group's safety while remaining wary of her."
+    },
+    "saison1-rupert2":{
+        "fr":"• Loyauté envers Dougal<br>• Amitié avec Angus<br>• Conflits et confrontations",
+        "es":"• Lealtad hacia Dougal<br>• Amistad con Angus<br>• Conflictos y confrontaciones",
+        "en":"• Loyalty to Dougal<br>• Friendship with Angus<br>• Conflicts and confrontations"
+    },
+    "saison-janet":{
+        "fr":"Maitresse de Lallybroch",
+        "es":"Ama de Lallybroch",
+        "en":"Mistress of Lallybroch"
+    },
+    "saison1-janet1":{
+        "fr":"Jenny Fraser, sœur de Jamie, est une femme forte et dévouée, ancrée dans les traditions écossaises. Elle soutient sa famille face aux défis politiques et personnels qui secouent les Highlands.Très attachée à Lallybroch, la maison familiale, elle lutte pour protéger son foyer et préserver l’héritage de sa famille.",
+        "es":"Jenny Fraser, hermana de Jamie, es una mujer fuerte y dedicada, arra igada en las tradiciones escocesas. Apoya a su familia frente a los desafíos políticos y personales que sacuden las Tierras Altas. Muy apegada a Lallybroch, la casa familiar, lucha por proteger su hogar y preservar el legado de su familia.",
+        "en":"Jenny Fraser, Jamie's sister, is a strong and dedicated woman, rooted in Scottish traditions. She supports her family in the face of political and personal challenges shaking the Highlands. Deeply attached to Lallybroch, the family home, she fights to protect her home and preserve her family's legacy."
+    },
+    "saison1-janet2":{
+        "fr":"• Conflits avec Black Jack<br>• Soutien à Jamie<br>• Défense de Lallybroch",
+        "es":"• Conflictos con Black Jack<br>• Apoyo a Jamie<br>• Defensa de Lallybroch",
+        "en":"• Conflicts with Black Jack<br>• Support for Jamie<br>• Defense of Lallybroch"
+    },
+    "saison1-ian":{
+        "fr":"Ian Murray, beau-frère de Jamie et mari de Jenny, est un homme calme, loyal et réfléchi. Malgré sa jambe amputée, il joue un rôle essentiel dans la gestion de Lallybroch et soutient Jamie et sa famille avec courage et sagesse face aux épreuves qui frappent les Highlands.",
+        "es":"Ian Murray, cuñado de Jamie y esposo de Jenny, es un hombre tranquilo, leal y reflexivo. A pesar de su pierna amputada, desempeña un papel esencial en la gestión de Lallybroch y apoya a Jamie y su familia con coraje y sabiduría frente a las pruebas que golpean las Tierras Altas.",
+        "en":"Ian Murray, Jamie's brother-in-law and Jenny's husband, is a calm, loyal, and thoughtful man. Despite his amputated leg, he plays an essential role in managing Lallybroch and supports Jamie and his family with courage and wisdom in the face of the trials that strike the Highlands."
+    },
+    "saison1-ian2":{
+        "fr":"• Soutien dans la gestion du domaine<br>• Lien fraternel avec Jamie<br>• Confrontation aux tensions extérieures",
+        "es":"• Apoyo en la gestión de la propiedad<br>• Vínculo fraternal con Jamie<br>• Confrontación con tensiones externas",
+        "en":"• Support in managing the estate<br>• Fraternal bond with Jamie<br>• Confrontation with external tensions"
+    },
+    "saison-laoghaire":{
+        "fr":"Habitante de Leoch",
+        "es":"Habitante de Leoch",
+        "en":"Inhabitant of Leoch"
+    },
+    "saison1-laoghaire1":{
+        "fr":"Laoghaire est une jeune femme du clan MacKenzie, vive et déterminée. Son attirance pour Jamie et sa jalousie envers Claire l’entraînent dans une série d’actions qui influencent les relations au sein du château Leoch et du clan.",
+        "es":"Laoghaire es una joven del clan MacKenzie, vivaz y decidida. Su atracción por Jamie y su celos hacia Claire la llevan a una serie de acciones que influyen en las relaciones dentro del castillo Leoch y del clan.",
+        "en":"Laoghaire is a young woman from the MacKenzie clan, lively and determined. Her attraction to Jamie and jealousy towards Claire lead her into a series of actions that influence relationships within Castle Leoch and the clan."
+    },
+    "saison1-laoghaire2":{
+        "fr":"• Obsession pour Jamie<br>• Jalousie envers Claire<br>• Actions sous l'émotion",
+        "es":"• Obsesión por Jamie<br>• Celos hacia Claire<br>• Acciones impulsadas por la emoción",
+        "en":"• Obsession with Jamie<br>• Jealousy towards Claire<br>• Emotion-driven actions"
+    },
+    "arbre-genealogique":{
+        "fr":"ARBRE GENEALOGIQUE ET RELATIONS", 
+        "es":"ÁRBOL GENEALÓGICO Y RELACIONES",
+        "en":"FAMILY TREE AND RELATIONSHIPS"
+    },
+    "saison2-head":{
+        "fr":"Saison 2 | Les secrets de Craigh na Dun",
+        "es":"Temporada 2 | Los secretos de Craigh na Dun",
+        "en":"Season 2 | The Secrets of Craigh na Dun"
+    },
+    "saison2-header":{
+        "fr":"Claire et Jamie quittent l'Écosse pour la France, avec un objectif ambitieux : tenter de changer le cours de l’histoire afin d'empêcher un soulèvement désastreux. Ils s’intègrent à la cour royale de Paris, affrontent de nouveaux dangers politiques et personnels, tout en essayant de préserver leur amour au cœur d’un monde de trahisons, de complots et de tensions croissantes.",
+        "es":"Claire y Jamie dejan Escocia por Francia, con un objetivo ambicioso: intentar cambiar el curso de la historia para evitar un levantamiento desastroso. Se integran en la corte real de París, enfrentan nuevos peligros políticos y personales, mientras intentan preservar su amor en un mundo de traiciones, complots y crecientes tensiones.",
+        "en":"Claire and Jamie leave Scotland for France, with an ambitious goal: to try to change the course of history to prevent a disastrous uprising. They integrate into the royal court of Paris, face new political and personal dangers, while trying to preserve their love in a world of betrayals, plots, and growing tensions."
+    },
+    "saions2":{
+        "fr":"SAISON 2",
+        "es":"TEMPORADA 2",
+        "en":"SEASON 2"
+    },
+    "saison2-personnages":{
+        "fr":"LES PERSONNAGES RECURRENTS",
+        "es":"LOS PERSONAJES RECURRENTES",
+        "en":"RECURRING CHARACTERS"
+    },
+    "saison2-claire":{
+        "fr":"Après plusieurs semaines en mer, Claire et Jamie débarquent à Paris où ils s'engagent dans une mission délicate liée à la rébellion jacobite. Entre défis médicaux et secrets familiaux, Claire doit faire face à de nouvelles épreuves tout en protégeant ceux qu’elle aime.",
+        "es":"Después de varias semanas en el mar, Claire y Jamie desembarcan en París, donde se embarcan en una misión delicada relacionada con la rebelión jacobita. Entre desafíos médicos y secretos familiares, Claire debe enfrentar nuevas pruebas mientras protege a sus seres queridos.",
+        "en":"After several weeks at sea, Claire and Jamie land in Paris, where they embark on a delicate mission related to the Jacobite rebellion. Amid medical challenges and family secrets, Claire must face new trials while protecting those she loves."
+    },
+    "saison2-claire2":{
+        "fr":"• L’hôpital des Anges<br>• Face à la royauté<br>• Un choix déchirant",
+        "es":"• El hospital de los Ángeles<br>• Frente a la realeza<br>• Una elección desgarradora",
+        "en":"• The Hospital of Angels<br>• Facing Royalty<br>• A Heart-Wrenching Choice"
+    },
+    "saison2-jamie":{
+        "fr":"Engagé dans une dangereuse mission à Paris, Jamie infiltre la cour du roi Louis XV pour tenter d’empêcher la rébellion jacobite. Son courage et sa détermination le portent face à des ennemis puissants, tout en protégeant sa famille et de garder ses convictions face à un avenir incertain.",
+        "es":"Comprometido en una peligrosa misión en París, Jamie se infiltra en la corte del rey Luis XV para intentar evitar la rebelión jacobita. Su coraje y determinación lo sostienen frente a enemigos poderosos, mientras protege a su familia y mantiene sus convicciones ante un futuro incierto.",
+        "en":"Committed to a dangerous mission in Paris, Jamie infiltrates the court of King Louis XV to try to prevent the Jacobite rebellion. His courage and determination carry him against powerful enemies, while protecting his family and keeping his convictions in the face of an uncertain future."
+    },
+    "saison2-jamie2":{
+        "fr":"• Traumatisme et reconstruction<br>• Mission en France : infiltrer la cour<br>• Sacrifices personnels",
+        "es":"• Trauma y reconstrucción<br>• Misión en Francia: infiltrarse en la corte<br>• Sacrificios personales",
+        "en":"• Trauma and Reconstruction<br>• Mission in France: Infiltrating the Court<br>• Personal Sacrifices"
+    },
+    "saison2-frank1":{
+        "fr":"Frank Randall est confronté à la réapparition soudaine de Claire en 1948 et tente de comprendre ce mystère. Désemparé,  il décide cependant de la croire lorsqu’elle lui révèle la vérité, mais l’annonce de sa grossesse le bouleverse profondément. Ils tentent alors de repartir sur de nouvelles bases.",
+        "es":"Frank Randall se enfrenta a la repentina reaparición de Claire en 1948 y trata de entender este misterio. Desconcertado, decide creerle cuando ella le revela la verdad, pero el anuncio de su embarazo lo conmociona profundamente. Entonces intentan comenzar de nuevo.",
+        "en":"Frank Randall is confronted with the sudden reappearance of Claire in 1948 and tries to understand this mystery. Distraught, he decides to believe her when she reveals the truth, but the announcement of her pregnancy deeply disturbs him. They then try to start anew."
+    },
+    "saison2-frank2":{
+        "fr":"• Nouvelle vie à construire<br>• Père ou figure paternelle<br>• Tensions internes",
+        "es":"• Nueva vida por construir<br>• Padre o figura paterna<br>• Tensiones internas",
+        "en":"• New life to build<br>• Father or father figure<br>• Internal tensions"
+    },
+    "saison2-jonhRandall":{
+        "fr":"Toujours une menace omniprésente, il revient dans la saison avec une aura sinistre. Son passé trouble et son obsession pour Jamie et Claire offrent une tension constante, et il incarne un ennemi redoutable à la fois dans le présent et le passé.",
+        "es":"Siempre una amenaza omnipresente, regresa en la temporada con una aura siniestra. Su pasado turbio y su obsesión por Jamie y Claire ofrecen una tensión constante, y encarna un enemigo formidable tanto en el presente como en el pasado.",
+        "en":"Always an omnipresent threat, he returns in the season with a sinister aura. His troubled past and obsession with Jamie and Claire provide constant tension, and he embodies a formidable enemy both in the present and the past."
+    },
+    "saison2-jonhRandall2":{
+        "fr":"• Le fantôme du passé<br>• Le lien avec le destin de Claire<br>• Une rencontre sous haute tension",
+        "es":"• El fantasma del pasado<br>• El vínculo con el destino de Claire<br>• Un encuentro de alta tensión",
+        "en":"• The ghost of the past<br>• The link with Claire's destiny<br>• A high-tension encounter"
+    },
+    "saison2-murtagh":{
+        "fr":"Murtagh accompagne Jamie et Claire, où il a du mal à s’adapter aux intrigues de la cour, dans leurs efforts pour changer le cours de l’histoire. Loyal et protecteur, il joue un rôle crucial à chaque étape, malgré les défis et les dangers croissants.",
+        "es":"Murtagh acompaña a Jamie y Claire, donde tiene dificultades para adaptarse a las intrigas de la corte, en sus esfuerzos por cambiar el curso de la historia. Leal y protector, desempeña un papel crucial en cada etapa, a pesar de los crecientes desafíos y peligros.",
+        "en":"Murtagh accompanies Jamie and Claire, where he struggles to adapt to the intrigues of the court, in their efforts to change the course of history. Loyal and protective, he plays a crucial role at every turn, despite the growing challenges and dangers."
+    },
+    "saison2-murtagh2":{
+        "fr":"• Le protecteur fidèle<br>• Le secret de Claire<br>• Retour aux racines en Écosse</li>",
+        "es":"• El protector fiel<br>• El secreto de Claire<br>• Regreso a las raíces en Escocia</li>",
+        "en":"• The faithful protector<br>• Claire's secret<br>• Return to the roots in Scotland</li>"
+    },
+    "apothicaire":{
+        "fr":"Apothicaire",
+        "es":"Boticario",
+        "en":"Apothecary"
+    },
+    "saison2-raymon":{
+        "fr":"Maitre Raymond est un apothicaire parisien énigmatique. Intuitif et érudit, il développe un lien particulier avec Claire. Son savoir inhabituel et son aura mystérieuse en font un personnage fascinant, à la frontière entre science et spiritualité.",
+        "es":"Maître Raymond es un boticario parisino enigmático. Intuitivo y erudito, desarrolla un vínculo particular con Claire. Su conocimiento inusual y su aura misteriosa lo convierten en un personaje fascinante, en la frontera entre la ciencia y la espiritualidad.",
+        "en":"Master Raymond is an enigmatic Parisian apothecary. Intuitive and scholarly, he develops a special bond with Claire. His unusual knowledge and mysterious aura make him a fascinating character, on the border between science and spirituality."
+    },
+    "saison2-raymon2":{
+        "fr":"• Allié inattendu de Claire<br>• En danger à cause de ses pratiques<br>• Figure de sagesse",
+        "es":"• Aliado inesperado de Claire<br>• En peligro debido a sus prácticas<br>• Figura de sabiduría",
+        "en":"• Unexpected ally of Claire<br>• In danger because of his practices<br>• Figure of wisdom"
+    },
+    "parisien":{
+        "fr":"PARISIEN",
+        "es":"PARISINO",
+        "en":"PARISIAN"
+    },
+    "saison2-germain":{
+        "fr":"Le comte de Saint-Germain, est un noble énigmatique et puissant à la cour de France. Il entre rapidement en conflit avec Claire, notamment à cause de ses intentions envers elle et ses méthodes manipulatrices.",
+        "es":"El conde de Saint-Germain es un noble enigmático y poderoso en la corte de Francia. Rápidamente entra en conflicto con Claire, especialmente debido a sus intenciones hacia ella y sus métodos manipuladores.",
+        "en":"The Count of Saint-Germain is an enigmatic and powerful noble at the French court. He quickly comes into conflict with Claire, particularly because of his intentions towards her and his manipulative methods."
+    },
+    "saison2-germain2":{
+        "fr":"• Ennemi au premier regard<br>• Figure mystérieuse, presque occulte<br>• Lutte de pouvoir avec Claire",
+        "es":"• Enemigo a primera vista<br>• Figura misteriosa, casi oculta<br>• Lucha de poder con Claire",
+        "en":"• Enemy at first glance<br>• Mysterious, almost occult figure<br>• Power struggle with Claire"
+    },
+    "saison2-charles":{
+        "fr":"Le prétendant jacobite au trône d’Angleterre, il symbolise l’espoir et l’ambition du soulèvement. Sa figure dans la saison incarne le rêve de restauration qui alimente la rébellion.",
+        "es":"El pretendiente jacobita al trono de Inglaterra, simboliza la esperanza y la ambición del levantamiento. Su figura en la temporada encarna el sueño de restauración que alimenta la rebelión.",
+        "en":"The Jacobite claimant to the English throne, he symbolizes the hope and ambition of the uprising. His figure in the season embodies the dream of restoration that fuels the rebellion."
+    },
+    "saison2-charles2":{
+        "fr":"• Le prétendant au trône<br>• Recherchant financement et soutien<br>• Moteur du drame historique",
+        "es":"• El pretendiente al trono<br>• Buscando financiación y apoyo<br>• Motor del drama histórico",
+        "en":"• The claimant to the throne<br>• Seeking funding and support<br>• Driver of historical drama"
+    },
+    "roi":{
+        "fr":"Roi de France",
+        "es":"Rey de Francia",
+        "en":"King of France"
+    },
+    "saison2-louis":{
+        "fr":"Louis XV est le roi de France ,mais souvent plus intéressé par ses plaisirs personnels et les affaires de cour que par la politique ou la guerre. Son règne est marqué par une certaine frivolité, et il influence le contexte politique et social dans lequel évoluent Claire et Jamie, notamment à Versailles.",
+        "es":"Luis XV es el rey de Francia, pero a menudo está más interesado en sus placeres personales y los asuntos de la corte que en la política o la guerra. Su reinado está marcado por cierta frivolidad, e influye en el contexto político y social en el que se mueven Claire y Jamie, especialmente en Versalles.",
+        "en":"Louis XV is the King of France, but often more interested in his personal pleasures and court affairs than in politics or war. His reign is marked by a certain frivolity, and he influences the political and social context in which Claire and Jamie operate, especially at Versailles."
+    },
+    "saison2-louis2":{
+        "fr":"• Un homme de plaisirs avant tout<br>• Autorité capricieuse et redoutée<br>• Une figure de pouvoir plus que d’action",
+        "es":"• Un hombre de placeres ante todo<br>• Autoridad caprichosa y temida<br>• Una figura de poder más que de acción",
+        "en":"• A man of pleasures above all<br>• Capricious and feared authority<br>• A figure of power more than action"
+    },
+    "Servant":{
+        "fr":"Servant",
+        "es":"Sirviente",
+        "en":"Servant"
+    },
+    "saison2-fergus":{
+        "fr":"Ancien orphelin et fidèle compagnon de Jamie, Fergus commence à s’affirmer en tant que jeune homme capable de prendre des responsabilités. Sa loyauté et ses talents lui permettent de jouer un rôle crucial dans les plans de Jamie et Claire.",
+        "es":"Antiguo huérfano y fiel compañero de Jamie, Fergus comienza a afirmarse como un joven capaz de asumir responsabilidades. Su lealtad y sus talentos le permiten desempeñar un papel crucial en los planes de Jamie y Claire.",
+        "en":"Former orphan and loyal companion of Jamie, Fergus begins to assert himself as a young man capable of taking on responsibilities. His loyalty and talents allow him to play a crucial role in Jamie and Claire's plans."
+    },
+    "saison2-fergus2":{
+        "fr":"• Le jeune protégé<br>• Loyauté envers Jamie et Claire<br>• Éveil politique",
+        "es":"• El joven protegido<br>• Lealtad hacia Jamie y Claire<br>• Despertar político",
+        "en":"• The young protégé<br>• Loyalty to Jamie and Claire<br>• Political awakening"
+    },
+    "ducbritanique":{
+        "fr":"Duc britannique",
+        "es":"Duque británico",
+        "en":"British Duke"
+    },
+    "saison2-duc":{
+        "fr":"Noble influent, il s’oppose à la révolte jacobite avec des ambitions politiques et personnelles. Son rôle dans les machinations de la cour de France en fait un personnage à la fois puissant et dangereux.",
+        "es":"Noble influyente, se opone a la revuelta jacobita con ambiciones políticas y personales. Su papel en las maquinaciones de la corte de Francia lo convierte en un personaje tanto poderoso como peligroso.",
+        "en":"Influential noble, he opposes the Jacobite revolt with political and personal ambitions. His role in the machinations of the French court makes him a character who is both powerful and dangerous."
+    },
+    "saison2-duc2":{
+        "fr":"• Aristocrate britannique à Paris<br>• Relation ambivalente avec Jamie<br>• Surveillance et manipulation",
+        "es":"• Aristócrata británico en París<br>• Relación ambivalente con Jamie<br>• Vigilancia y manipulación",
+        "en":"• British aristocrat in Paris<br>• Ambivalent relationship with Jamie<br>• Surveillance and manipulation"
+    },
+    "britannique":{
+        "fr":"Britannique",
+        "es":"Británico",
+        "en":"British"
+    },
+    "saison2-alex":{
+        "fr":"Frère de Jack Randall, il est profondément impliqué dans les intrigues politiques et personnelles, notamment par sa relation avec Mary Hawkins. Fragile mais déterminé, il lutte pour sa survie tout en essayant de faire face à ses propres dilemmes.",
+        "es":"Hermano de Jack Randall, está profundamente involucrado en las intrigas políticas y personales, especialmente por su relación con Mary Hawkins. Frágil pero decidido, lucha por su supervivencia mientras intenta enfrentar sus propios dilemas.",
+        "en":"Brother of Jack Randall, he is deeply involved in political and personal intrigues, especially through his relationship with Mary Hawkins. Fragile but determined, he fights for his survival while trying to face his own dilemmas."
+    },
+    "saison2-alex2":{
+        "fr":"• Officier de l’armée britannique<br>• Liens familiaux compliqués<br>• Relation avec Mary et Jonathan",
+        "es":"• Oficial del ejército británico<br>• Vínculos familiares complicados<br>• Relación con Mary y Jonathan",
+        "en":"• Officer of the British Army<br>• Complicated family ties<br>• Relationship with Mary and Jonathan"
+    },
+    "saison2-mary":{
+        "fr":"Jeune femme aux fenêtres de sa vie, elle se retrouve au centre des intrigues familiales et politiques. Sa relation avec Jamie, Fergus et les autres évolue dans un contexte où sa sécurité est constamment menacée.",
+        "es":"Joven mujer en las ventanas de su vida, se encuentra en el centro de las intrigas familiares y políticas. Su relación con Jamie, Fergus y otros evoluciona en un contexto donde su seguridad está constantemente amenazada.",
+        "en":"Young woman at the windows of her life, she finds herself at the center of family and political intrigues. Her relationship with Jamie, Fergus, and others evolves in a context where her safety is constantly threatened."
+    },
+    "saison2-mary2":{
+        "fr":"• Un personnage tragique<br>• Impact sur la dynamique familiale de Franck<br>• Evolution discrète mais essentielle",
+        "es":"• Un personaje trágico<br>• Impacto en la dinámica familiar de Frank<br>• Evolución discreta pero esencial",
+        "en":"• A tragic character<br>• Impact on Frank's family dynamics<br>• Discreet but essential evolution"
+    },
+    "saison2-janet":{
+        "fr":"Sœur de Jamie, elle continue de soutenir sa famille avec force et compassion, incarnant la fidélité et la détermination dans cette période tumultueuse.",
+        "es":"Hermana de Jamie, continúa apoyando a su familia con fuerza y compasión, encarnando la lealtad y la determinación en este período tumultuoso.",
+        "en":"Sister of Jamie, she continues to support her family with strength and compassion, embodying loyalty and determination during this tumultuous time."
+    },
+    "saison2-janet2":{
+        "fr":"• Pilier familial en Écosse<br>• Mère dévouée<br>• Soutien indéfectible à Jamie",
+        "es":"• Pilar familiar en Escocia<br>• Madre devota<br>• Apoyo inquebrantable a Jamie",
+        "en":"• Family pillar in Scotland<br>• Devoted mother<br>• Unwavering support for Jamie"
+    },
+    "saison2-ian":{
+        "fr":"Ami fidèle de Jamie, il reste un soutien solide dans les moments difficiles. Son courage et sa loyauté en font un allié de confiance dans la lutte contre les forces opposées.",
+        "es":"Amigo fiel de Jamie, sigue siendo un apoyo sólido en los momentos difíciles. Su valentía y lealtad lo convierten en un aliado de confianza en la lucha contra las fuerzas opuestas.",
+        "en":"Faithful friend of Jamie, he remains a strong support in difficult times. His courage and loyalty make him a trusted ally in the fight against opposing forces."
+    },
+    "saison2-ian2":{
+        "fr":"•Guerrier fidèle et loyal<br>•Participation aux conflits<br>•Support moral pour Jamie",
+        "es":"• Guerrero fiel y leal<br>• Participación en conflictos<br>• Apoyo moral para Jamie",
+        "en":"• Faithful and loyal warrior<br>• Participation in conflicts<br>• Moral support for Jamie"
+    },
+    "saison3-head":{
+        "fr":"Saison 3 | Le destin de Jamie et Claire",
+        "es":"Temporada 3 | El destino de Jamie y Claire",
+        "en":"Season 3 | The Fate of Jamie and Claire"
+    },
+    "saison3-header":{
+        "fr":"Séparés par des siècles, Claire et Jamie tentent de survivre chacun de leur côté, tout en portant le poids de leur passé commun. Claire, dans le monde moderne, affronte les défis de sa nouvelle vie, tandis que Jamie, resté au 18e siècle, doit faire face aux conséquences d’une guerre dévastatrice.",
+        "es":"Separados por siglos, Claire y Jamie intentan sobrevivir cada uno por su cuenta, mientras llevan el peso de su pasado compartido. Claire, en el mundo moderno, enfrenta los desafíos de su nueva vida, mientras que Jamie, que se quedó en el siglo XVIII, debe hacer frente a las consecuencias de una guerra devastadora.",
+        "en":"Separated by centuries, Claire and Jamie each try to survive on their own, while bearing the weight of their shared past. Claire, in the modern world, faces the challenges of her new life, while Jamie, remaining in the 18th century, must confront the consequences of a devastating war."
+    },
+    "docteure":{
+        "fr":"Docteure",
+        "es":"Doctora",
+        "en":"Doctor"
+    },
+    "saison3-claire":{
+        "fr":"Claire est confrontée à une vie qu’elle n’a pas choisie, loin de l’époque et de l’homme qu’elle aime. Elle tente de reconstruire son quotidien dans le monde moderne, tout en portant en elle le poids de son passé. Déchirée entre devoir, maternité et souvenirs, elle mène une quête intérieure profonde : peut-on vraiment tourner la page quand le cœur reste ailleurs ?.",
+        "es":"Claire se enfrenta a una vida que no ha elegido, lejos de la época y del hombre que ama. Intenta reconstruir su vida cotidiana en el mundo moderno, mientras lleva consigo el peso de su pasado. Desgarrada entre el deber, la maternidad y los recuerdos, emprende una profunda búsqueda interior: ¿se puede realmente pasar página cuando el corazón está en otro lugar?",
+        "en":"Claire faces a life she did not choose, far from the time and the man she loves. She tries to rebuild her daily life in the modern world, while carrying the weight of her past. Torn between duty, motherhood, and memories, she embarks on a deep inner quest: can one truly turn the page when the heart remains elsewhere?"
+    },
+    "saison3-claire2":{
+        "fr":"• Retour dans le futur<br>• Lutte pour s’adapter à la vie moderne<br>• Un choix déchirant",
+        "es":"• Regreso al futuro<br>• Lucha por adaptarse a la vida moderna<br>• Una elección desgarradora",
+        "en":"• Return to the future<br>• Struggle to adapt to modern life<br>• A heart-wrenching choice"
+    },
+    "soldatecossais":{
+        "fr":"Soldat écossais",
+        "es":"Soldado escocés",
+        "en":"Scottish Soldier"
+    },
+    "saison3-jamie":{
+        "fr":"Jamie se retrouve brisé dans un monde qui a changé autour de lui. Séparé de Claire, il doit survivre à la perte, affronter les conséquences de ses choix passés et trouver une nouvelle raison d’avancer. Entre honneur, solitude et dangers, son chemin est fait de sacrifices silencieux et de luttes pour préserver ce qu’il lui reste de liberté.",
+        "es":"Jamie se encuentra roto en un mundo que ha cambiado a su alrededor. Separado de Claire, debe sobrevivir a la pérdida, enfrentar las consecuencias de sus elecciones pasadas y encontrar una nueva razón para seguir adelante. Entre honor, soledad y peligros, su camino está hecho de sacrificios silenciosos y luchas por preservar lo que le queda de libertad.",
+        "en":"Jamie finds himself broken in a world that has changed around him. Separated from Claire, he must survive loss, face the consequences of his past choices, and find a new reason to move forward. Between honor, solitude, and dangers, his path is made of silent sacrifices and struggles to preserve what remains of his freedom."
+    },
+    "saison3-jamie2":{
+        "fr":"• Après la bataille de Culloden<br>• La prison et Helwater<br>• Sauvetage et voyage",
+        "es":"• Después de la batalla de Culloden<br>• La prisión y Helwater<br>• Rescate y viaje",
+        "en":"• After the Battle of Culloden<br>• Prison and Helwater<br>• Rescue and journey"
+    },
+    "professeur":{
+        "fr":"Professeur",
+        "es":"Profesor",
+        "en":"Professor"
+    },
+    "saison3-frank":{
+        "fr":"Frank tente de bâtir une vie stable avec Claire après son retour du passé. Mari loyal en apparence, père dévoué pour Brianna, il vit pourtant dans une relation marquée par les non-dits, les tensions… et le souvenir d’un autre homme.",
+        "es":"Frank intenta construir una vida estable con Claire después de su regreso del pasado. Marido leal en apariencia, padre devoto para Brianna, sin embargo vive en una relación marcada por los silencios, las tensiones... y el recuerdo de otro hombre.",
+        "en":"Frank tries to build a stable life with Claire after her return from the past. A seemingly loyal husband, devoted father to Brianna, he lives in a relationship marked by unspoken words, tensions... and the memory of another man."
+    },
+    "saison3-frank2":{
+        "fr":"• Vie conjugale compliquée<br>• Découverte et tragédie<br>• Tensions internes",
+        "es":"• Vida conyugal complicada<br>• Descubrimiento y tragedia<br>• Tensiones internas",
+        "en":"• Complicated married life<br>• Discovery and tragedy<br>• Internal tensions"
+    },
+    "etudiante":{
+        "fr":"Étudiante",
+        "es":"Estudiante",
+        "en":"Student"
+    },
+    "saison3-bree":{
+        "fr":"Brianna Randall, la fille de Claire et Frank, découvre peu à peu la vérité sur ses origines, elle traverse une période de questionnements personnels et identitaires. Sa relation avec Claire évolue, et elle est confrontée à des révélations qui bouleversent sa vision du passé et de sa famille. Son lien avec l’histoire écossaise devient plus profond, et elle commence à se forger sa propre voie, avec courage et curiosité.",
+        "es":"Brianna Randall, la hija de Claire y Frank, descubre poco a poco la verdad sobre sus orígenes, atraviesa un período de cuestionamientos personales e identitarios. Su relación con Claire evoluciona, y se enfrenta a revelaciones que alteran su visión del pasado y de su familia. Su vínculo con la historia escocesa se vuelve más profundo, y comienza a forjar su propio camino, con coraje y curiosidad.",
+        "en":"Brianna Randall, Claire and Frank's daughter, gradually discovers the truth about her origins, going through a period of personal and identity questioning. Her relationship with Claire evolves, and she faces revelations that shake her view of the past and her family. Her connection to Scottish history deepens, and she begins to forge her own path, with courage and curiosity."
+    },
+    "saison3-bree2":{
+        "fr":"• Enfance et adolescence<br> • Relation naissante avec Roger Wakefield<br> • Curiosité pour son père biologique Jamie Fraser",
+        "es":"• Infancia y adolescencia<br> • Relación naciente con Roger Wakefield<br> • Curiosidad por su padre biológico Jamie Fraser",
+        "en":"• Childhood and adolescence<br> • Emerging relationship with Roger Wakefield<br> • Curiosity about her biological father Jamie Fraser"
+    },
+    "historien":{
+        "fr":"Historien",
+        "es":"Historiador",
+        "en":"Historian"
+    },
+    "saison3-roger":{
+        "fr":"Roger Wakefield, historien et fils adoptif du révérend Wakefield, devient un personnage plus présent. Curieux, intelligent et profondément attaché à ses racines écossaises, il se retrouve impliqué dans les recherches historiques de Claire et Brianna. Roger commence aussi à se confronter à des choix qui mettront à l’épreuve sa loyauté, sa foi en l’amour et son désir de comprendre le fil du temps.",
+        "es":"Roger Wakefield, historiador e hijo adoptivo del reverendo Wakefield, se convierte en un personaje más presente. Curioso, inteligente y profundamente apegado a sus raíces escocesas, se ve involucrado en las investigaciones históricas de Claire y Brianna. Roger también comienza a enfrentarse a decisiones que pondrán a prueba su lealtad, su fe en el amor y su deseo de comprender el hilo del tiempo.",
+        "en":"Roger Wakefield, historian and adopted son of Reverend Wakefield, becomes a more prominent character. Curious, intelligent, and deeply attached to his Scottish roots, he finds himself involved in the historical research of Claire and Brianna. Roger also begins to confront choices that will test his loyalty, his faith in love, and his desire to understand the thread of time."
+    },
+    "saison3-roger2":{
+        "fr":"• Rencontre avec Brianna à Inverness<br>• Recherche historique pour Claire<br>• Début d’une relation amoureuse avec Brianna",
+        "es":"• Encuentro con Brianna en Inverness<br>• Investigación histórica para Claire<br>• Inicio de una relación amorosa con Brianna",
+        "en":"• Meeting Brianna in Inverness<br>• Historical research for Claire<br>• Beginning a romantic relationship with Brianna"
+    },
+    "soldat-britannique":{
+        "fr":"Soldat britannique",
+        "es":"Soldado británico",
+        "en":"British Soldier"
+    },
+    "saison3-grey":{
+        "fr":"Lord John Grey est un jeune officier britannique aux manières nobles et au sens de l’honneur très développé. Il occupe une position clé dans le contexte politique de l’époque et croise le chemin de Jamie de manière significative. Les deux hommes, bien que très différents par leur statut, leur passé et leur origine, développent une relation marquée par le respect mutuel, la complexité émotionnelle et une forme d’amitié sincère.",
+        "es":"Lord John Grey es un joven oficial británico de modales nobles y un sentido del honor muy desarrollado. Ocupa una posición clave en el contexto político de la época y cruza el camino de Jamie de manera significativa. Los dos hombres, aunque muy diferentes por su estatus, su pasado y su origen, desarrollan una relación marcada por el respeto mutuo, la complejidad emocional y una forma de amistad sincera.",
+        "en":"Lord John Grey is a young British officer with noble manners and a highly developed sense of honor. He holds a key position in the political context of the time and crosses paths with Jamie in a significant way. The two men, though very different in status, past, and origin, develop a relationship marked by mutual respect, emotional complexity, and a form of sincere friendship."
+    },
+    "saison3-grey2":{
+        "fr":"• Gouverneur de la prison d’Ardsmuire<br>• Début d'une relation complexe avec Jamie<br>• Confidences partagées",
+        "es":"• Gobernador de la prisión de Ardsmuire<br>• Inicio de una relación compleja con Jamie<br>• Confidencias compartidas",
+        "en":"• Governor of Ardsmuire prison<br>• Beginning of a complex relationship with Jamie<br>• Shared confidences"
+    },
+    "assistant-de-jamie":{
+        "fr":"Assistant de Jamie",
+        "es":"Asistente de Jamie",
+        "en":"Jamie's Assistant"
+    },
+    "saison3-fergus":{
+        "fr":"Fergus, devenu jeune adulte, joue un rôle plus actif et engagé. Toujours fidèle à Jamie, il reste à ses côtés à travers des moments difficiles et prend part à plusieurs événements marquants. Courageux, débrouillard et profondément loyal, Fergus montre qu’il est prêt à tout pour défendre ceux qu’il aime. Il gagne en maturité, prend des responsabilités, et commence à se forger sa propre identité en tant qu’homme.",
+        "es":"Fergus, convertido en un joven adulto, juega un papel más activo y comprometido. Siempre fiel a Jamie, permanece a su lado en momentos difíciles y participa en varios eventos importantes. Valiente, ingenioso y profundamente leal, Fergus demuestra que está dispuesto a hacer cualquier cosa para defender a quienes ama. Gana en madurez, asume responsabilidades y comienza a forjar su propia identidad como hombre.",
+        "en":"Fergus, now a young adult, plays a more active and engaged role. Always loyal to Jamie, he stays by his side through difficult times and takes part in several significant events. Brave, resourceful, and deeply loyal, Fergus shows he is willing to do anything to defend those he loves. He gains maturity, takes on responsibilities, and begins to forge his own identity as a man."
+    },
+    "saison3-fergus2":{
+        "fr":"• Vie à Lallybroch<br>• Devient un homme aux yeux de Jamie<br>• Demande de la bénédiction",
+        "es":"• Vida en Lallybroch<br>• Se convierte en un hombre a los ojos de Jamie<br>• Pide la bendición",
+        "en":"• Life at Lallybroch<br>• Becomes a man in Jamie's eyes<br>• Asks for blessing"
+    },
+    "ecossaise":{
+        "fr":"Écossaise",
+        "es":"Escocesa",
+        "en":"Scottish"
+    },
+    "saison3-marsali":{
+        "fr":"Marsali fille de Laoghaire, est déterminée, indépendante et pas du genre à se laisser marcher sur les pieds.Sa relation avec Fergus est au cœur de son intrigue cette saison. Leur lien, sincère et passionné, défie les conventions sociales et familiales, ce qui provoque des tensions avec certains personnages.",
+        "es":"Marsali, hija de Laoghaire, es decidida, independiente y no del tipo que se deja pisotear. Su relación con Fergus está en el centro de su trama esta temporada. Su vínculo, sincero y apasionado, desafía las convenciones sociales y familiares, lo que provoca tensiones con algunos personajes.",
+        "en":"Marsali, daughter of Laoghaire, is determined, independent, and not the type to be walked over. Her relationship with Fergus is at the heart of her storyline this season. Their bond, sincere and passionate, defies social and family conventions, causing tensions with some characters."
+    },
+    "saison3-marsali2":{
+        "fr":"• Apparition de Marsali en tant que fille de Laoghaire<br>• Preuve de valeur et de maturité<br>• Relation amoureuse avec Fergus",
+        "es":"• Aparición de Marsali como hija de Laoghaire<br>• Prueba de valor y madurez<br>• Relación amorosa con Fergus",
+        "en":"• Appearance of Marsali as Laoghaire's daughter<br>• Proof of worth and maturity<br>• Romantic relationship with Fergus"
+    },
+    "saison3-laoghaire":{
+        "fr":"Laoghaire MacKenzie revient dans la vie de Jamie Fraser, avec qui elle partage un passé chargé d’émotions et de tensions. Leur relation est marquée par des choix faits dans des circonstances difficiles, et les conséquences de ces choix refont surface de manière inattendue.",
+        "es":"Laoghaire MacKenzie regresa a la vida de Jamie Fraser, con quien comparte un pasado cargado de emociones y tensiones. Su relación está marcada por decisiones tomadas en circunstancias difíciles, y las consecuencias de esas decisiones resurgen de manera inesperada.",
+        "en":"Laoghaire MacKenzie returns to the life of Jamie Fraser, with whom she shares a past filled with emotions and tensions. Their relationship is marked by choices made in difficult circumstances, and the consequences of those choices resurface unexpectedly."
+    },
+    "saison3-laoghaire2":{
+        "fr":"• Sa relation avec Jamie<br>• La compensation financière<br>• Laoghaire comme obstacle légal et émotionnel",
+        "es":"• Su relación con Jamie<br>• La compensación financiera<br>• Laoghaire como obstáculo legal y emocional",
+        "en":"• Her relationship with Jamie<br>• Financial compensation<br>• Laoghaire as a legal and emotional obstacle"
+    },
+    "saison3-youngIan":{
+        "fr":"Young Ian, le neveu de Jamie Fraser, fait ses premiers pas dans une vie pleine d'aventure. Curieux, débrouillard et un peu téméraire, il cherche à s’émanciper et à prouver qu’il est capable de faire face au monde des adultes. Son attachement à Jamie est profond, et il aspire à suivre ses traces, ce qui le mène à prendre des initiatives parfois risquées.",
+        "es":"Young Ian, el sobrino de Jamie Fraser, da sus primeros pasos en una vida llena de aventuras. Curioso, ingenioso y un poco temerario, busca emanciparse y demostrar que es capaz de enfrentarse al mundo de los adultos. Su apego a Jamie es profundo, y aspira a seguir sus pasos, lo que lo lleva a tomar iniciativas a veces arriesgadas.",
+        "en":"Young Ian, Jamie Fraser's nephew, takes his first steps into a life full of adventure. Curious, resourceful, and a bit reckless, he seeks to emancipate himself and prove that he is capable of facing the adult world. His attachment to Jamie is deep, and he aspires to follow in his footsteps, which leads him to take sometimes risky initiatives."
+    },
+    "saison3-youngIan2":{
+        "fr":"• Visites secrètes à Jamie à Édimbourg<br>• Début de sa désobéissance et soif d’aventure<br>• Premiers pas vers l’âge adulte",
+        "es":"• Visitas secretas a Jamie en Edimburgo<br>• Comienzo de su desobediencia y sed de aventura<br>• Primeros pasos hacia la edad adulta",
+        "en":"• Secret visits to Jamie in Edinburgh<br>• Beginning of his disobedience and thirst for adventure<br>• First steps towards adulthood"
+    },
+    "activiste":{
+        "fr":"Activiste",
+        "es":"Activista",
+        "en":"Activist"
+    },
+    "saison3-geillis":{
+        "fr":"Geillis Duncan réapparaît après une longue absence, toujours aussi énigmatique et fascinante. Mystérieuse, charismatique et animée par des convictions profondes, elle poursuit ses objectifs avec une détermination redoutable. Son intérêt pour les voyages dans le temps, les prophéties et l’Écosse reste central dans ses actions.",
+        "es":"Geillis Duncan reaparece después de una larga ausencia, siempre tan enigmática y fascinante. Misteriosa, carismática y animada por profundas convicciones, persigue sus objetivos con una determinación formidable. Su interés por los viajes en el tiempo, las profecías y Escocia sigue siendo central en sus acciones.",
+        "en":"Geillis Duncan reappears after a long absence, still as enigmatic and fascinating as ever. Mysterious, charismatic, and driven by deep convictions, she pursues her goals with formidable determination. Her interest in time travel, prophecies, and Scotland remains central to her actions."
+    },
+    "saison3-geillis2":{
+        "fr":"• Réapparition inattendue<br>• Passage des pierres<br>• La prophétie",
+        "es":"• Reaparición inesperada<br>• Paso de las piedras<br>• La profecía",
+        "en":"• Unexpected reappearance<br>• Passage of the stones<br>• The prophecy"
     }
 }
