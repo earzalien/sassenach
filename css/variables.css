@@ -152,6 +152,7 @@ audio {
 
 footer {
     background-color: white;
+    font-family: 'Padauk';
     display: flex;
     justify-content: space-evenly;
     text-align: center;
