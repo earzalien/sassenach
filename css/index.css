@@ -137,31 +137,6 @@ justify-content: center;
 div#fansite article {
 display: flex;
 flex-direction: column;
-<<<<<<< HEAD
-}
-footer {
-    background-color: white;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    gap: 50px;
-    height: 100px;
-    align-items: center;
-}
-.playlist { 
-        list-style: none; 
-        padding: 0;
-     }
-.playlist li {
-         cursor: pointer; 
-         padding: 5px;
-         margin-bottom:5px;  }
-          .playlist .active {
-         font-weight: bold;
-         color:#3498db; 
-        }
-    
-=======
 background-color: var(--page-bg);
 border: 1px solid var(--border);
 box-shadow: var(--shadow);
@@ -285,4 +260,3 @@ footer a {
     list-style: none;
     gap: 20px;
 }
->>>>>>> origin/main
