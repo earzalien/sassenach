@@ -36,7 +36,9 @@ main h1{
     padding: 1%;
     background-color: rgba(249, 248, 253, 0.4);
     font-size: 1.8rem;
-    color: var(--secondary-color);
+    font-family: var(--title-font);
+    color: var(--green-color);
+    font-weight: 800;
 }
 section{
     display: grid;

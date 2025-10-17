@@ -23,3 +23,6 @@ section{
     padding-left: 10%;
     padding-right: 10%;
 }
+main h1 {
+    font-size: 1.2rem;
+}
