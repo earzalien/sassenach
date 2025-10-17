@@ -43,9 +43,11 @@ ul li {
 }
 
 
-.burger {
-    display: block;
-}
+  .burger {
+      display: block !important;
+      position: relative;
+      z-index: 1001;
+  }
 
 .nav-links {
     position: absolute;
