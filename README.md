@@ -7,9 +7,10 @@ Bienvenue sur notre fan site dédié à la série **Outlander**, réalisé dans 
 Ce site propose :
 - Un aperçu de l’univers d’Outlander
 - La présentation des personnages principaux par saison
-- Des galeries d’images
-- Une section news & actus
-- Des ressources pour découvrir la série
+- Arbre généalogique
+- Recettes médicinales de Claire
+- Section actu/news sur Outlander
+- Une version multilangue FR / ES / EN
 
 ## Équipe
 
@@ -18,14 +19,6 @@ Projet réalisé par :
 - Léa Brandao Pinheiro
 - Luna Soler
 - Yuliana Krasulya
-
-## Fonctionnalités principales
-
-- Accueil avec présentation rapide de la série
-- Fiches personnages par saisons
-- Arbre généalogique
-- Recettes médicinales de Claire
-- Section actu/news sur Outlander
 
 ## Technologies utilisées
 
